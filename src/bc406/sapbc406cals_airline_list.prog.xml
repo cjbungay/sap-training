@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC406CALS_AIRLINE_LIST</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <CUA>
+    <TIT>
+     <RSMPE_TITT>
+      <CODE>LIST</CODE>
+      <TEXT>Airline Connections</TEXT>
+     </RSMPE_TITT>
+    </TIT>
+   </CUA>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Solution: Airline List</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CAR</KEY>
+     <ENTRY>Airline carrier</ENTRY>
+     <LENGTH>23</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_CONN</KEY>
+     <ENTRY>Connection number</ENTRY>
+     <LENGTH>25</LENGTH>
+     <SPLIT>D</SPLIT>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+     <LENGTH>85</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flug     Von                 Nach                Dauer    Abflug  Ankunft  Distanz</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Lösung: Fluggesellschaftenliste</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Fluggesellschaft</ENTRY>
+       <LENGTH>24</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Verbindungsnummer</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY> Flight   From                To                  Duration Departs Arrives  Distance</ENTRY>
+       <LENGTH>85</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Airline List</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CAR</KEY>
+       <ENTRY>Airline carrier</ENTRY>
+       <LENGTH>23</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CONN</KEY>
+       <ENTRY>Connection number</ENTRY>
+       <LENGTH>25</LENGTH>
+       <SPLIT>D</SPLIT>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

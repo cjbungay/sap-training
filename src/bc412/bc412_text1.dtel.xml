@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BC412_TEXT1</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BC412_TEXT1</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>BC412: Text With Length 1 and Values &apos;X&apos; or &apos; &apos;</DDTEXT>
+    <SCRTEXT_S>Flag</SCRTEXT_S>
+    <SCRTEXT_M>Flag</SCRTEXT_M>
+    <SCRTEXT_L>Flag</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>BC412: Text der Länge 1 mit Wertebereich &apos;X&apos;, &apos; &apos;</DDTEXT>
+     <SCRTEXT_S>Kz.</SCRTEXT_S>
+     <SCRTEXT_M>Kennzeichen</SCRTEXT_M>
+     <SCRTEXT_L>Kennzeichen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>BC412: Text der Länge 1 mit Wertebereich &apos;X&apos;, &apos; &apos;</DDTEXT>
+     <SCRTEXT_S>Kz.</SCRTEXT_S>
+     <SCRTEXT_M>Kennzeichen</SCRTEXT_M>
+     <SCRTEXT_L>Kennzeichen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>BC412: Text With Length 1 and Values &apos;X&apos; or &apos; &apos;</DDTEXT>
+     <SCRTEXT_S>Flag</SCRTEXT_S>
+     <SCRTEXT_M>Flag</SCRTEXT_M>
+     <SCRTEXT_L>Flag</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>BC412: 長さ 1、値が &apos;X&apos; または &apos; &apos; のテキスト</DDTEXT>
+     <SCRTEXT_S>フラグ</SCRTEXT_S>
+     <SCRTEXT_M>フラグ</SCRTEXT_M>
+     <SCRTEXT_L>フラグ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>BC412: Text With Length 1 and Values &apos;X&apos; or &apos; &apos;</DDTEXT>
+     <SCRTEXT_S>Flag</SCRTEXT_S>
+     <SCRTEXT_M>Flag</SCRTEXT_M>
+     <SCRTEXT_L>Flag</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

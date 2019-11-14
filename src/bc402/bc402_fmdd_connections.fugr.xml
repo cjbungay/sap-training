@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Find Possible Flight Connections</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC402_FMDD_CONNECTIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC402_FMDD_CONNECTION_LIST</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_START</PARAMETER>
+       <TYP>S_FROM_CIT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IP_DEST</PARAMETER>
+       <TYP>S_TO_CITY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EP_CONNECTION_LIST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC402_T_CONNECTION</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>CX_BC402_NO_CONNECTION</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_START</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IP_DEST</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EP_CONNECTION_LIST</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CX_BC402_NO_CONNECTION</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+     <EXCEPTION_CLASSES>X</EXCEPTION_CLASSES>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

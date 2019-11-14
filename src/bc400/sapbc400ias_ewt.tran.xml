@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>SAPBC400IAS_EWT</TCODE>
+    <PGMNA>SAPBC400IAS_EWT</PGMNA>
+    <DYPNO>0100</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>SAPBC400IAS_EWT</TCODE>
+    <S_WEBGUI>2</S_WEBGUI>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>SAPBC400IAS_EWT</TCODE>
+    <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+   </TSTCT>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>4</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>5</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>6</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>B</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Transaktionscode zu SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>G</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>R</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>W</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>d</SPRSL>
+     <TTEXT>Transaction Code for SAPBC400IAS_EWT</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

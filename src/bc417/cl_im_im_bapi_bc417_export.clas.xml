@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_IM_IM_BAPI_BC417_EXPORT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Imp. class for BAdI imp. IM_BAPI_BC417_EXPORT</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+   </VSEOCLASS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

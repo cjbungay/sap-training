@@ -1,0 +1,26 @@
+*----------------------------------------------------------------------*
+*   INCLUDE   BC405_GDAD_DB_VIEWF01                                    *
+*----------------------------------------------------------------------*
+
+FORM DATA_OUTPUT.
+DATA POS TYPE I VALUE 40.
+  LOOP AT ITAB_FLIGHTS INTO WA_FLIGHTS.
+    ON CHANGE OF WA_FLIGHTS-CITYFROM.
+      FORMAT COLOR COL_HEADING INTENSIFIED OFF.
+      WRITE: / SY-VLINE, TEXT-001, WA_FLIGHTS-CITYFROM,
+               AT POS SY-VLINE,
+             / SY-VLINE, TEXT-002, WA_FLIGHTS-CITYTO,
+                  AT POS SY-VLINE.
+    ENDON.
+
+    ON CHANGE OF WA_FLIGHTS-CARRID.
+      FORMAT COLOR COL_NORMAL INTENSIFIED ON.
+      WRITE: / SY-VLINE, WA_FLIGHTS-CARRID, WA_FLIGHTS-CARRNAME,
+               AT POS SY-VLINE.
+    ENDON.
+    FORMAT COLOR COL_NORMAL INTENSIFIED OFF.
+    WRITE: / SY-VLINE, WA_FLIGHTS-CONNID, WA_FLIGHTS-FLDATE,
+             WA_FLIGHTS-SEATSMAX, WA_FLIGHTS-SEATSOCC, AT POS SY-VLINE.
+  ENDLOOP.
+
+ENDFORM.

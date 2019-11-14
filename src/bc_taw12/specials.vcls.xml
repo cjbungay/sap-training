@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VCLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VCLDIR>
+    <VCLNAME>SPECIALS</VCLNAME>
+    <TEXT>View Cluster for Maintenance of Special Requests/Extras</TEXT>
+   </VCLDIR>
+   <VLCSTRUC_TAB>
+    <V_VCLSTRUC>
+     <VCLNAME>SPECIALS</VCLNAME>
+     <OBJECT>SPECIALS</OBJECT>
+     <OBJECTTEXT>Special Requests/Extras</OBJECTTEXT>
+     <PREDOBJECT>SPECIALS</PREDOBJECT>
+     <DEPENDENCY>R</DEPENDENCY>
+     <OBJPOS>01</OBJPOS>
+     <OBJLEVEL>01</OBJLEVEL>
+     <STARTOBJ>X</STARTOBJ>
+    </V_VCLSTRUC>
+    <V_VCLSTRUC>
+     <VCLNAME>SPECIALS</VCLNAME>
+     <OBJECT>SPECIALS_ASSIGN</OBJECT>
+     <OBJECTTEXT>Assignment of Airline Carrier</OBJECTTEXT>
+     <PREDOBJECT>SPECIALS</PREDOBJECT>
+     <DEPENDENCY>S</DEPENDENCY>
+     <OBJPOS>02</OBJPOS>
+     <OBJLEVEL>02</OBJLEVEL>
+    </V_VCLSTRUC>
+   </VLCSTRUC_TAB>
+   <VCLSTRUDEP_TAB>
+    <V_VCLSTDEP>
+     <VCLNAME>SPECIALS</VCLNAME>
+     <OBJECT>SPECIALS</OBJECT>
+     <PREDOBJECT>SPECIALS</PREDOBJECT>
+    </V_VCLSTDEP>
+    <V_VCLSTDEP>
+     <VCLNAME>SPECIALS</VCLNAME>
+     <OBJECT>SPECIALS_ASSIGN</OBJECT>
+     <OBJFIELD>SPECIAL</OBJFIELD>
+     <PREDOBJECT>SPECIALS</PREDOBJECT>
+     <PREDFIELD>SPECIAL</PREDFIELD>
+    </V_VCLSTDEP>
+   </VCLSTRUDEP_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

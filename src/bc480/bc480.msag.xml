@@ -1,0 +1,2165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC480</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Form printing with Interactive Forms solution</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>4</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>5</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>6</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>B</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Formulardruck mit der Lösung Interactive Forms</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>G</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>R</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>W</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>d</SPRSL>
+     <ARBGB>BC480</ARBGB>
+     <STEXT>Form printing with Interactive Forms solution</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Schnittstelle eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Keine aktive Schnittstelle &amp;1 vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Formular eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Kein aktives Formular &amp;1 vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Formular und Sprache eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download misslungen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Sprache eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Land eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Anzahl der Buchungen eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Downloadpfad eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Druckvorschau benötigt PDF. Schalter &quot;Kein PDF&quot; wird ignoriert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Ungültiger Downloadpfad</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Graphikdatei existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Ungültiger MIME-Typ</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Gültige RFC-Destination für Adobe Document Services eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download erfolgreich: Verzeichnis &amp;1, Datei(en) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spoolauftrag erzeugt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Fehler bei der Formularprozessierung: Rückgabewert = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Faxen/Mailen fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Formularprozessierung konnte nicht gestartet werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Fehler während der Formularprozessierung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Ungültiges Land für Sprache &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update der Tabelle &amp;1 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Formular hat unpassende Parameter</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services enthalten keine Daten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Anzahl muss zwischen 1 und 20 liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Formular &amp;1 konnte nicht gesperrt werden (wird bearbeitet)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Formularvorlage &amp;1 nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ACHTUNG! Formular &amp;1 hat bereits ein Layout - es wird überschrieben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Formular &amp; nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Sie dürfen nur Ihre eigenen Objekte ändern</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatische Generierung fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Das Layout des Formulars &amp;1 ist wieder gelöscht worden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Funktion nicht möglich in der Hintergrundverarbeitung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Sie haben keine Berechtigung zu dieser Aktion (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Formular &amp;1 nicht vorhanden in Sprache &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Sprache &amp;1 wird im Land &amp;2 nicht gesprochen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Land &amp;1 existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Schnittstelle &amp;1 hat zwei Versionen. Nur die aktive wird überprüft.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Formularschnittstelle konnte nicht korrekt geparst werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Formularkontext konnte nicht korrekt geparst werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter interface</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No active interface &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Enter form</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No active form &amp;1 available</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Enter form and language</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Download failure</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Enter language</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter country</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Enter number of bookings</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Enter download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Preview needs PDF. Flag &quot;No PDF&quot; will be ignored.</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Invalid download path</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>File for image does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Invalid MIME type</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Enter valid RFC destination for Adobe document services</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Download successful: directory &amp;1, file(s) &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Spool request created</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Form processing error: return code = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Sending fax/mail failed (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Form processing could not be started</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Error during form processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid country for language &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Update of table &amp;1 failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Form has unsuitable parameters</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Business Address Services hold no data</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Number must be between 1 and 20</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Form &amp;1 could not be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Template form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ATTENTION! Form &amp;1 has a layout already - it will be overwritten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Form &amp;1 not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>You may change only your own objects</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Automatic generation failed</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>The layout of form &amp;1 has been deleted again</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Function not possible in background processing</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>You have no authorization to perform this action (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Form &amp;1 is not available in language &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Language &amp;1 is not spoken in country &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Country &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Interface &amp;1 has two versions. Only the active version will be checked.</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Interface could not be parsed correctly</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Form context could not be parsed correctly.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

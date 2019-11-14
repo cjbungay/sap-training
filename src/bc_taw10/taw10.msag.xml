@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>TAW10</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten zur Schulung TAW10</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Customer number &amp; does not exist. Correct your input!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Waiting list for flight &amp;1 &amp;2 &amp;3 already exists!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No waiting list for flight &amp;1 &amp;2 &amp;3 exists!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Waiting list for flight &amp;1 &amp;2 &amp;3 does not contain any entries!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Choose a valid flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Waiting list for flight &amp;1 &amp;2 &amp;3 created successfully!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Waiting list for flight &amp;1 &amp;2 &amp;3 deleted successfully!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>The first name on the waiting list for flight &amp;1 &amp;2 &amp;3 has been deleted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Choose a valid customer number!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Customer &amp;1 is already on waiting list for flight &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Customer &amp;1 included in waiting list for flight &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Customer &amp;1 is not on waiting list for flight &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Customer &amp;1 has been deleted from waiting list for flight &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp;1 is on waiting list for flight &amp;2 at position &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Waiting list for flight &amp;1 &amp;2 &amp;3 contains &amp;4 entries</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Customer &amp;1 is &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Unable to find suitable aircraft for airline &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>TAW10</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Completely inexplicable error has occurred</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

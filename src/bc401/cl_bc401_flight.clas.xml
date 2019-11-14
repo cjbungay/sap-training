@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Flight data</DESCRIPT>
+    <STATE>1</STATE>
+    <RELEASE>1</RELEASE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>erzeugt Zeichenkette aus Tabellendaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>G</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>W</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_FLIGHT</CLSNAME>
+     <CMPNAME>GET_SEP_STRING</CMPNAME>
+     <LANGU>d</LANGU>
+     <DESCRIPT>Creates a String from Table Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

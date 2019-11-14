@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>BC425SIN99</IMP_NAME>
+     <TEXT>Implementation Business Add-In Screen Exit: Solution</TEXT>
+     <IMP_CLASS>CL_IM_BC425SIN99</IMP_CLASS>
+     <EXIT_NAME>BC425_99FLIGHT2</EXIT_NAME>
+     <INTER_NAME>IF_EX_BC425_99FLIGHT2</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+    <SCREENS>
+     <item>
+      <EXIT_NAME>BC425_99FLIGHT2</EXIT_NAME>
+      <SCR_A_PROG>SAPBC425_FLIGHT_CHNG99</SCR_A_PROG>
+      <SCR_A_NUM>0200</SCR_A_NUM>
+      <SCR_A_SSCR>SUB</SCR_A_SSCR>
+      <SCR_P_PROG>SAPLBC425IM99</SCR_P_PROG>
+      <SCR_P_NUM>0210</SCR_P_NUM>
+      <IMP_NAME>BC425SIN99</IMP_NAME>
+      <SPRSL>E</SPRSL>
+      <SCR_TEXT>Enhancement of Entry Screen</SCR_TEXT>
+     </item>
+    </SCREENS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

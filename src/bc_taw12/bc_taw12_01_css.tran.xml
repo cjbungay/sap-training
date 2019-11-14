@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>BC_TAW12_01_CSS</TCODE>
+    <PGMNA>SAPMBC_TAW12_CSS_BOOKINGS</PGMNA>
+    <DYPNO>0100</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>BC_TAW12_01_CSS</TCODE>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>BC_TAW12_01_CSS</TCODE>
+    <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+   </TSTCT>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>4</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>5</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>6</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>B</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>TAW12 case study: Buchung-Anlegen/St</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>G</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>R</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>W</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>d</SPRSL>
+     <TTEXT>TAW12 Case Study: Create/Cancel Bkng</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

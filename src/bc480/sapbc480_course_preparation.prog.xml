@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC480_COURSE_PREPARATION</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>DUN</KEY>
+     <ENTRY>entries deleted from table MHNK.</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>FLY</KEY>
+     <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NOD</KEY>
+     <ENTRY>Dunning table MHNK does not exist</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Preparations for class BC480</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DUNN</KEY>
+     <ENTRY>Dunning table MHNK</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_SCUST</KEY>
+     <ENTRY>Customer table SCUSTOM</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TEXT</KEY>
+     <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_TRAV</KEY>
+     <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>Einträge aus Tabelle MHNK gelöscht</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>Neuer oder geänderter Eintrag für Reiseagentur Fly &amp; Smile:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Mahntabelle MHNK existiert nicht</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Vorbereitungen für den Kurs BC480</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Mahntabelle MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Kundentabelle SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript-Texte aus Mdt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Reisebüro Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DUN</KEY>
+       <ENTRY>entries deleted from table MHNK.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>FLY</KEY>
+       <ENTRY>New or modified entry for Fly &amp; Smile added to STRAVELAG:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOD</KEY>
+       <ENTRY>Dunning table MHNK does not exist</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Preparations for class BC480</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DUNN</KEY>
+       <ENTRY>Dunning table MHNK</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_SCUST</KEY>
+       <ENTRY>Customer table SCUSTOM</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TEXT</KEY>
+       <ENTRY>SAPscript texts from clnt. 800</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_TRAV</KEY>
+       <ENTRY>Travel agency Fly &amp; Smile</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC480_COURSE_PREPARATION</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00026</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC480_COURSE_PREPARATION</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;TITLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>a) Damit eine genügend große Datenmenge vorhanden ist, ignorieren alle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BC470-Reports das Feld AGENCYNUM der Tabelle SBOOK und tun so, als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>würden alle Buchungen in dieser Tabelle zur Reiseagentur Fly &amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Smile gehören. Das Gleiche wird auch beim BC460 getan, und bislang gab</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>es keine Probleme damit. Wenn Sie jedoch &quot;Reisebüro Fly &amp; Smile&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auf dem Selektionsbild ankreuzen, wird der Report ggf. das Reisebüro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Fly &amp; Smile in die Tabelle STRAVELAG eintragen und dann zu allen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Buchungen das Feld SBOOK-AGENCYNUM auf die Nummer zu diesem Reisebüro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>setzen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Hinweis: Wenn Sie diese Option auf dem Selektionsbild auswählen, wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Ausführung des Reports eine Weile dauern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>b) Dieser Report löscht außerdem bei Bedarf unvollständige Einträge aus</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Mahntabelle MHNK. (falls diese im System vorhanden ist).  Dann kann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aus der Mahnhistorie (Transaktion F150) zu Demozwecken ein beliebiger</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Eintrag gewählt werden, ohne dass es zu einem Dump kommen sollte...</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>c) Dieser Report korrigiert unvollständige Einträge in der Tabelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SCUSTOM die automatisch durch den Flugdatengenerator erzeugt worden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sind (zum Beispiel fehlende Regionen für US-Adressen).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>d) Schließlich stellt das Programm sicher, dass die beiden benötigten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAPscript-Texte im Schulungsmandanten vorhanden sind, indem es diese</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aus dem Mandanten 400 kopiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wählen Sie auf dem Selektionsbild, welche Aktionen ausgeführt werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sollen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC480_COURSE_PREPARATION</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00020</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC480_COURSE_PREPARATION</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;TITLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>a) To ensure that a large enough dataset exists, all BC470 reports</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ignore the field AGENCYNUM of table SBOOK and handle all bookings in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this table as if they belong to the travel agency Fly &amp; Smile. The same</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>applies for BC460 and there have been no problems  up to now. If,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>however, you select &quot;Travel agency Fly &amp; Smile&quot; on the selection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>screen, the report may enter the travel  agency Fly &amp; Smile in table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>STRAVELAG and set the field SBOOK-AGENCYNUM to the number for this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>travel agency for all bookings.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Note: If you choose this option on the selection screen, it will take a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>while to execute the report.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>b) This report also deletes incomplete entries from dunning table MHNK,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>if necessary (if this table exists in the system). Any entry can then</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be chosen from the dunning history (transaction F150) for demo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>purposes, without resulting in a dump.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>c) This report corrects incomplete entries that were generated</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatically by the flight data generator  in table SCUSTOM (for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>example, missing regions for US addresses).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>d) The program ensures that both the required SAPscript texts exist in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the training clients by copying them from client 400.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Choose which actions are to be executed on the selection screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Demonstration Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC402_FMDD_WAITLIST</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC402_AOOD_WAIT_DISPLAY</FUNCNAME>
+     <SHORT_TEXT>Display Waiting List (AOO)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_WAITLIST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC402_TYPD_CUST_LIST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>LIST_EMPTY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_WAITLIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Waiting List</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LIST_EMPTY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Waiting list is empty</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC402_FMDD_WAIT_ADD</FUNCNAME>
+     <SHORT_TEXT>Add Waiting Customer</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_CUST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC402_TYPD_CUST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>IN_LIST</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_CUST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customer for Waiting List</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IN_LIST</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Already Waiting</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC402_FMDD_WAIT_DELETE</FUNCNAME>
+     <SHORT_TEXT>Remove Customer from Waiting List</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_ID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CUSTOMER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_IN_LIST</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customer Number for Workbench Training Data Model BC_Travel</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_IN_LIST</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Not on Waiting List</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC402_FMDD_WAIT_DISPLAY</FUNCNAME>
+     <SHORT_TEXT>Display Waiting List</SHORT_TEXT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>LIST_EMPTY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LIST_EMPTY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Waiting list is empty</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC402_FMDD_WAIT_GET_FIRST</FUNCNAME>
+     <SHORT_TEXT>Move Up Waiting Customer</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EP_CUST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC402_TYPD_CUST</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>LIST_EMPTY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EP_CUST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>First on Waiting List</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LIST_EMPTY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Waiting list is empty</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC402_FMDD_WAIT_GET_POS</FUNCNAME>
+     <SHORT_TEXT>Get Position in Waiting List</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_ID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CUSTOMER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EP_POS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-TABIX</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_IN_LIST</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customer for Waiting List</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EP_POS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Internal Tables, Current Row Index</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_IN_LIST</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Not on Waiting List</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC402_FMDD_WAIT_SHIFT</FUNCNAME>
+     <SHORT_TEXT>Change Position in Waiting List</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_ID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_CUSTOMER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IP_NEW_POS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SY-TABIX</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_IN_LIST</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customer for Waiting List</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IP_NEW_POS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Internal Tables, Current Row Index</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_IN_LIST</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Not on Waiting List</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <DYNPROS>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLBC402_FMDD_WAITLIST</PROGRAM>
+      <SCREEN>0100</SCREEN>
+      <LANGUAGE>D</LANGUAGE>
+      <DESCRIPT>&quot;dunkler&quot; Träger für die Warteliste</DESCRIPT>
+      <TYPE>M</TYPE>
+      <NEXTSCREEN>0100</NEXTSCREEN>
+      <LINES>027</LINES>
+      <COLUMNS>120</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>MODULE status_0100.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>MODULE display_list_0100.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>* MODULE USER_COMMAND_0100.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+     <SPACES>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+     </SPACES>
+    </item>
+    <item>
+     <HEADER>
+      <PROGRAM>SAPLBC402_FMDD_WAITLIST</PROGRAM>
+      <SCREEN>0200</SCREEN>
+      <LANGUAGE>D</LANGUAGE>
+      <DESCRIPT>&quot;dunkler&quot; Träger für die Warteliste</DESCRIPT>
+      <TYPE>M</TYPE>
+      <NEXTSCREEN>0200</NEXTSCREEN>
+      <LINES>027</LINES>
+      <COLUMNS>120</COLUMNS>
+     </HEADER>
+     <CONTAINERS>
+      <RPY_DYCATT>
+       <TYPE>SCREEN</TYPE>
+       <NAME>SCREEN</NAME>
+      </RPY_DYCATT>
+     </CONTAINERS>
+     <FIELDS>
+      <RPY_DYFATC>
+       <CONT_TYPE>SCREEN</CONT_TYPE>
+       <CONT_NAME>SCREEN</CONT_NAME>
+       <TYPE>OKCODE</TYPE>
+       <TEXT>____________________</TEXT>
+       <LENGTH>020</LENGTH>
+       <VISLENGTH>020</VISLENGTH>
+       <HEIGHT>001</HEIGHT>
+       <FORMAT>CHAR</FORMAT>
+       <INPUT_FLD>X</INPUT_FLD>
+      </RPY_DYFATC>
+     </FIELDS>
+     <FLOW_LOGIC>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS BEFORE OUTPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>MODULE status_0100.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>MODULE display_list_0200.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>PROCESS AFTER INPUT.</LINE>
+      </RPY_DYFLOW>
+      <RPY_DYFLOW/>
+      <RPY_DYFLOW>
+       <LINE>* MODULE USER_COMMAND_0100.</LINE>
+      </RPY_DYFLOW>
+     </FLOW_LOGIC>
+     <SPACES>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>2</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+     </SPACES>
+    </item>
+   </DYNPROS>
+   <CUA>
+    <TIT>
+     <RSMPE_TITT>
+      <CODE>WLIST</CODE>
+      <TEXT>List of Waiting Customers</TEXT>
+     </RSMPE_TITT>
+    </TIT>
+   </CUA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

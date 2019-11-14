@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>SAPBC410A_SUBSCREEN</TCODE>
+    <PGMNA>SAPMBC410ASUBS_SUBSCREEN</PGMNA>
+    <DYPNO>0100</DYPNO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>SAPBC410A_SUBSCREEN</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>SAPBC410A_SUBSCREEN</TCODE>
+    <TTEXT>Maintain Flight Data</TTEXT>
+   </TSTCT>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>4</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>5</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>6</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>B</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Flugdatenpflege</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>G</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>R</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>W</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>d</SPRSL>
+     <TTEXT>Maintain Flight Data</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

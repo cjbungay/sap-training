@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BC412_TEXT_DE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BC412_TEXT_DOM</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>BC412: Data Element for Node Texts (Tree Control)</DDTEXT>
+    <REPTEXT>Node Text</REPTEXT>
+    <SCRTEXT_S>Text</SCRTEXT_S>
+    <SCRTEXT_M>Node text</SCRTEXT_M>
+    <SCRTEXT_L>Text for node or item</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>BC412: Datenelement für Text von Knoten (Tree Control)</DDTEXT>
+     <REPTEXT>Text eines Knotens</REPTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Knotentext</SCRTEXT_M>
+     <SCRTEXT_L>Text zum Knoten oder Item</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>BC412: Datenelement für Text von Knoten (Tree Control)</DDTEXT>
+     <REPTEXT>Text eines Knotens</REPTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Knotentext</SCRTEXT_M>
+     <SCRTEXT_L>Text zum Knoten oder Item</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>BC412: Data Element for Node Texts (Tree Control)</DDTEXT>
+     <REPTEXT>Node Text</REPTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Node text</SCRTEXT_M>
+     <SCRTEXT_L>Text for node or item</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>BC412: ノードテキストのデータエレメント (ツリーコントロール)</DDTEXT>
+     <REPTEXT>ノードテキスト</REPTEXT>
+     <SCRTEXT_S>テキスト</SCRTEXT_S>
+     <SCRTEXT_M>ノードテキスト</SCRTEXT_M>
+     <SCRTEXT_L>ノード/アイテムのテキスト</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>BC412: Data Element for Node Texts (Tree Control)</DDTEXT>
+     <REPTEXT>Node Text</REPTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Node text</SCRTEXT_M>
+     <SCRTEXT_L>Text for node or item</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

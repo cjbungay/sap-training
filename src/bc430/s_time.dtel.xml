@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>S_TIME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>S_TIME</DOMNAME>
+    <HEADLEN>09</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Time last change was made</DDTEXT>
+    <REPTEXT>Time</REPTEXT>
+    <SCRTEXT_S>Time</SCRTEXT_S>
+    <SCRTEXT_M>Time of change</SCRTEXT_M>
+    <SCRTEXT_L>Time last change was made</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zeitpunkt der letzten Änderung</DDTEXT>
+     <REPTEXT>Zeitpunkt</REPTEXT>
+     <SCRTEXT_S>Zeitpunkt</SCRTEXT_S>
+     <SCRTEXT_M>Zeitpunkt Änd.</SCRTEXT_M>
+     <SCRTEXT_L>Zeitpunkt letzte Änderung</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

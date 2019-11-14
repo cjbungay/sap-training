@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeDesigner_V6.0_SAP" APIVersion="1.4.4348.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2005-08-04T15:02:07Z" uuid="224625d6-14f8-4e8c-af96-3b1944de3a11">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.1/">
+   <subform layout="tb" locale="en_US" name="data">
+      <pageSet>
+         <pageArea id="Page1" name="FIRST">
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <?templateDesigner expand 1?>
+            <contentArea h="230mm" name="CONTENT_AREA" w="190mm" x="10mm" y="40mm"/>
+            <field access="nonInteractive" minH="8mm" name="MASTER" w="190mm" x="10mm" y="20mm">
+               <ui>
+                  <textEdit multiLine="1">
+                     <border>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N96">MP_F</text>
+                  </value>
+               </caption>
+               <bind match="none"/>
+               <event activity="ready" ref="$layout">
+                  <script runAt="server">BODY_PAGE.EVENTS_FIRED  = Concat (BODY_PAGE.EVENTS_FIRED, "  MP_F/LR");</script>
+               </event>
+               <event activity="initialize">
+                  <script runAt="server">BODY_PAGE.EVENTS_FIRED  = Concat (BODY_PAGE.EVENTS_FIRED, "  MP_F/INIT");
+;$record.EVENTS_FIRED does not work from a master page</script>
+               </event>
+               <event activity="ready" ref="$form">
+                  <script runAt="server">BODY_PAGE.EVENTS_FIRED  = Concat (BODY_PAGE.EVENTS_FIRED, "  MP_F/FR");</script>
+               </event>
+               <?digestForSAP digest="bc58b2d942c10a78c6d3b51f7c04b850"?></field>
+         </pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform h="171.45mm" name="BODY_PAGE" w="190mm">
+         <?templateDesigner expand 1?>
+         <keep intact="none"/>
+         <field minH="8mm" minW="77.1mm" name="BP_F1" x="87.1601mm">
+            <ui>
+               <textEdit allowRichText="0" multiLine="1">
+                  <border>
+                     <edge stroke="lowered"/>
+                     <edge stroke="lowered"/>
+                     <edge stroke="lowered"/>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="25mm">
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N199">BP_F1</text>
+               </value>
+            </caption>
+            <bind match="none"/>
+            <value>
+               <exData contentType="text/html" maxLength="0"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4183.0"/></exData>
+            </value>
+            <event activity="initialize">
+               <script runAt="server">EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F1/INIT");</script>
+            </event>
+            <event activity="ready" ref="$form">
+               <script runAt="server">EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F1/FR");</script>
+            </event>
+            <event activity="ready" ref="$layout">
+               <script runAt="server">EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F1/LR");</script>
+            </event>
+            <?digestForSAP digest="82ba22e7886eb87a90b2199f6e6f0612"?></field>
+         <field minH="8mm" minW="62mm" name="BP_F2" x="0.37mm" y="1.06mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="25mm">
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N292">BP_F2</text>
+               </value>
+            </caption>
+            <bind match="none"/>
+            <event activity="initialize">
+               <script runAt="server">EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F2/INIT")
+;$record.EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F2/INIT")
+;BODY_PAGE.EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F2/INIT")</script>
+            </event>
+            <event activity="ready" ref="$form">
+               <script runAt="server">EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F2/FR")</script>
+            </event>
+            <event activity="ready" ref="$layout">
+               <script runAt="server">EVENTS_FIRED  = Concat (EVENTS_FIRED, "  BP_F2/LR")</script>
+            </event>
+            <?digestForSAP digest="381eb8368606e49a6ae51f85b07b47cf"?></field>
+         <field minH="9mm" name="EVENTS_FIRED" w="180mm" y="20mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge stroke="lowered"/>
+                     <edge stroke="lowered"/>
+                     <edge stroke="lowered"/>
+                     <edge stroke="lowered"/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="9pt" typeface="Arial"/>
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <para vAlign="middle"/>
+            <caption reserve="27.52mm">
+               <font typeface="Arial"/>
+               <para vAlign="middle"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N381">EVENTS_FIRED</text>
+               </value>
+            </caption>
+            <bind match="none"/>
+            <desc>
+               <text name="Schema Annotation">Customer name for Workbench training data model BC_Travel</text>
+            </desc>
+            <border>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <fill>
+                  <color value="0,255,0"/>
+               </fill>
+            </border>
+            <value>
+               <exData contentType="text/html" maxLength="0"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4183.0"/></exData>
+            </value>
+            <?digestForSAP digest="af44ddcbd97809d46da66243d1db3bc1"?></field>
+         <draw h="41.8001mm" name="HIERARCHY" w="112.13mm" x="32.12mm" y="47.63mm">
+            <ui>
+               <textEdit>
+               </textEdit>
+            </ui>
+            <value>
+               <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N447"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4348.0"><p>data</p><p>|----Master Page FIRST</p><p>|<span style="xfa-spacerun:yes">    </span>|----CONTENT_AREA (Content Area)</p><p>|<span style="xfa-spacerun:yes">    </span>|----MP_F (with scripting)</p><p>|<span style="xfa-spacerun:yes"> </span></p><p>|----BODY_PAGE</p><p><span style="xfa-spacerun:yes">     </span>|----BP_F1 (with scripting)</p><p><span style="xfa-spacerun:yes">     </span>|----BP_F2 (with<span style="xfa-spacerun:yes"> </span>scripting)</p><p><span style="xfa-spacerun:yes">     </span>|----EVENTS_FIRED</p></body></exData>
+            </value>
+            <font baselineShift="0pt" size="12pt" typeface="Courier New"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            <border>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <edge presence="hidden"/>
+               <fill>
+                  <color value="192,192,192"/>
+               </fill>
+            </border>
+         </draw>
+      </subform>
+      <?templateDesigner expand 1?></subform>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner XDCFile acrobat6.xdc?>
+   <?templateDesigner Zoom 70?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Grid show:0, snap:0, units:1, color:ff8080, origin:(0,0), interval:(158750,158750)?>
+   <?templateDesigner DefaultRunAt server?>
+   <?templateDesigner DefaultPreviewType print?></template>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+</xfa:datasets>
+<config xmlns="http://www.xfa.org/schema/xci/1.0/">
+   <present>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+            <adjustData>0</adjustData>
+         </data>
+      </common>
+      <pdf>
+         <fontInfo/>
+      </pdf>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://ld0503.wdf.sap.corp:50021/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+</config>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/1.0/"/>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.1/">
+   <xsdConnection dataDescription="data" name="BC480_EVENT_ORDER">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.1/">
+   <locale desc="German (Germany)" name="de_DE">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>Januar</month>
+            <month>Februar</month>
+            <month>März</month>
+            <month>April</month>
+            <month>Mai</month>
+            <month>Juni</month>
+            <month>Juli</month>
+            <month>August</month>
+            <month>September</month>
+            <month>Oktober</month>
+            <month>November</month>
+            <month>Dezember</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mrz</month>
+            <month>Apr</month>
+            <month>Mai</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Okt</month>
+            <month>Nov</month>
+            <month>Dez</month>
+         </monthNames>
+         <dayNames>
+            <day>Sonntag</day>
+            <day>Montag</day>
+            <day>Dienstag</day>
+            <day>Mittwoch</day>
+            <day>Donnerstag</day>
+            <day>Freitag</day>
+            <day>Samstag</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>So</day>
+            <day>Mo</day>
+            <day>Di</day>
+            <day>Mi</day>
+            <day>Do</day>
+            <day>Fr</day>
+            <day>Sa</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>v. Chr.</era>
+            <era>n. Chr.</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D. MMMM YYYY</datePattern>
+         <datePattern name="long">D. MMMM YYYY</datePattern>
+         <datePattern name="med">DD.MM.YYYY</datePattern>
+         <datePattern name="short">DD.MM.YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">H.MM' Uhr 'Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GjMtkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">z,zz9.99 $</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+</localeSet>
+<PDFSecurity xmlns="http://ns.adobe.com/xtd/" accessibleContent="1" change="1" contentCopy="1" documentAssembly="1" formFieldFilling="1" metadata="1" modifyAnnots="1" print="1" printHighQuality="1"/></xdp:xdp>

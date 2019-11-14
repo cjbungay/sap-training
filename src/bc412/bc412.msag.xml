@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC412</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Schulung: BC412 - ABAP Dialogprogramm. mit EnjoySAP-Controls</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error displaying the container object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error displaying the picture control object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Error calling method</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Unable to load picture</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Picture loaded successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Unable to perform action</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>You clicked on the following coordinates in the picture: &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>You double-clicked the following coordinates in the control: &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Error creating the HTML Viewer object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>The following page is being loaded: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>The following page has been loaded: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>The event SAPEVENT &amp; has been triggered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid entry. Please correct.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Current display mode DISPLAY_MODE = &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Loading picture &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>No picture available for number &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Either you have no BDS authorization or the system cannot find picture &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Error creating text edit control object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Error instantiating Tree Control</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Error instantiating Tree Model</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Error instantiating ALV Grid Control</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Error generating application toolbar instance</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>No airline carriers available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>No connection data available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>No flight data available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>No bookings selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>No data available for this customer number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>No node found for string</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>No other node found for string</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Internal Error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Double-click the root node</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Application key of the double-clicked node: &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC412</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412010</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beim Anlegen des  Containerobjekts ist ein Fehler aufgetreten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Objekt wurde nicht angelegt. Fehler im Ablauf des Control</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Frameworks.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412010</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>An error occurred while the system was trying to create a container</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The object could not be created. An error occurred in the Control</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Framework process.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412011</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412011</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beim Anlegen des  Objekts ist ein Fehler aufgetreten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Objekt wurde nicht angelegt. Fehler im Ablauf des Control</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Frameworks.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412011</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412011</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>An error occurred while creating the object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The object could not be created. Error in the Control Framework</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>process.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412030</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das angeforderte Bild konnte im BDS nicht gefunden werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ergänzen Sie das fehlende Bild im BDS. (-&gt; Instructor Guide BC412)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412030</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412030</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system could not find the requested picture in the BDS.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Add the picture to the BDS (see instructor guide BC412)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412035</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00027</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412035</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben mit Hilfe des Funktionsbausteins &apos;BC412_BDS_GET_PIC_URL&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>versucht eines der Bilder, die im BDS für den Kurs BC412 hinterlegt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wurden, in den Data Provider zu laden. Dabei trat ein Fehler auf.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Entweder befindet sich das gewünsche Bild nicht im BDS, oder es fehlt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ihnen die Anzeigeberechtigung für den Zugriff auf BDS-Material.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Schulungsteilnehmer: &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bewerten Sie den Schittstellenparameter &apos;NUMBER&apos; des Funktionsbausteins</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&apos;BC412_BDS_GET_PIC_URL&apos; mit &apos;1&apos;. Führen Sie Ihr Programm erneut aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sollte der Fehler immer noch auftreten, wenden Sie Sich bitte an den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Referenten Ihrer Schulung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Referent:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Gehen Sie wie folgt vor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Prüfen Sie ob im BDS Bilder hinterlegt sind. Nutzen Sie hierzu die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Transaktion &apos;OAOR&apos; (Klassenname &apos;BC412&apos;, Klassentyp &apos;OT&apos;). Sie sollten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mindesstens den Ordnernamen &apos;Picture1&apos; finden. Falls dies nicht der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Fall ist, führen Sie die Schritte durch, die im Instructor Guide unter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&apos;Vorbereitungen im System&apos; beschrieben sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Für den Fall, das unter der angegebenen Klassifizierung (BC412, OT)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bilder im BDS vohanden sind, fehlt den Teilnehmern die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BDS-Lese-Berechtigung (Objekt &apos;S_BDS_DS&apos;). Die Teilnehmer benötigen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eine Berechtigung mit folgender Bewertung der Felder des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Berechtigungsobjekts:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T2</TDFORMAT>
+       <TDLINE>activity,,=,,03</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T2</TDFORMAT>
+       <TDLINE>class name,,=,,BC412</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T2</TDFORMAT>
+       <TDLINE>class type,,=,,OT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Einzelheiten hierzu finden Sie im Instructor Guide der Schulung im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Teilkapitel &apos;Vorbereitungen im System&apos; beschrieben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412035</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00023</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412035</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Using function module BC412_BDS_GET_PIC_URL, you tried to load a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>picture stored in the Business Document Server (BDS) for the course</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BC412 into the Data Provider.  This caused an error. Either the picutre</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you chose is not stored in the BDS or you do not have authorization to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>display BDS material.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Course participants: &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Set the value of the interface parameter &apos;NUMBER&apos; of the function</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>module &apos;BC412_BDS_GET_PIC_URL&apos; to &apos;1&apos; and try again. If the error still</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>occurs, inform the instructor.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Instructors:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>Check that there are images stored in the BDS. Use transaction &apos;OAOR&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(class name = &apos;BC412&apos;, class type &apos;OT&apos;).You should at least be able to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>find the folder entitled &apos;Picture1&apos;. If not, follow the steps described</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in &apos;Preparation in the System&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>N1</TDFORMAT>
+       <TDLINE>If there are pictures stored in the BDS under the classification</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BC412_OT, the participants cannot have &lt;ZK&gt;Display&lt;/&gt; authorization for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the BDS. Participants need an authorization with the following values</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the authorization object:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T2</TDFORMAT>
+       <TDLINE>activity,,=,,03</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T2</TDFORMAT>
+       <TDLINE>class name,,=,,BC412</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>T2</TDFORMAT>
+       <TDLINE>class type,,=,,OT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For more details, see the section &apos;Preparation in the System&apos; in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Instructor Guide for this course.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC412040</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+      <SELFDEF>3</SELFDEF>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC412040</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

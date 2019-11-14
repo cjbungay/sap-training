@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>BC402_TABD_HASH</TCODE>
+    <PGMNA>SAPBC402_TABD_HASHED</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>gA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>BC402_TABD_HASH</TCODE>
+    <S_WEBGUI>1</S_WEBGUI>
+    <S_WIN32>X</S_WIN32>
+    <S_PLATIN>X</S_PLATIN>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>E</SPRSL>
+    <TCODE>BC402_TABD_HASH</TCODE>
+    <TTEXT>Demonstration: Hashed Table</TTEXT>
+   </TSTCT>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>4</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>5</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>6</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>B</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>D</SPRSL>
+     <TTEXT>Demonstration Hashed Tabelle</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>G</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>R</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>W</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>d</SPRSL>
+     <TTEXT>Demonstration: Hashed Table</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

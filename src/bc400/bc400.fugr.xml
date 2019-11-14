@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group for Training Course BC400</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC400</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC400_FREE_SEATS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Calculate Free Seats</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SEATSOCC</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSOCC</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SEATSMAX</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSMAX</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>SEATSFREE</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSOCC</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>OCC_GT_MAX</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>MAX_EQ_0</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SEATSOCC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Current Occupancy</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SEATSMAX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Maximum Occupancy</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SEATSFREE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Number of Free Seats</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OCC_GT_MAX</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Overbooked</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MAX_EQ_0</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Cargo Plane</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC400_PERCENTAGE</FUNCNAME>
+     <SHORT_TEXT>Get Percentage</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SEATSMAX</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSMAX</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SEATSOCC</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSOCC</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PERCENTAGE</PARAMETER>
+       <TYP>BC400_PERCENTAGE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>DIVISION_BY_ZERO</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OCC_GT_MAX</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SEATSMAX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Maximum Occupancy</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SEATSOCC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Current Occupation of Seats</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PERCENTAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Percentage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIVISION_BY_ZERO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Cannot Divide by Zero</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OCC_GT_MAX</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Seats currently occupied must be less than maximum occupancy</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC400_PERCENT_EXCEPTIONS</FUNCNAME>
+     <SHORT_TEXT>Get Percentage</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SEATSMAX</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSMAX</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SEATSOCC</PARAMETER>
+       <DBFIELD>SFLIGHT-SEATSOCC</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PERCENTAGE</PARAMETER>
+       <DBFIELD>SBC400FOCC-PERCENTAGE</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>DIVISION_BY_ZERO</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OCC_GT_MAX</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SEATSMAX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total Amount</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SEATSOCC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partial Amount</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PERCENTAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Percentage</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIVISION_BY_ZERO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Cannot Divide by Zero</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OCC_GT_MAX</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Partial amount must be less than total amount</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC400_UPDATE_BOOK</FUNCNAME>
+     <GLOBAL_FLAG>X</GLOBAL_FLAG>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Change Booking</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BOOK</PARAMETER>
+       <DBFIELD>SBOOK</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>BOOK_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>UPDATE_SBOOK_REJECTED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>BOOK_LOCKED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>CURRENCY_CONVERSION_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BOOK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Structure with booking that you want to change</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BOOK_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Booking does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPDATE_SBOOK_REJECTED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Request to change flight booking refused</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BOOK_LOCKED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Booking blocked in database</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CURRENCY_CONVERSION_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC400_UPDATE_FLTIME</FUNCNAME>
+     <GLOBAL_FLAG>X</GLOBAL_FLAG>
+     <SHORT_TEXT>Change Flight Times (Part of Flight Connection Master Data)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <DBFIELD>SPFLI-CARRID</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CONNID</PARAMETER>
+       <DBFIELD>SPFLI-CONNID</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FLTIME</PARAMETER>
+       <DBFIELD>SPFLI-FLTIME</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DEPTIME</PARAMETER>
+       <DBFIELD>SPFLI-DEPTIME</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>FLIGHT_NOT_FOUND</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>UPDATE_SPFLI_REJECTED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>FLIGHT_LOCKED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CARRID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Carrier</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CONNID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Connection Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FLTIME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flight Time</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DEPTIME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Departure Time</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLIGHT_NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Flight does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPDATE_SPFLI_REJECTED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Request to change flight connection refused</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FLIGHT_LOCKED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Flight blocked in database</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Funktionsgruppe zu Kurs BC400</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Function Group for Training Course BC400</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

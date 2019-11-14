@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>Enhancement Spot with Dynpro Exit BAdI</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>BC427_05_SX_BADI</BADI_NAME>
+     <INTERFACE_NAME>IF_EX_BC427_05_SX_BADI</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>S</CONTEXT_MODE>
+     <BADI_SHORTTEXT>BAdI with screen exit when airline is displayed</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>46AF25EC9B7C4428E10000000A424239</BADI_SHORTTEXT_ID>
+     <SCREEN_ELEMENTS>
+      <ENH_BADI_SCREEN_DEF>
+       <SCR_A_PROG>BC427_05_NBD_SX</SCR_A_PROG>
+       <SCR_A_NUM>0100</SCR_A_NUM>
+       <SCR_A_SSCR>SUB</SCR_A_SSCR>
+       <SCR_TEXT>Dynpro exit to display additional data for current flights</SCR_TEXT>
+       <SCR_TEXT_ID>46AF263B9B7C4428E10000000A424239</SCR_TEXT_ID>
+      </ENH_BADI_SCREEN_DEF>
+     </SCREEN_ELEMENTS>
+     <IMG_DOCU_ID>BC427_05_SX_BADI</IMG_DOCU_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

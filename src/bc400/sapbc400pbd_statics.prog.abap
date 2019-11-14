@@ -1,0 +1,40 @@
+REPORT  SAPBC400PBD_STATICS.
+
+DATA: NB1 TYPE I,
+      NB2 TYPE I.
+
+
+START-OF-SELECTION.
+  FORMAT INTENSIFIED OFF.
+  WRITE : 'SAMPLE STATICS' COLOR 2 INTENSIFIED.
+  SET PF-STATUS 'LISTE'.
+
+
+AT USER-COMMAND.
+  FORMAT INTENSIFIED OFF.
+  CASE SY-UCOMM.
+    WHEN 'FU1 '.                   "Fuction 1
+      PERFORM R1 USING NB1.
+    WHEN 'FU2 '.                   "Fuction 2
+      PERFORM R2 USING NB2.
+    WHEN 'RES '.                       "Résumé
+      SY-LSIND = 1.
+      WRITE : / 'nb1 =', NB1,
+              / 'nb2 =', NB2.
+  ENDCASE.
+
+
+*
+FORM R1 USING N1.
+  STATICS NBEP1 TYPE I.
+  ADD 1 TO NBEP1.
+  N1 = NBEP1.
+*  MESSAGE ... WITH 'Function 1   nb1 =' nb1.
+ENDFORM.
+*
+FORM R2 USING N2.
+  STATICS NBEP2 TYPE I.
+  ADD 1 TO NBEP2.
+  N2 = NBEP2.
+* MESSAGE ...witH 'Function 2  nb2 = ' nb2.
+ENDFORM.

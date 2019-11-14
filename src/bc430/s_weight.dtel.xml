@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>S_WEIGHT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>S_CARGO_WEIGHT</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Weight of freight</DDTEXT>
+    <REPTEXT>Weight</REPTEXT>
+    <SCRTEXT_S>Weight</SCRTEXT_S>
+    <SCRTEXT_M>Freight weight</SCRTEXT_M>
+    <SCRTEXT_L>Weight of freight</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gewicht der Fracht</DDTEXT>
+     <REPTEXT>Gewicht</REPTEXT>
+     <SCRTEXT_S>Gewicht</SCRTEXT_S>
+     <SCRTEXT_M>Frachtgewicht</SCRTEXT_M>
+     <SCRTEXT_L>Gewicht der Fracht</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

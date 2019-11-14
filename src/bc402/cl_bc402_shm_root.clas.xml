@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <CLSSHAREDMEMORY>X</CLSSHAREDMEMORY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Demo BC402 Shared Objects: Wurzelklasse</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>G</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>W</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHM_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>d</LANGU>
+     <DESCRIPT>Demonstration for BC402 Shared Objects: Root Class</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeDesigner_V6.0_SAP" APIVersion="1.4.4348.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2005-08-04T16:17:56Z" uuid="224625d6-14f8-4e8c-af96-3b1944de3a11">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.1/">
+   <subform layout="tb" locale="en_US" name="data">
+      <pageSet>
+         <pageArea id="Page1" name="FIRST">
+            <occur max="1" min="1"/>
+            <medium long="210mm" orientation="landscape" short="148mm" stock="a5"/>
+            <draw h="23mm" name="SENDER_ADDRESS" w="80mm" x="20mm" y="20mm">
+               <ui>
+                  <textEdit>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N52"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4183.0"><p style="font-family:'Times New Roman'">Fly &amp; Smile</p><p style="font-family:'Times New Roman'">4 Truckee Way</p><p style="tab-interval:0.393in;font-family:'Times New Roman'">New York, NY 12345-125</p></body></exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="time"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <?templateDesigner expand 0?>
+            <field access="nonInteractive" h="31.55mm" name="CUSTOMER_ADDRESS" w="92.3399mm" x="19.84mm" y="49.68mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Courier New"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <value>
+                  <exData contentType="text/html" maxLength="0"><body xmlns="http://www.w3.org/1999/xhtml"/></exData>
+               </value>
+               <bind match="dataRef" ref="$record.CUSTOMER_ADDRESS"/>
+               <desc>
+                  <exData name="Schema Annotation">Customer address
+Dynamic Text 
+ FIELD = GT_ADDRESS</exData>
+               </desc>
+            <?digestForSAP digest="df203ad4545ea573f88921c4fab149c4"?></field>
+            <subform h="18.9mm" name="INFORMATION" w="65mm" x="120mm" y="48.3mm">
+               <bind match="none"/>
+               <border>
+                  <edge/>
+                  <edge/>
+                  <edge/>
+                  <edge/>
+                  <fill>
+                     <color value="192,192,192"/>
+                  </fill>
+                  <corner join="round" radius="2mm" thickness="0.007in"/>
+                  <corner join="round" radius="2mm" thickness="0.007in"/>
+                  <corner join="round" radius="2mm" thickness="0.007in"/>
+                  <corner join="round" radius="2mm" thickness="0.007in"/>
+               </border>
+               <draw h="7.6701mm" name="INVOICE" w="26.84mm" x="3mm" y="3mm">
+                  <ui>
+                     <textEdit>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N218">Invoice</text>
+                  </value>
+                  <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               </draw>
+               <?templateDesigner expand 0?>
+               <field access="nonInteractive" h="7mm" name="ID" w="62mm" x="3mm" y="10mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="12pt" typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="27.78mm">
+                     <font size="12pt" typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N300">Customer ID</text>
+                     </value>
+                  </caption>
+                  <value>
+                     <text maxChars="8"/>
+                  </value>
+                  <bind match="dataRef" ref="$record.IS_CUSTOMER.ID">
+                     <picture>zzzzzzzz</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Customer Number</text>
+                  </desc>
+                  <format>
+                     <picture>zzzzzzzzz</picture>
+                  </format>
+               <?digestForSAP digest="5881d30b88d73d3c95603fc710b7dd19"?></field>
+            </subform>
+            <contentArea h="51.06mm" name="CONTENT_AREA" w="180mm" x="20mm" y="92.34mm"/>
+         </pageArea>
+         <pageArea id="Page2" name="NEXT">
+            <medium long="210mm" orientation="landscape" short="148mm" stock="a5"/>
+            <contentArea h="120.98mm" name="CONTENT_AREA" w="180mm" x="20mm" y="20mm"/>
+            <?templateDesigner expand 0?>
+            <field access="nonInteractive" h="9mm" id="floatingField005705" name="CurrentPageNumber" presence="hidden" w="62mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N408">Text Field</text>
+                  </value>
+               </caption>
+               <event activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this)</script>
+               </event>
+               <calculate override="error"/>
+               <bind match="none"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N430">#</text>
+               </value>
+            <?digestForSAP digest="0ac6840026897d18503e8eea88c23c6c"?></field>
+            <field access="nonInteractive" h="9mm" id="floatingField028145" name="NumberofPages" presence="hidden" w="62mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N482">Text Field</text>
+                  </value>
+               </caption>
+               <event activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount()</script>
+               </event>
+               <calculate override="error"/>
+               <bind match="none"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N504">##</text>
+               </value>
+            <?digestForSAP digest="1b2320bab5d9314f1ba5c926c1a04559"?></field>
+            <draw h="5.82mm" name="PAGE_NO" w="17.7301mm" x="186mm" y="14.82mm">
+               <ui>
+                  <textEdit>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N524"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4183.0"><p>Page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField005705" xfa:embedMode="raw" xfa:embedType="uri"/>/<span xfa:embed="#floatingField028145" xfa:embedMode="raw" xfa:embedType="uri"/></p></body></exData>
+               </value>
+               <font typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+            </draw>
+         </pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="BODY_01" w="180mm">
+         <draw h="19.84mm" name="INTRO_LINES" w="128.567mm">
+            <ui>
+               <textEdit>
+               </textEdit>
+            </ui>
+            <value>
+               <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N580"><body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4293.0"><p style="margin-bottom:6pt">Dear sir/madam,</p><p>We would appreciate payment of the following invoice as soon as possible.</p><p>Thank you for your confidence in us.</p></body></exData>
+            </value>
+            <font size="12pt" typeface="Times New Roman"/>
+            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+         </draw>
+         <?templateDesigner expand 0?>
+         <subform layout="tb" name="IT_BOOKINGS">
+            <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+            <occur min="0"/>
+            <bind match="dataRef" ref="$record.IT_BOOKINGS"/>
+            <desc>
+               <text name="Schema Annotation">Table for Flight Bookings</text>
+            </desc>
+            <?templateDesigner expand 0?>
+            <break overflowLeader="#HEADER"/>
+            <subform layout="tb" name="DATA" w="120mm">
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <subform id="HEADER" name="HEADER" w="120.0002mm">
+                  <draw name="CARRIER" w="15mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N670">Airline</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </draw>
+                  <draw name="CONNECTION" w="20mm" x="15.0001mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N731">Flight no</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </draw>
+                  <draw name="FLDATE" w="25mm" x="35.0001mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N792">Date</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </draw>
+                  <draw h="4.76mm" name="ID" w="20mm" x="60.0001mm">
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N846">Booking ID</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </draw>
+                  <draw h="4.76mm" name="PRICE" w="40mm" x="80.0001mm">
+                     <value>
+                        <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N900">Price</text>
+                     </value>
+                     <font typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </draw>
+                  <?templateDesigner expand 0?>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <corner/>
+                     <corner presence="hidden"/>
+                     <fill>
+                        <color value="192,192,192"/>
+                     </fill>
+                  </border>
+                  <event activity="ready" ref="$form">
+                     <script runAt="server">//display header only once for every carrier 
+if ($record.IT_BOOKINGS.DATA[lines].CARRID == $record.IT_BOOKINGS.DATA[lines - 1].CARRID)
+then  $.presence = "hidden"
+endif</script>
+                  </event>
+                  <keep intact="none"/>
+               </subform>
+               <subform name="DATA_LINE" w="120.0002mm">
+                  <field minH="2mm" name="CARRID" w="15mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="11pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="3"/>
+                     </value>
+                     <bind match="dataRef" ref="CARRID"/>
+                     <desc>
+                        <text name="Schema Annotation">Airline Code</text>
+                     </desc>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                     </border>
+                  <?digestForSAP digest="ff4010c48fb1734934695aca2a3de0c0"?></field>
+                  <field minH="2mm" name="CONNID" w="20mm" x="15.0001mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="11pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                     <bind match="dataRef" ref="CONNID"/>
+                     <desc>
+                        <text name="Schema Annotation">Flight Connection Number</text>
+                     </desc>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner thickness="0.007in"/>
+                     </border>
+                  <?digestForSAP digest="3901697584ba156368cc72fcefcea0f8"?></field>
+                  <field minH="2mm" name="FLDATE" w="25mm" x="35.0001mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font size="11pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <event activity="initialize">
+                        <script>$.format.picture = DateFmt(1, $.locale);
+$.ui.picture = DateFmt(1, $.locale);</script>
+                     </event>
+                     <format>
+                        <picture>EEEE, 'der' D. MMMM, YYYY</picture>
+                     </format>
+                  <?digestForSAP digest="3a0eb9461890f4cc155411feb8b9568b"?></field>
+                  <field minH="2mm" name="BOOKID" w="20mm" x="60.0001mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="11pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="8"/>
+                     </value>
+                     <bind match="dataRef" ref="BOOKID"/>
+                     <desc>
+                        <text name="Schema Annotation">Booking number</text>
+                     </desc>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner thickness="0.007in"/>
+                     </border>
+                  <?digestForSAP digest="51c2e900050326728b3e271a671e9bf6"?></field>
+                  <field minH="2mm" name="FORCURAM" w="20mm" x="80.0001mm">
+                     <ui>
+                        <numericEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font size="11pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para hAlign="right" vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="-1"/>
+                     </value>
+                     <bind match="dataRef" ref="FORCURAM"/>
+                     <desc>
+                        <text name="Schema Annotation">Booking price in foreign currency (dependent on location)</text>
+                     </desc>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner thickness="0.007in"/>
+                     </border>
+                  <?digestForSAP digest="6a3f9610e5378694a28f614de3350ad2"?></field>
+                  <field minH="2mm" name="FORCURKEY" w="20mm" x="100.0002mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                              <edge presence="hidden"/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font size="11pt" typeface="Courier New"/>
+                     <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="5"/>
+                     </value>
+                     <bind match="dataRef" ref="FORCURKEY"/>
+                     <desc>
+                        <text name="Schema Annotation">Payment currency for Workbench training model BC_Travel</text>
+                     </desc>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                        <corner presence="hidden" thickness="0.007in"/>
+                     </border>
+                  <?digestForSAP digest="245fe4aba34d74311f6cc3f733fdabf9"?></field>
+                  <?templateDesigner expand 0?>
+                  <keep intact="none"/>
+                  <event activity="ready" ref="$form">
+                     <script runAt="server">//move to next content area if next line has new carrier
+if ($record.IT_BOOKINGS.DATA[lines].CARRID &lt;&gt; $record.IT_BOOKINGS.DATA[lines + 1].CARRID)
+then  $.break.after = "contentArea"
+endif
+lines = lines + 1</script>
+                  </event>
+               </subform>
+               <occur max="-1"/>
+               <bind match="dataRef" ref="DATA[*]"/>
+               <?templateDesigner expand 1?>
+               <border>
+                  <edge/>
+                  <edge/>
+                  <edge/>
+                  <edge/>
+                  <corner thickness="0.018cm"/>
+                  <corner thickness="0.018cm"/>
+                  <corner thickness="0.018cm"/>
+                  <corner thickness="0.018cm"/>
+               </border>
+               <keep intact="contentArea"/>
+            </subform>
+         </subform>
+         <subform layout="tb" name="FINALLY" w="6.889764in">
+            <draw h="10.4207mm" name="REGARDS" w="64.56mm">
+               <ui>
+                  <textEdit>
+                  </textEdit>
+               </ui>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N1565">Yours sincerely,</text>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <field h="9.52mm" name="CLERK" w="39.5602mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                        <edge presence="hidden"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font baselineShift="0pt" size="12pt" typeface="Times New Roman"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+               <bind match="dataRef" ref="$record.GC_CLERK"/>
+            <?digestForSAP digest="7e7a3741bfe937a89b3a6055fc36a4b0"?></field>
+            <?templateDesigner expand 0?></subform>
+      </subform>
+      <?templateDesigner expand 1?>
+      <variables>
+         <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="lines" xft-xliff:id="N1646">0</text>
+         <?templateDesigner expand 0?></variables>
+   </subform>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner XDCFile acrobat6.xdc?>
+   <?templateDesigner Zoom 68?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Grid show:0, snap:0, units:1, color:ff8080, origin:(0,0), interval:(158750,158750)?>
+   <?templateDesigner DefaultRunAt server?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner DefaultPreviewDataFileName C:\Documents and Settings\d030662\My Documents\Schulungen\Formulare\BC480\WTS-Dateien\Upload\Test_data.xml?></template>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IS_CUSTOMER>
+            <ID/>
+            <NAME/>
+            <FORM/>
+            <STREET/>
+            <POSTBOX/>
+            <POSTCODE/>
+            <CITY/>
+            <COUNTRY/>
+            <REGION/>
+            <DISCOUNT/>
+         </IS_CUSTOMER>
+         <ENVELOPE_ADDRESS/>
+         <CUSTOMER_ADDRESS/>
+         <IT_BOOKINGS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <CARRID/>
+               <CONNID/>
+               <FLDATE/>
+               <BOOKID/>
+               <FORCURAM/>
+               <FORCURKEY/>
+            </DATA>
+         </IT_BOOKINGS>
+         <GC_CLERK/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<config xmlns="http://www.xfa.org/schema/xci/1.0/">
+   <present>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+            <adjustData>0</adjustData>
+         </data>
+      </common>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://ld0503.wdf.sap.corp:50021/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+</config>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/1.0/"/>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.1/">
+   <xsdConnection dataDescription="data" name="BC480_TABLE2">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.1/">
+   <locale desc="German (Germany)" name="de_DE">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>Januar</month>
+            <month>Februar</month>
+            <month>März</month>
+            <month>April</month>
+            <month>Mai</month>
+            <month>Juni</month>
+            <month>Juli</month>
+            <month>August</month>
+            <month>September</month>
+            <month>Oktober</month>
+            <month>November</month>
+            <month>Dezember</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mrz</month>
+            <month>Apr</month>
+            <month>Mai</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Okt</month>
+            <month>Nov</month>
+            <month>Dez</month>
+         </monthNames>
+         <dayNames>
+            <day>Sonntag</day>
+            <day>Montag</day>
+            <day>Dienstag</day>
+            <day>Mittwoch</day>
+            <day>Donnerstag</day>
+            <day>Freitag</day>
+            <day>Samstag</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>So</day>
+            <day>Mo</day>
+            <day>Di</day>
+            <day>Mi</day>
+            <day>Do</day>
+            <day>Fr</day>
+            <day>Sa</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>v. Chr.</era>
+            <era>n. Chr.</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D. MMMM YYYY</datePattern>
+         <datePattern name="long">D. MMMM YYYY</datePattern>
+         <datePattern name="med">DD.MM.YYYY</datePattern>
+         <datePattern name="short">DD.MM.YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">H.MM' Uhr 'Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GjMtkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">z,zz9.99 $</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+</localeSet>
+<PDFSecurity xmlns="http://ns.adobe.com/xtd/" accessibleContent="1" change="1" contentCopy="1" documentAssembly="1" formFieldFilling="1" metadata="1" modifyAnnots="1" print="1" printHighQuality="1"/></xdp:xdp>

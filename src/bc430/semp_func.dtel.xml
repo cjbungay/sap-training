@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>SEMP_FUNC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SEMP_FUNC</DOMNAME>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>08</SCRLEN3>
+    <DDTEXT>Employee function</DDTEXT>
+    <REPTEXT>Fct</REPTEXT>
+    <SCRTEXT_S>Function</SCRTEXT_S>
+    <SCRTEXT_M>Function</SCRTEXT_M>
+    <SCRTEXT_L>Function</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Funktion eines Mitarbeiters</DDTEXT>
+     <REPTEXT>Fkt</REPTEXT>
+     <SCRTEXT_S>Funktion</SCRTEXT_S>
+     <SCRTEXT_M>Funktion</SCRTEXT_M>
+     <SCRTEXT_L>Funktion</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

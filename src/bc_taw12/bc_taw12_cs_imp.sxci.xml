@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>BC_TAW12_CS_IMP</IMP_NAME>
+     <TEXT>TAW12 Case Study:  Sample Implementation</TEXT>
+     <IMP_CLASS>CL_IM_BC_TAW12_CS_IMP</IMP_CLASS>
+     <EXIT_NAME>BC_TAW12_CS</EXIT_NAME>
+     <INTER_NAME>IF_EX_BC_TAW12_CS</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+    <SCREENS>
+     <item>
+      <EXIT_NAME>BC_TAW12_CS</EXIT_NAME>
+      <SCR_A_PROG>SAPMBC_TAW12_CSS_BOOKINGS</SCR_A_PROG>
+      <SCR_A_NUM>0304</SCR_A_NUM>
+      <SCR_A_SSCR>SUB_SPECIALS</SCR_A_SSCR>
+      <SCR_P_PROG>SAPLBC_TAW12_CSS</SCR_P_PROG>
+      <SCR_P_NUM>0001</SCR_P_NUM>
+      <IMP_NAME>BC_TAW12_CS_IMP</IMP_NAME>
+      <SPRSL>E</SPRSL>
+     </item>
+    </SCREENS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

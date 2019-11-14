@@ -1,0 +1,21 @@
+*----------------------------------------------------------------------*
+*   INCLUDE   BC405_GDAD_OUTER_JOINF01                                 *
+*----------------------------------------------------------------------*
+FORM DATA_OUTPUT.
+DATA POS TYPE I VALUE 80.
+
+ SET BLANK LINES ON.
+
+  LOOP AT ITAB_FLIGHTS INTO WA_FLIGHTS.
+    FORMAT COLOR COL_HEADING INTENSIFIED ON.
+    WRITE: / SY-VLINE, WA_FLIGHTS-CARRID, WA_FLIGHTS-CARRNAME.
+    IF WA_FLIGHTS-CONNID IS INITIAL.
+      FORMAT COLOR COL_NORMAL INTENSIFIED OFF.
+    ELSE.
+      FORMAT COLOR COL_NORMAL INTENSIFIED ON.
+    ENDIF.
+    WRITE:  WA_FLIGHTS-CONNID, WA_FLIGHTS-CITYFROM, WA_FLIGHTS-CITYTO,
+            AT POS SY-VLINE .
+  ENDLOOP.
+
+ENDFORM.

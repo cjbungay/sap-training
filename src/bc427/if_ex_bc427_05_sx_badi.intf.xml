@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_BC427_05_SX_BADI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for BAdI: BC427_05_SX_BADI</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_BC427_05_SX_BADI</CLSNAME>
+     <CMPNAME>PUT_DATA</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Method for Data Delivery</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_BC427_05_SX_BADI</CLSNAME>
+     <CMPNAME>PUT_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methode für Datenlieferung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_BC427_05_SX_BADI</CLSNAME>
+     <CMPNAME>PUT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Method for Data Delivery</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

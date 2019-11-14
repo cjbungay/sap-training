@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DSYS>
+    <HEAD>
+     <TDOBJECT>DSYS</TDOBJECT>
+     <TDNAME>SIMGBC427_04_MX_BADI</TDNAME>
+     <TDID>HY</TDID>
+     <TDSPRAS>E</TDSPRAS>
+     <TDFORM>S_DOCU_SHOW</TDFORM>
+     <TDSTYLE>S_DOCUS1</TDSTYLE>
+     <TDVERSION>00001</TDVERSION>
+     <TDLINESIZE>072</TDLINESIZE>
+    </HEAD>
+    <LINES>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;USE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>The menu exit from this BAdI is in the single customer display (screen</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>100 of program BC427_04_NBD_MX). This menu exit is mainly used for</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>listing additional data about the displayed customer.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+    </LINES>
+   </DSYS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

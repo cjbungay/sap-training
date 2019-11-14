@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC406</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Course BC406: Advanced Techniques of List Processing</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC406</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC406</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC406</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Country must be entered for national flights</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC406</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Incorrect customer number (table SCUSTOM)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC406</ARBGB>
+     <MSGNR>198</MSGNR>
+     <TEXT>The customer number will be generated from a number range</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

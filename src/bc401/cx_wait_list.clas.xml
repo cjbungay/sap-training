@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CX_WAIT_LIST</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Fehler in Flug-Warteliste (BC401 Kurs)</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_WAIT_LIST</CLSNAME>
+     <CMPNAME>CARRID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kurzbezeichnung der Fluggesellschaft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_WAIT_LIST</CLSNAME>
+     <CMPNAME>CONNID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Code der Einzelflugverbindung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_WAIT_LIST</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_WAIT_LIST</CLSNAME>
+     <CMPNAME>CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Flugkundennummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_WAIT_LIST</CLSNAME>
+     <CMPNAME>FLDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Flugdatum</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

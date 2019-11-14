@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>BC412_MAP_HASH1</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>BC412_MAP_LINETYPE</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>H</ACCESSMODE>
+    <KEYDEF>K</KEYDEF>
+    <KEYKIND>U</KEYKIND>
+    <KEYFDCOUNT>0004</KEYFDCOUNT>
+    <DDTEXT>BC412: Hash Table Type 1 for Mapping (Flight Booking Tree)</DDTEXT>
+   </DD40V>
+   <DD42V>
+    <DD42V>
+     <TYPENAME>BC412_MAP_HASH1</TYPENAME>
+     <KEYFDPOS>0001</KEYFDPOS>
+     <ROWTYPEPOS>0001</ROWTYPEPOS>
+     <KEYFIELD>BKEY1</KEYFIELD>
+    </DD42V>
+    <DD42V>
+     <TYPENAME>BC412_MAP_HASH1</TYPENAME>
+     <KEYFDPOS>0002</KEYFDPOS>
+     <ROWTYPEPOS>0002</ROWTYPEPOS>
+     <KEYFIELD>BKEY2</KEYFIELD>
+    </DD42V>
+    <DD42V>
+     <TYPENAME>BC412_MAP_HASH1</TYPENAME>
+     <KEYFDPOS>0003</KEYFDPOS>
+     <ROWTYPEPOS>0003</ROWTYPEPOS>
+     <KEYFIELD>BKEY3</KEYFIELD>
+    </DD42V>
+    <DD42V>
+     <TYPENAME>BC412_MAP_HASH1</TYPENAME>
+     <KEYFDPOS>0004</KEYFDPOS>
+     <ROWTYPEPOS>0004</ROWTYPEPOS>
+     <KEYFIELD>BKEY4</KEYFIELD>
+    </DD42V>
+   </DD42V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

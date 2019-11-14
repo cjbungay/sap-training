@@ -1,0 +1,94 @@
+*****           Implementation of object type CON0417              *****
+INCLUDE <OBJECT>.
+BEGIN_DATA OBJECT. " Do not change.. DATA is generated
+* only private members may be inserted into structure private
+DATA:
+" begin of private,
+"   to declare private attributes remove comments and
+"   insert private attributes here ...
+" end of private,
+  BEGIN OF KEY,
+      CUSTOMER LIKE KNA1-KUNNR,
+  END OF KEY.
+END_DATA OBJECT. " Do not change.. DATA is generated
+
+BEGIN_METHOD EXISTENCECHECK CHANGING CONTAINER.
+tables: kna1.
+select single * from kna1
+    where kunnr = object-key-customer.
+ IF sy-subrc ne 0.
+     exit_return 0001 space space space space .
+ endif.
+end_method.
+
+BEGIN_METHOD GETLIST CHANGING CONTAINER.
+DATA:
+      COUNTRY LIKE BAPI0417_1-LAND1,
+      RETURN LIKE BAPIRET2,
+      CUSTOMERLIST LIKE BAPI0417_1 OCCURS 0.
+  SWC_GET_ELEMENT CONTAINER 'Country' COUNTRY.
+  SWC_GET_TABLE CONTAINER 'CustomerList' CUSTOMERLIST.
+  CALL FUNCTION 'BAPI_CONTACT_GETLIST'
+    EXPORTING
+      COUNTRY = COUNTRY
+    IMPORTING
+      RETURN = RETURN
+    TABLES
+      CUSTOMER_LIST = CUSTOMERLIST
+    EXCEPTIONS
+      OTHERS = 01.
+  CASE SY-SUBRC.
+    WHEN 0.            " OK
+    WHEN OTHERS.       " to be implemented
+  ENDCASE.
+  SWC_SET_ELEMENT CONTAINER 'Return' RETURN.
+  SWC_SET_TABLE CONTAINER 'CustomerList' CUSTOMERLIST.
+END_METHOD.
+
+BEGIN_METHOD GETDETAIL CHANGING CONTAINER.
+DATA:
+      RETURN LIKE BAPIRET2,
+      CONTACTDETAIL LIKE BAPI0417_2 OCCURS 0.
+  SWC_GET_TABLE CONTAINER 'ContactDetail' CONTACTDETAIL.
+  CALL FUNCTION 'BAPI_CONTACT_GETDETAIL'
+    EXPORTING
+      CUSTOMER = OBJECT-KEY-CUSTOMER
+    IMPORTING
+      RETURN = RETURN
+    TABLES
+      CONTACT_DETAIL = CONTACTDETAIL
+    EXCEPTIONS
+      OTHERS = 01.
+  CASE SY-SUBRC.
+    WHEN 0.            " OK
+    WHEN OTHERS.       " to be implemented
+  ENDCASE.
+  SWC_SET_ELEMENT CONTAINER 'Return' RETURN.
+  SWC_SET_TABLE CONTAINER 'ContactDetail' CONTACTDETAIL.
+END_METHOD.
+
+BEGIN_METHOD UPDATE CHANGING CONTAINER.
+DATA:
+      CONTACT LIKE BAPI0417_2-PARNR,
+      TELEPHONE LIKE BAPI0417_2-TELF1,
+      ENTERED LIKE BAPI0417_2-ERNAM,
+      RETURN LIKE BAPIRET2.
+  SWC_GET_ELEMENT CONTAINER 'Contact' CONTACT.
+  SWC_GET_ELEMENT CONTAINER 'Telephone' TELEPHONE.
+  SWC_GET_ELEMENT CONTAINER 'Entered' ENTERED.
+  CALL FUNCTION 'BAPI_CONTACT_UPDATE'
+    EXPORTING
+      ENTERED = ENTERED
+      TELEPHONE = TELEPHONE
+      CUSTOMER = OBJECT-KEY-CUSTOMER
+      CONTACT = CONTACT
+    IMPORTING
+      RETURN = RETURN
+    EXCEPTIONS
+      OTHERS = 01.
+  CASE SY-SUBRC.
+    WHEN 0.            " OK
+    WHEN OTHERS.       " to be implemented
+  ENDCASE.
+  SWC_SET_ELEMENT CONTAINER 'Return' RETURN.
+END_METHOD.

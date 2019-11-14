@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>SPECIALID_DE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SPECIALID_DOM</DOMNAME>
+    <HEADLEN>47</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>35</SCRLEN3>
+    <DDTEXT>Key for &quot;Special Requests/Addit.Data&quot; for Booking</DDTEXT>
+    <REPTEXT>Key for &quot;Special Req./Addit.Data&quot; for Booking</REPTEXT>
+    <SCRTEXT_S>Addit.Data</SCRTEXT_S>
+    <SCRTEXT_M>Spec.Requests</SCRTEXT_M>
+    <SCRTEXT_L>Key for &quot;Spec.Req./Additional Data&quot;</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Key zu &apos;Sonderwünschen/Zusatzdaten&apos; zur Buchung</DDTEXT>
+     <REPTEXT>Key zu &apos;Sonderwünschen/Zusatzdaten&apos; zur Buchung</REPTEXT>
+     <SCRTEXT_S>Zusatz</SCRTEXT_S>
+     <SCRTEXT_M>Sonderwünsche</SCRTEXT_M>
+     <SCRTEXT_L>Key zu &apos;Sonderwünschen/Zusatzdaten&apos;</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_DEF</TOOL>
+   <SHORTTEXT>Enhancement Spot with Enhancement Point and Section</SHORTTEXT>
+   <BADI_DATA>
+    <PGMID>R3TR</PGMID>
+    <OBJ_NAME>BC427_09_EPS</OBJ_NAME>
+    <OBJ_TYPE>PROG</OBJ_TYPE>
+    <MAIN_TYPE>PROG</MAIN_TYPE>
+    <MAIN_NAME>BC427_09_EPS</MAIN_NAME>
+    <PROGRAM>BC427_09_EPS</PROGRAM>
+    <DEF_HOOKS>
+     <ENH_HOOK_DEF_EXT>
+      <EXTID>1</EXTID>
+      <FULL_NAME>\PR:BC427_09_EPS\EX:BC427_09_EP1</FULL_NAME>
+      <ENHMODE>D</ENHMODE>
+      <DEF_UNIT>
+       <INT_TYPE>PE</INT_TYPE>
+       <INT_NAME>START-OF-SELECTION</INT_NAME>
+       <INCLUDE>BC427_09_EPS</INCLUDE>
+      </DEF_UNIT>
+     </ENH_HOOK_DEF_EXT>
+     <ENH_HOOK_DEF_EXT>
+      <EXTID>2</EXTID>
+      <FULL_NAME>\PR:BC427_09_EPS\EX:BC427_09_ES1</FULL_NAME>
+      <ENHMODE>R</ENHMODE>
+      <DEF_UNIT>
+       <INT_TYPE>PE</INT_TYPE>
+       <INT_NAME>START-OF-SELECTION</INT_NAME>
+       <INCLUDE>BC427_09_EPS</INCLUDE>
+      </DEF_UNIT>
+     </ENH_HOOK_DEF_EXT>
+    </DEF_HOOKS>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

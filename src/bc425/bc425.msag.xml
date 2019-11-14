@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC425</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Schulung: BC425 - Erweiterungen und Modifikationen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>4</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>5</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>6</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>B</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Schulung: BC425 - Erweiterungen und Modifikationen</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>G</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>R</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>W</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>d</SPRSL>
+     <ARBGB>BC425</ARBGB>
+     <STEXT>Course BC425: Enhancements and Modifications</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Tabelleneintrag zum eingegebenen Schlüssel ist nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Daten erfolgreich verbucht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Keine Berechtigung für Fluggesellschaft &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Sie selektieren einen Flug vor dem &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Bitte wählen Sie einen Flug aus der Liste</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Kunde &amp; für Flug &amp; am &amp; gebucht (Buchungsnr. &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>319</MSGNR>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Data posted successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>You selected a flight from before &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Select a flight from the list</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking number &amp;)</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

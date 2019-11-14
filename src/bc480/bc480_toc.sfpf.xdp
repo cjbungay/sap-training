@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeDesigner_V7.1" APIVersion="2.4.5277.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2007-07-23T12:58:18Z" uuid="0e110e30-2144-4021-a3eb-1d5a50d52c81">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.4/"><tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml"><value id="N139">Carrier</value><value id="N179">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.4.5277.0"><p style="font-weight:bold">Table of Contents</p><p>Where to find which airlines</p></body>
+                  </value><value id="N191">Page number</value><value id="N400">Text Field</value><value id="N422">#</value><value id="N619">Text Field</value><value id="N641">##</value><value id="N677">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4348.0"><p>This is page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField003256" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField022802" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </value><value id="N761">Carrier</value><value id="N794">Connection</value><value id="N815">Airline Code</value><value id="N822">Flight Date</value><value id="N852">Booking ID</value><value id="N865">Flight Connection Number</value><value id="N918">Flight date</value><value id="N978">Booking number</value><value id="N998">Table for Flight Bookings</value></tags>
+   
+   <subform layout="tb" locale="en_US" name="data">
+      <pageSet name="MASTERS">
+         <pageArea id="Page1" name="TOC">
+            <occur max="1" min="1"/>
+            <contentArea h="240mm" name="CONTENT" w="170mm" x="20mm" y="30mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <draw h="17.2134mm" name="StaticText1" w="141.7126mm" x="34.9282mm" y="8.6505mm">
+               <ui>
+                  <textEdit>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N179">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.4.5277.0"><p style="font-weight:bold">Table of Contents</p><p>Where to find which airlines</p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="20pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               <?renderCache.bounds 398871 45960 0 0 1417 1417 0 0?>
+               <?renderCache.textRun 17 Table of Contents 0 116505 18957 0 0 0 "Arial" 1 0 20000 ISO-8859-1?>
+               <?renderCache.textRun 1   0 285201 18957 0 0 0 "Arial" 0 0 20000 ISO-8859-1?>
+               <?renderCache.textRun 28 Where to find which airlines 0 78678 41937 0 0 0 "Arial" 0 0 20000 ISO-8859-1?></draw>
+            <subform layout="tb" name="Subform1" w="110mm" x="27.25mm" y="30.96mm">
+               <bind match="none"/>
+               <subform columnWidths="60mm 50mm" layout="table" name="TABLE" w="100.0002mm">
+                  <bind match="none"/>
+                  <subform layout="row" name="HEADER" w="100mm">
+                     <bind match="none"/>
+                     <assist role="TH"/>
+                     <draw name="Carrier">
+                        <ui>
+                           <textEdit>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N139">Carrier</text>
+                        </value>
+                        <font size="12pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.018cm"/>
+                        </border>
+                        <para hAlign="center"/>
+                     </draw>
+                     <draw name="Page">
+                        <ui>
+                           <textEdit>
+                           </textEdit>
+                        </ui>
+                        <value>
+                           <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N191">Page number</text>
+                        </value>
+                        <font size="12pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.018cm"/>
+                        </border>
+                        <para hAlign="center"/>
+                     </draw>
+                     <?templateDesigner expand 1?>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </subform>
+                  <subform layout="row" name="ROW" w="100mm">
+                     <occur max="-1" min="25"/>
+                     <bind match="none"/>
+                     <field access="nonInteractive" minH="2mm" name="CARRID" w="37mm">
+                        <ui>
+                           <textEdit>
+                              <border>
+                                 <edge presence="hidden">
+                                 </edge>
+                              </border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <bind match="none"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.018cm"/>
+                        </border>
+                        <?digestForSAP digest="5865b1c4f2df53340abb8041e3a3421b"?></field>
+                     <field access="nonInteractive" minH="2mm" name="PAGE" w="37mm">
+                        <ui>
+                           <numericEdit>
+                              <border>
+                                 <edge presence="hidden">
+                                 </edge>
+                              </border>
+                              <margin/>
+                           </numericEdit>
+                        </ui>
+                        <font typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <value>
+                           <decimal fracDigits="-1"/>
+                        </value>
+                        <bind match="none"/>
+                        <border>
+                           <edge/>
+                           <corner thickness="0.018cm"/>
+                        </border>
+                        <?digestForSAP digest="3da616d5a1d63453e7d5f710db324139"?></field>
+                     <?templateDesigner expand 1?>
+                     <border>
+                        <edge presence="hidden"/>
+                        <corner presence="hidden" thickness="0.018cm"/>
+                     </border>
+                  </subform>
+                  <?templateDesigner expand 1?></subform>
+               <event activity="ready" ref="$layout">
+                  <script runAt="server">var carrCount = 0
+var carrier
+for i = 0 upto $record.IT_BOOKINGS.DATA.all.length - 1 step 1 do
+if (carrier &lt;&gt; $record.IT_BOOKINGS.DATA[i].CARRID)
+then 
+carrier = $record.IT_BOOKINGS.DATA[i].CARRID
+form.data.pageSet.TOC.Subform1.TABLE.ROW[carrCount].CARRID = carrier
+form.data.pageSet.TOC.Subform1.TABLE.ROW[carrCount].PAGE = $layout.page(ref(data.BODY02.IT_BOOKINGS.DATA[i].CARRID))
+carrCount = carrCount + 1
+endif
+endfor
+
+//hide the remaining empty lines (the table was set up to cater for a maximum of 25 airlines
+for i= carrCount upto  25 - 1  step 1 do
+form.data.pageSet.TOC.Subform1.TABLE.ROW[i].presence = "hidden"
+endfor</script>
+               </event>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></pageArea>
+         <pageArea id="Page2" name="FIRST">
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <contentArea h="60mm" name="CONTENT" w="170mm" x="20mm" y="30mm"/>
+            <field access="nonInteractive" h="9mm" id="floatingField003256" name="CurrentPageNumber" presence="hidden" w="62mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N400">Text Field</text>
+                  </value>
+               </caption>
+               <event activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this)</script>
+               </event>
+               <calculate override="error"/>
+               <bind match="none"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N422">#</text>
+               </value>
+               <?digestForSAP digest="0ac6840026897d18503e8eea88c23c6c"?></field>
+            <field access="nonInteractive" h="9mm" id="floatingField022802" name="NumberofPages" presence="hidden" w="62mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <edge stroke="lowered">
+                        </edge>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N619">Text Field</text>
+                  </value>
+               </caption>
+               <event activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount()</script>
+               </event>
+               <calculate override="error"/>
+               <bind match="none"/>
+               <value>
+                  <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N641">##</text>
+               </value>
+               <?digestForSAP digest="1b2320bab5d9314f1ba5c926c1a04559"?></field>
+            <draw h="9.1066mm" name="PAGE" w="69.9211mm" x="144.2mm" y="10.32mm">
+               <ui>
+                  <textEdit>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N677">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="1.4.4348.0"><p>This is page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField003256" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField022802" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="20pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+            <?templateDesigner expand 0?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform name="BODY01"/>
+      <subform layout="tb" name="BODY02">
+         <break before="pageArea" beforeTarget="#Page2" startNew="1"/>
+         <bind match="none"/>
+         <?templateDesigner expand 0?>
+         <subform layout="table" name="IT_BOOKINGS">
+            <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+            <subform id="HEADER" layout="row" name="HEADER">
+               <keep intact="none"/>
+               <draw name="Carrier">
+                  <ui>
+                     <textEdit>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N761">Carrier</text>
+                  </value>
+                  <font typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               </draw>
+               <assist role="TH"/>
+               <draw name="Connection" x="26.4583mm" y="26.4583mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N794">Connection</text>
+                  </value>
+                  <font typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               </draw>
+               <draw name="Date">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N822">Flight Date</text>
+                  </value>
+                  <font typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               </draw>
+               <draw name="BookID" x="100.4584mm" y="26.4583mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N852">Booking ID</text>
+                  </value>
+                  <font typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               </draw>
+               <?templateDesigner expand 0?></subform>
+            <subform layout="row" name="DATA">
+               <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+               <field minH="6mm" name="CARRID" w="37mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden">
+                           </edge>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+                  <bind match="dataRef" ref="CARRID"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N815">Airline Code</text>
+                  </desc>
+                  <?digestForSAP digest="ff4010c48fb1734934695aca2a3de0c0"?></field>
+               <field minH="6mm" name="CONNID" w="37mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden">
+                           </edge>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="4"/>
+                  </value>
+                  <bind match="dataRef" ref="CONNID"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N865">Flight Connection Number</text>
+                  </desc>
+                  <?digestForSAP digest="3901697584ba156368cc72fcefcea0f8"?></field>
+               <field minH="6mm" name="FLDATE" w="37mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border>
+                           <edge presence="hidden">
+                           </edge>
+                        </border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <bind match="dataRef" ref="FLDATE">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N918">Flight date</text>
+                  </desc>
+                  <?digestForSAP digest="6f4cacfa55c703e41be38c5834ec3aa8"?></field>
+               <occur max="-1"/>
+               <bind match="dataRef" ref="DATA[*]"/>
+               <?templateDesigner expand 0?>
+               <field access="readOnly" h="9mm" name="BOOKID" w="37mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge presence="hidden">
+                           </edge>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="8"/>
+                  </value>
+                  <bind match="dataRef" ref="BOOKID"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N978">Booking number</text>
+                  </desc>
+                  <?digestForSAP digest="51c2e900050326728b3e271a671e9bf6"?></field>
+               <break overflowLeader="#HEADER"/>
+            </subform>
+            <occur min="0"/>
+            <bind match="dataRef" ref="$record.IT_BOOKINGS"/>
+            <desc>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema Annotation" xft-xliff:id="N998">Table for Flight Bookings</text>
+            </desc>
+            <?templateDesigner expand 0?></subform>
+      </subform>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 108 27 000300060026002900330037003A004400450046004700480049004A004B004C004F00500051005200530055005600570058005A005B #CFPTWabcdefghilmnoprstuwx?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 88 22 00030025002600270029002C003700440045004600480049004A004B004C004E004F00510052005500560057 BCDFITabcefghiklnorst?></subform>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner XDCFile acrobat6.xdc?>
+   <?templateDesigner DefaultRunAt server?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner Grid show:0, snap:0, units:1, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.1/?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 79?></template>
+<config xmlns="http://www.xfa.org/schema/xci/1.0/" xmlns:xfa="http://www.xfa.org/schema/xci/1.0/">
+   <trace>
+      <area level="1" name="font"/>
+   </trace>
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <template>
+            <base>http://uscikpg.wdf.sap.corp:50077/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IT_BOOKINGS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <CARRID/>
+               <CONNID/>
+               <FLDATE/>
+               <BOOKID/>
+               <CLASS/>
+            </DATA>
+         </IT_BOOKINGS>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/1.0/"/>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.1/">
+   <xsdConnection dataDescription="data" name="BC480_TOC">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.1/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+</localeSet>
+<PDFSecurity xmlns="http://ns.adobe.com/xtd/" accessibleContent="1" change="1" contentCopy="1" documentAssembly="1" formFieldFilling="1" metadata="1" modifyAnnots="1" print="1" printHighQuality="1"/></xdp:xdp>

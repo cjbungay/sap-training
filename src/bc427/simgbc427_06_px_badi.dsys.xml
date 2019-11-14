@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DSYS>
+    <HEAD>
+     <TDOBJECT>DSYS</TDOBJECT>
+     <TDNAME>SIMGBC427_06_PX_BADI</TDNAME>
+     <TDID>HY</TDID>
+     <TDSPRAS>E</TDSPRAS>
+     <TDFORM>S_DOCU_SHOW</TDFORM>
+     <TDSTYLE>S_DOCUS1</TDSTYLE>
+     <TDVERSION>00001</TDVERSION>
+     <TDLINESIZE>072</TDLINESIZE>
+    </HEAD>
+    <LINES>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;USE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>You can use this BAdI to enhance the list output of the SAP program</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>BC427_06_NBD_PX.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>Create an enhancement implementation, including a BAdI implementation,</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>and implement the method write_additional_cols. This method has an</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>IMPORT parameter called i_wa_spfli. You can use the data contained in</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>this parameter to enhance the list output of the SAP program.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>Note: This BAdI has an example implementation class. You can copy this</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>example class when you generate your implementing class. Your method</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>write_additional_cols would then contain the example source code that</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>you could modify or use unchanged.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+    </LINES>
+   </DSYS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

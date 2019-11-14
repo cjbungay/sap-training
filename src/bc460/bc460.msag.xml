@@ -1,0 +1,2196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC460</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Schulung: BC460 - SAPscript: Formulardruck u. Textmanagement</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Enter values in the fields - template, course, number and password</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>User &amp; is not defined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Table &amp; update error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Copying terminated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No free group numbers found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Table entry created successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error when changing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Airplane has been shot down. Too bad!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>This is an error message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>This is a warning message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>This is an information message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>This is a success message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>This is an abend message</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Table &amp;1 not found (or not active) in Dictionary</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Record will be updated in this form</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Record will be created in this form</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Record will be created/updated in this form</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Lock could not be set (system error)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>No update (no change made)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>No more than &amp; airports can be processed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Select several instructors</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>EVENT triggered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Return point from inserted screens sequence (CALL SCREEN)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>An entry has been read from the database</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>No changes have been made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Number not within external number range interval</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Document &amp; posted for customer &amp; with &amp; participants</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>All internal numbers assigned</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Value display not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Entry does not exist yet, can be inserted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Error at EXPORT to cluster table INDX</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>You selected a flight from before the &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>There are no flight connections for this combination (carrier, cities)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>No data exists for this selection - enter a new selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>You should use the bus</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name may not have initial value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Are you sure?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>The name of the transaction you are creating is reserved for training</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>This is not a valid function!!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>No airline carrier flies for this price!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for airline carrier &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Night flying forbidden in Frankfurt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>No flight found for this date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Reconsider this combination</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Airline carrier &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>The first control level must be superior to the second</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No changes have been made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Table is locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Please choose a flight date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Select at least one column before sorting!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>No possible entries exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>No entry selected.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Error reading screen field contents</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>No number range number could be found for this (sub-) object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Error in arrival time</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Could not sort</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>No number range object has been defined under this object name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>The interval of the specified number range number is not internal</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Interval used up. Change not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Maximum occupancy has not been maintained for the selcted aircraft type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Object could not be locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>No free seats left</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Number assignment causes problems</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>System error (Could not set locks)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Table entry exists already</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Table entry does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Error during UPDATE</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Error during INSERT</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>No entries found for key &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Update termination (Table SFLIGHT)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>No. of places booked exceeds capacity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Customer &amp; created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Unable to create</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Caution! The number assigned is within the critical area!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Last number of number range has been assigned</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>You have not selected any flights</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Line selection possible for flights only!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Object has already been locked by &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Number of booked places &amp; exceeds flight capacity &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Flight connection changes could not be saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Changes successfully made!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Changes could not be successfully made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>No corresponding flights found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Incorrect customer number (table SCUSTOM)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>This flight entry already locked (table SFLIGHT)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>This flight entry cannot be locked (table SFLIGHT)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Flight not found (table SFLIGHT)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Flight fully booked (please choose another date)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>No booking number received (table SBOOK, object SBOOKNO)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Could not save booking (table SBOOK)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Change to the flight occupancy could not be saved (table SFLIGHT)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>Airline &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>Customer &amp; is booked on flight &amp; on &amp; (booking no. &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>Flight &amp; is full on &amp;. Please choose another date.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>Internal problem. Please try again later.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>City &amp; (Country &amp;) unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>No airport has been assigned to city &amp; (country &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>No airport available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Travel agency &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Sales counter &amp; for airline &amp; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>Enter either a travel agency or sales counter name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Enter connection number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Enter connection number and date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>No corresponding connections found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Choose a flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Sales office &amp; not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>Booking entry already locked (table SBOOK)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>Booking entry cannot be locked (table SBOOK)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Booking has already been canceled!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>Departure data incomplete. Please complete!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>Destination data imcomplete. Please complete!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>This customer ID has already been assigned (Largest existing cust. ID &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Incompatible data (SCUSTOM)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>No matching objects found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>&amp; object(s) found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>Flight class &amp; not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>No corresponding bookings found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>There are no bookings for this flight yet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>Booking &amp; &amp; has been canceled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Password correct</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>191</MSGNR>
+     <TEXT>Password changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Database contents in the current client will be deleted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>The SAP standard table contents will be imported!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>You do not have administration authorization for airline &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Enter flight time in valid format</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>260</MSGNR>
+     <TEXT>File/path &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Directory &amp; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>No authorization for company code &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>No entry &amp;&amp;&amp; in course schedule table ZKRST</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>No authorization for supplier &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>Supplier 12 not allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>305</MSGNR>
+     <TEXT>Supplier 13 and company code 01 not possible together!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>306</MSGNR>
+     <TEXT>Account 27 not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>307</MSGNR>
+     <TEXT>Foreigner, account no.: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>308</MSGNR>
+     <TEXT>Combination 10 and 35 for account-low not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>309</MSGNR>
+     <TEXT>Account-low = 0000000004 not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>310</MSGNR>
+     <TEXT>Course is flagged for deletion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>311</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>313</MSGNR>
+     <TEXT>Operator missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>315</MSGNR>
+     <TEXT>More than 10 alternative FORM routines are not supported</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>316</MSGNR>
+     <TEXT>Currency key &amp; does not exist in Table TCURC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>317</MSGNR>
+     <TEXT>Data record incomplete</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>318</MSGNR>
+     <TEXT>Please select at least one line</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>321</MSGNR>
+     <TEXT>Object &amp; is currently locked; please wait.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>322</MSGNR>
+     <TEXT>System locking error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>331</MSGNR>
+     <TEXT>Insert in Table &amp; not successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>341</MSGNR>
+     <TEXT>Table &amp; not changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>342</MSGNR>
+     <TEXT>Table &amp; not updated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>343</MSGNR>
+     <TEXT>Table &amp; updated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>344</MSGNR>
+     <TEXT>Tables &amp; and &amp; updated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>345</MSGNR>
+     <TEXT>Data not changed, no update</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>346</MSGNR>
+     <TEXT>Could not create &amp; &amp; (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>347</MSGNR>
+     <TEXT>Data record &amp; read successfully (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>400</MSGNR>
+     <TEXT>The selected country &amp; is not contained in the table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>401</MSGNR>
+     <TEXT>Place the cursor on an area or course</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>402</MSGNR>
+     <TEXT>Position the cursor on the line containing the required booking</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>450</MSGNR>
+     <TEXT>Instructor numbers changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>490</MSGNR>
+     <TEXT>Object &amp; is currently locked; please wait.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>Please specify a unique sort sequence</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>501</MSGNR>
+     <TEXT>No document class selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>502</MSGNR>
+     <TEXT>Error while initializing control framework</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>503</MSGNR>
+     <TEXT>Entry &amp; &amp; &amp; could not be deleted from table SFLIGHT!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>504</MSGNR>
+     <TEXT>SBOOK table entries could not be deleted!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>505</MSGNR>
+     <TEXT>Deletion in SFLIGHT/SBOOK successful!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>506</MSGNR>
+     <TEXT>The SBOOK entries for key &amp; &amp; &amp; could not be restored!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>507</MSGNR>
+     <TEXT>The SFLIGHT entry &amp; &amp; &amp; could not be successfully restored!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>508</MSGNR>
+     <TEXT>Table entry &amp; &amp; &amp; is not available in table SFLIGHT!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>509</MSGNR>
+     <TEXT>No table entries for generic key &amp; &amp; &amp; in table SBOOK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>510</MSGNR>
+     <TEXT>Error in transaction &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>511</MSGNR>
+     <TEXT>SFLIGHT table entry &amp; &amp; &amp; has been created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>512</MSGNR>
+     <TEXT>SBOOK entries for generic key &amp; &amp; &amp; have been created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>513</MSGNR>
+     <TEXT>Your visit to the R/3 System &amp; will end when you choose ENTER</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>514</MSGNR>
+     <TEXT>Table entry &amp; in table SCUSTOM could not be changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>515</MSGNR>
+     <TEXT>Change made in local system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>516</MSGNR>
+     <TEXT>Table entry &amp; not available in table SCUSTOM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>517</MSGNR>
+     <TEXT>Remote system change using tRFC scheduled --&gt; will start at &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>550</MSGNR>
+     <TEXT>Not you !!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>551</MSGNR>
+     <TEXT>Required action complete. Now apply demo patches.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>552</MSGNR>
+     <TEXT>Demo reset: Training Support Package entries deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>553</MSGNR>
+     <TEXT>Production Support Package &amp; already imported. Cannot complete exercise.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>554</MSGNR>
+     <TEXT>Support Package cannot be imported into this system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>556</MSGNR>
+     <TEXT>Unable to create file &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>557</MSGNR>
+     <TEXT>Invalid EPS subdirectory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>558</MSGNR>
+     <TEXT>Transfer failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>559</MSGNR>
+     <TEXT>Type &quot;&amp;&quot; invalid for transport directory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>600</MSGNR>
+     <TEXT>&amp; &amp; not found (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>601</MSGNR>
+     <TEXT>No &amp; available (number range object &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>602</MSGNR>
+     <TEXT>&amp; &amp; cannot be created (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>603</MSGNR>
+     <TEXT>&amp; &amp; created (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>604</MSGNR>
+     <TEXT>&amp; &amp; cannot be locked (lock object &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>605</MSGNR>
+     <TEXT>Changes to &amp; &amp; cannot be saved (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>606</MSGNR>
+     <TEXT>Changes to &amp; &amp; saved (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>607</MSGNR>
+     <TEXT>&amp; &amp; cannot be deleted (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>608</MSGNR>
+     <TEXT>&amp; &amp; deleted (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>609</MSGNR>
+     <TEXT>&amp; &amp; already exists (table &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>610</MSGNR>
+     <TEXT>&amp; &amp; cannot be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>640</MSGNR>
+     <TEXT>No output possible: Output area too small</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>650</MSGNR>
+     <TEXT>No print parameter records could be created (valid=&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>651</MSGNR>
+     <TEXT>Print parameter record created (valid=&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>652</MSGNR>
+     <TEXT>Spool task &amp;1 created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>653</MSGNR>
+     <TEXT>Sending list to SAP Spool</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>654</MSGNR>
+     <TEXT>Printing canceled: List will be displayed on screen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>660</MSGNR>
+     <TEXT>A &amp;1 message has been triggered.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>661</MSGNR>
+     <TEXT>&amp;1 is not a valid message type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>700</MSGNR>
+     <TEXT>Error in transaction flow</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>701</MSGNR>
+     <TEXT>Error changing customer data in local system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>702</MSGNR>
+     <TEXT>Termination</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>744</MSGNR>
+     <TEXT>Description for this warning message: Press F1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>745</MSGNR>
+     <TEXT>Invalid operator (allowed: + - * /)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>800</MSGNR>
+     <TEXT>No free place available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>801</MSGNR>
+     <TEXT>Enter a company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>802</MSGNR>
+     <TEXT>Company code 0001 requires a customer no. greater than or equal to 2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>803</MSGNR>
+     <TEXT>Please enter a numeric postal code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>806</MSGNR>
+     <TEXT>Width of output area is not sufficient</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>810</MSGNR>
+     <TEXT>No authorization for specified company codes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>811</MSGNR>
+     <TEXT>No authorization for company code &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>812</MSGNR>
+     <TEXT>Please enter a customer number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>813</MSGNR>
+     <TEXT>Company code display only with authorization</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>814</MSGNR>
+     <TEXT>Please enter a country code and</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>815</MSGNR>
+     <TEXT>Invalid field selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>816</MSGNR>
+     <TEXT>Enter a country</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>841</MSGNR>
+     <TEXT>Error in job scheduling or execution (SY-SUBRC = &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>850</MSGNR>
+     <TEXT>Error when inserting to Table SBOOK!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>851</MSGNR>
+     <TEXT>Error in currency conversion!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>852</MSGNR>
+     <TEXT>Error when changing Table SFLIGHT!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>853</MSGNR>
+     <TEXT>Customer not in Table SCUSTOM --&gt; Please maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>855</MSGNR>
+     <TEXT>Error in internal number assignment for customer ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>860</MSGNR>
+     <TEXT>Please enter a customer number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>861</MSGNR>
+     <TEXT>Customer number assigned automatically, no input!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>862</MSGNR>
+     <TEXT>Customer number is assigned automatically</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>863</MSGNR>
+     <TEXT>Customer does not exist - check your input</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>865</MSGNR>
+     <TEXT>Error when updating Table SCUSTOM!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>866</MSGNR>
+     <TEXT>Error when inserting to Table SCUSTOM!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>867</MSGNR>
+     <TEXT>First enter the customer data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>900</MSGNR>
+     <TEXT>Internal number assignment (BOOKID) failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC460</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>Test: &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460551</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460551</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System hat die zum Einspielen eines HotPackages notwendigen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Aktionen durchgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Starten Sie die Transaktion SPAM. Wählen Sie &apos;Patch --&gt; Hochladen&apos;, um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die HPs (LCPs) in das R/3-System hochzuladen. Definieren Sie die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Patch-Queue und spielen Sie das Patch ein.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460551</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460551</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system has completed the actions required for the import of the Hot</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Package.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Start Transaction SPAM, and choose &apos;Patch --&gt; Upload&apos; to upload the HP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(LCP) into the R/3 System. Define the Patch queue, and apply th e</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>patch.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460552</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460552</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Vorführung wurde zum erneuten Einspielen von HPs zurückgesetzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können das System erneut zum Einspielen von HPs (LCPs) vorbereiten.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460552</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460552</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The demonstration was reset to allow a Hot Package to be reimported.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can now prepare the system to import new HPs (LCPs).</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460553</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00009</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460553</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurde bereits ein produktives Hot Package mit der Nummer 95</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eingespielt. Diese Tatsache konnte bei der Erstellung dieses Demos</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>niemand voraussehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Nummern der Hot Packages müssen fortlaufend gewählt sein. Es darf</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine Nummer doppelt auftreten. Darum kann auch kein weiteres HP mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dieser Nummer eingespielt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls das schon vorhandene HP ein von Ihnen eingespieltes Demo-Hot</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Package ist, können Sie es mit dem Vorbereitungsprogramm wieder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zurücksetzen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460553</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460553</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A Hot Package number 95 has already been installed. This was not</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>forseeable when the demonstration was created.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Hot Package numbers must be consecutive, and numbers may not appear</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>twice. This means that you cannot import a new Hot Package with this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the existing Hot Package is a demonstration that you installed, you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can reset it using the preparation program.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460554</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00010</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460554</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das von Ihnen vorgesehene Hot Package ist in diesem System nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>einspielbar.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System weigert sich, Ihr Hot Package zu akzeptieren.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Haben Sie alle Reparaturen freigegeben?</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Haben Sie die Reparaturen bestätigt?</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Haben Sie das Transport Management System korrekt konfiguriert?</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls ja, starten Sie erneut den Vorbereitungsreport mit der Option</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&apos;Zurücksetzen&apos; und danach mit der Option &apos;Vorbereiten&apos;. Danach laden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie in der SPAM die Dateien erneut hoch und setzen den Status der SPAM</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zurück.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460554</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00008</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460554</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You cannot import this Hot Package into this system. einspielbar.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system cannot accept the Hot Package.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Have you released all repairs?</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Have you confirmed all repairs?</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Have you configured the Transport Management System correctly?</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If so, restart the preparation program using the &apos;Reset&apos; option and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>then run it with the &apos;Prepare&apos; option. Then reload the files using</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Transaction SPAM, and reset the status of SPAM.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460556</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460556</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Datei kann nicht angelegt werden. Das kann folgende Gründe haben:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Zugriff auf das Dateisystem ist nicht gestattet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Der Pfad, unter dem die Datei angelegt werden soll, ist nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vorhanden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Setzen Sie sich mit Ihrem Systemadministrator in Verbindung, um die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nötigen Rechte zu erhalten. Es muss das Verzeichnis /usr/sap/put/log</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vorhanden sein (für Unix; NT entsprechend).</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460556</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460556</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Unable to create the file. This may be because:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You have no authorization to access the file system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The path under which you wanted to create the file does not exist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contact your system adminstrator to get the relevant authorizations.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>The directory /usr/sap/put/log must exist (UNIX, NT with corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>name).</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460558</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460558</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Übertragung der Daten auf eine Datei auf OS-Ebene ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fehlgeschlagen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Stellen Sie sicher, dass das entsprechende Unterverzeichnis vorhanden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ist, in dem Sie die Datei anlegen wollen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC460558</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC460558</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Data transfer to an operating system file failed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ensure that the subdirectory exists in which you wanted to create the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>file.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

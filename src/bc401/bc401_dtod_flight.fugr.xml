@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Flight Data Retrieval</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC401_DTOD_FLIGHT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC401_GET_SEP_STRING</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NUMBER</PARAMETER>
+       <DEFAULT>&apos;1&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_TABLE_NAME</PARAMETER>
+       <DEFAULT>&apos;SFLIGHT&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TABNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_SEPARATOR</PARAMETER>
+       <DEFAULT>&apos;#&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IM_UNIQUE</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>C</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_STRING</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DATA</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Number of Data Records To Read From Table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_TABLE_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name of Transparent Table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_SEPARATOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Separators</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IM_UNIQUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>All Records Unique</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_STRING</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>String of Data Records</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Transparent table is empty</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

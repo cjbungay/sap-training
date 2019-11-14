@@ -1,0 +1,1827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC420_SPTD_RFBIDE00_CT</NAME>
+    <SQLX>R</SQLX>
+    <DBAPL>S</DBAPL>
+    <DBNA>D$</DBNA>
+    <CLAS>FBIP</CLAS>
+    <SUBC>1</SUBC>
+    <APPL>F</APPL>
+    <SECU>F_001</SECU>
+    <RLOAD>D</RLOAD>
+    <LDBNAME>D$S</LDBNAME>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>S</ID>
+     <KEY>OS_XON</KEY>
+     <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FL_CHECK</KEY>
+     <ENTRY>Check file only</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>DS_NAME</KEY>
+     <ENTRY>File path name</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+     <LENGTH>39</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>MSG</KEY>
+     <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BL3</KEY>
+     <ENTRY>Program control</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>BL2</KEY>
+     <ENTRY>Selection of structures used</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Auswahl der verwendeten Strukturen</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Programmsteuerung</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Meldung FB$ mit Variablen $ $ $ $ ausgegeben</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 transformed to CT technique</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>Name des Dateipfades</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Datei nur prüfen</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Strukturen aus Release &lt; 4.0</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>BL2</KEY>
+       <ENTRY>Selection of structures used</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>BL3</KEY>
+       <ENTRY>Program control</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MSG</KEY>
+       <ENTRY>Message FB$ output with variables $ $ $ $</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>RFBIDE00 Converted to CT Method</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DS_NAME</KEY>
+       <ENTRY>File path name</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FL_CHECK</KEY>
+       <ENTRY>Check file only</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>OS_XON</KEY>
+       <ENTRY>Structures from Release &lt; 4.0</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC420_SPTD_RFBIDE00_CT</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0016</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00191</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC420_SPTD_RFBIDE00_CT</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00016</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Batch-Input-Report RFBIDE00 dient zur Bearbeitung von folgenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Daten:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Anlegen und Ändern von Debitorenstammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Anlegen und Ändern von Kreditlimitdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Anlegen von Bankenstammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Strukturen:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Informationen, welche die ganze Batch-Input-Mappe betreffen, sind im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Mappenvorsatz definiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Informationen, welche für eine ganze Transaktion gelten, sind im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kopfsatz definiert. Dies sind z.B. Transaktionscode und Schlüssel.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Für jede Debitorentabelle, für die Batch-Input möglich sein soll, wurde</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>im Data Dictionary eine Batch-Input-Struktur angelegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Jede Struktur wird durch Satztyp und evtl. Tabellenname identifiziert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Strukturen sind im einzelnen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BGR00 Satztyp 0 Mappenvorsatz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKN00 Satztyp 1 Kopfdaten für Debitoren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNA1 Satztyp 2 Allgemeine Daten für Debitoren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVA Satztyp 2 Abladestellen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVK Satztyp 2 Ansprechpartner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNBK Satztyp 2 Bankverbindung incl. neue Bankenstammdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNB1 Satztyp 2 Buchungskreisdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNB5 Satztyp 2 Mahndaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNEX Satztyp 2 Außenhandel</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNKA Satztyp 2 Kreditlimit zentral</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNKK Satztyp 2 Kreditlimit Kontrollbereich</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVV Satztyp 2 Vertriebsbereichsdaten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVD Satztyp 2 Nachrichten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVI Satztyp 2 Steuern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVL Satztyp 2 Lizenzen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVP Satztyp 2 Partnerrollen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNZA Satztyp 2 Abweichende Regulierer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Landesspezifische Strukturen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNAT Satztyp 2 Steuerkategorien (Südamerika)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Adreßstruktur für Konsumenten (Kontengruppe 0170):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BIADDR2 Satztyp 2 Adresse des Konsumenten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Sonderzeichen NODATA:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für jedes Feld, das in der Batch-Input-Struktur übergeben wird, muß</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entschieden werden, ob der Wert des Feldes initial ist (z.B. Feld soll</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auf Initialwert zurückgesetzt werden), oder ob überhaupt kein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Batch-Input für dieses Feld notwendig ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>D.h., es muß ein Sonderzeichen vereinbart werden, welches die Funktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hat: &apos;Kein Batch-Input für dieses Feld&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Sonderzeichen ist standardmäßig das Zeichen &lt;LB&gt;/&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn nicht das Sonderzeichen &lt;LB&gt;/&lt;/&gt; benutzt werden soll, so kann im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Mappenvorsatz im Feld BGR00-NODATA angegeben werden, welches andere</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sonderzeichen diese Funktion erfüllen soll.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Vor dem Füllen der Batch-Input-Struktur muß jedes Feld der Struktur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(mit Ausnahme des Mappenvorsatzes BGR00) auf Feldanfang mit diesem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sonderzeichen &apos;vorbereitet&apos; werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Felder der Strukturen verweisen auf die Datenelemente der Felder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Originaltabellen. Eine Ausnahme bilden jedoch numerische und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gepackte Felder. Diese brauchen für den Batch-Input eigene</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Datenelemente vom Typ CHAR, da gepackte Felder nicht mit einem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sonderzeichen vorbesetzt werden können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das bedeutet, daß Beträge mit Dezimalkomma an die Schnittstelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>übergeben werden können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Satzendekennzeichen:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn eine Batch-Input-Struktur nachträglich verlängert wird, so wird</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>das neue Ende der Struktur durch ein spezielles Feld (SENDE)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gekennzeichnet. Wenn Sie mit der neuen, verlängerten Struktur arbeiten,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>müssen Sie auch dieses Feld beim &apos;Initialisieren&apos; der Struktur mit dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>NODATA-Kennzeichen versorgen. Dadurch kann das System beim Einlesen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Struktur erkennen, ob den Daten die alte oder die neue Struktur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugrunde liegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Spezielle Felder im Mappenvorsatz:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Mappenvorsatz muß der Mappenname mitgegeben werden (BGR00-GROUP).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Das Senden eines zweiten Mappenvorsatzes bewirkt das Schließen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aktuellen Mappe und das Öffnen einer weiteren Mappe.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Mappenvorsatz kann das Sonderzeichen NODATA übergeben werden (s.o.).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Im Mappenvorsatz kann ein Sperrdatum übergeben werden (BGR00-START).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Falls dieses Datum gesetzt wird, muß es das Format &apos;JJJJMMTT&apos; haben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Zusätzliche Adreßfelder:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Durch die Anbindung des Kunden- und Lieferantenstamms sowie der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugehörigen Ansprechpartner an die Zentrale Adreßverwaltung (ZAV)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>stehen Ihnen weitere Adreßfelder zur Verfügung. Diese zusätzlichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Adreßinformationen werden &lt;ZH&gt;nicht&lt;/&gt; in den eigentlichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Stammtabellen (KNA1 für den Kundenstamm, LFA1 für den Lieferantenstamm,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>KNVK für die Ansprechpartner) gehalten, sondern in ZAV-eigenen Tabellen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>abgelegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für die Übernahme dieser zusätzlichen Adreßinformationen ist ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eigener Übernahmelauf über die ALE-Schnittstelle notwendig, den Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;vor&lt;/&gt; dem Übernahmelauf für die Stammdaten durchführen sollten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie bei der Neuanlage des Kunden- und Lieferantenstamms</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Nummernkreise mit interner Nummernvergabe verwenden, muß aufgrund der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>getrennten Übernahme von Adreßinformationen und Stammdaten vorab die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Nummer ermittelt werden, über die das Stammobjekt im System eindeutig</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>identifiziert wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Nummern können Sie mit folgenden BAPIs ermitteln:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>BAPI_VENDOR_GETINTNUMBER (für den Lieferantenstamm)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>BAPI_CUSTOMER_GETINTNUMBER (für den Kundenstamm)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>BAPI_PARTNEREMPLOYEE_GETINTNUM (für die Ansprechpartner)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Stammdatenfelder, zu denen es ein Pendant in der ZAV gibt (z.B. Name,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Straße, Telefonnummer) werden in den eigentlichen Stammtabellen weiter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mitversorgt. Die Aufbereitung dieser Felder innerhalb der ZAV</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unterscheidet sich von der ursprünglichen Darstellung der Felder ohne</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ZAV-Anbindung. &lt;ZH&gt;SAP empfiehlt daher, die Datenübernahme solcher</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Felder nur über die Übernahme der ZAV-Adreßinformationen vorzunehmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Adreßfelder des Konsumenten:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Da der Konsument als Privatperson statt einer Firmenadresse eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Privatadresse besitzt, können die Adreßfelder &lt;ZH&gt;nicht&lt;/&gt; über die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kundenstammtabelle (KNA1) gefüllt werden. Stattdessen versorgt die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Struktur BIADDR2 die Adreßfelder des Konsumenten mit den nötigen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Informationen. Eine ZAV-Adresse wird automatisch beim Einspielen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Batch-Input-Mappe angelegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Personendaten des Konsumenten (Geschlecht, Geburtsdatum,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Familienstand) gehören &lt;ZH&gt;nicht&lt;/&gt; zur Adreßstruktur und können wie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>folgt in der Struktur BKNVK mitgegeben werden:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Geschlecht im Feld BKNVK-PARGE</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Geburtsdatum im Feld BKNVK-GBDAT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Familienstand im Feld BKNVK-FAMST</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die restlichen Felder der Struktur BKNVK müssen mit dem Sonderzeichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>NODATA gefüllt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Programme:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RFBIDE00    ausführbares Batch-Input-Programm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RFBIDE01    Rahmenprogramm mit Ablauflogik</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RFBIDEG0    Generierungsprogramm</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Generierungsprogramm RFBIDEG0 benutzt den Rahmen RFBIDE01 und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>schreibt das darin enthaltene Coding zusammen mit dem neu generierten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Coding in das Batch-Input-Programm RFBIDE00.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Durch das Generierungsprogramm wird das Coding für die &apos;Feldtransporte&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>je Bildschirmbild und je Inputfeld generiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Unterstützte Transaktionen:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In der vorliegenden Fassung sind die folgenden zentralen Transaktionen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unterstützt:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD01  Debitor anlegen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD02  Debitor ändern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD05  Debitor sperren/entsperren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD06  Debitor Löschvormerkung setzen/zurücknehmen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FD32  Kreditlimit pflegen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei der Anlege- und der Änderungstransaktion werden übergebene</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sperrfelder oder Löschvormerkungen ebenfalls mit bearbeitet. Das System</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>springt dann auf die dafür vorgesehenen Zusatzbilder.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit der Sperrtransaktion XD05 können nur Sperrfelder bearbeitet werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit der Löschtransaktion XD06 können nur Löschvormerkungen bearbeitet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für jede zu bearbeitende &lt;ZH&gt;Bankverbindung&lt;/&gt; muß die Struktur BKNBK</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>übergeben werden. Soll eine bestehende Bankverbindung gelöscht werden,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>so muß das Feld BKNBK-XDELE angekreuzt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sind die Bankenstammdaten einer Bankverbindung neu, so können die Daten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dieser Bank ebenfalls in der Struktur BKNBK übergeben werden. Beim</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Abspielen der Mappe werden die neuen Bankenstammdaten dann angelegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Schlüsselfelder &lt;LS&gt;Länderschlüssel der Bank&lt;/&gt; (BANKS),</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;LS&gt;Bankschlüssel&lt;/&gt; (BANKL) und &lt;LS&gt;Bankkontonummer&lt;/&gt; (BANKN) einer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindung (Tabelle KNBK) können nur durch das Anlegen der neuen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bankverbindung und das Löschen der alten Bankverbindung geändert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für jede(n) zu bearbeitende(n) Abladestelle/Ansprechpartner/Steuer/</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Lizenz/Nachricht/Partnerrolle muß die Struktur BKNVA/BKNVK/BKNVI/BKNVL/</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BKNVD/BKNVP übergeben werden. Soll ein Satz gelöscht werden, so ist in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der betreffenden Struktur das Feld XDELE anzukreuzen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei &lt;ZH&gt;Abladestellen&lt;/&gt; ist zu beachten, daß &lt;ZH&gt;entweder&lt;/&gt; eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Annahmezeiten-ID (BKNVA-WANID) &lt;ZH&gt;oder&lt;/&gt; Annahmezeiten übergeben</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden können (BKNVA-MOAB1, BKNVA-MOAB2 usw.).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei &lt;ZH&gt;Ansprechpartnern&lt;/&gt; muß keine Partnernummer mitgegeben werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(interne Nummernvergabe). Falls dennoch eine Nummer angegeben wird, so</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>darf diese nicht bereits für einen anderen Kunden vergeben sein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Abbruch).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei den &lt;ZH&gt;Steuern&lt;/&gt; dürfen nur zulässige Sätze übergeben werden,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d.h. BKNVI-ALAND muß das Land der Verkaufsorganisation oder eines der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zu- gehörigen Werke sein, und BKNVI-TATYP muß über Tabelle TSTL diesem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Land zugeordnet sein. Diese beiden Felder müssen übergeben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ferner ist zu beachten, daß der Steuerindikator BKNVI-TAXKD für den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuertyp zulässig ist (Tabelle TSKD).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei der Übergabe von Steuerdaten per Batch-Input ist ferner zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>beachten,daß die Daten immer auf dem Step-Loop-Dynpro 1350 des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Modulpools SAPMF02D übergeben werden. Die ist auch dann der Fall, wenn</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>es nur einen relevanten Steuersatz (Land/Steuertyp/Steuerindikator)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gibt. Im Dialog würde in diesem Fall das Dynpro 1350 entfallen und der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuerindikator auf Dynpro 0320 (Faktura) gepflegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Achtung: Im Batch-Input dürfen jedoch auf Dynpro 0320 keinesfalls</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuerdaten übergeben werden, sonst erfolgt ein Abbruch.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Dynpro 1350 ist im Ablauf direkt hinter das Dynpro 0320 zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>schalten. Es sind jeweils die kompletten Datensätze (KNVI-ALAND,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>KNVI-TATYP und KNVI-TAXKD) zu übergeben. Es ist ratsam, sich vor Aufbau</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des Batch-Input Ablaufs im Dialog die Steuerfindung und insbesondere</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>den Inhalt der Tabelle KNVI zu betrachten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei Lizenzen ist wie bei den Steuern auf die Zulässigkeit von Land und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Steuertyp zu achten (BKNVL-ALAND, BKNVL-TATYP).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die &lt;ZH&gt;abweichenden Regulierer&lt;/&gt; können in der Struktur BKNZA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>buchungskreisspezifisch oder buchungskreisübergreifend übertragen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden. Durch das Füllen des Feldes BKNZA-BUKRS mit SPACE oder dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>NODATA-Kennzeichen wird ein abweichender Regulierer als</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>buchungskreisübergreifend definiert. Das Ankreuzen des Feldes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BKNZA-XDELE führt zum Löschen des abweichenden Regulierers.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Generieren von Satzbetten:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können sich Satzbetten generieren über den Menüleistenpunkt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;Werkzeuge&quot; im Customizing-Menü der Buchhaltung. Alternativ können Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>direkt von hier aus in das Customizing springen &lt;DS:TRAN.OBE8&gt;Funktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ausführen&lt;/&gt;. Eine Beschreibung dieser Funktion finden Sie in der IMG</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des Menüleistenpunktes.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC420_SPTD_RFBIDE00_CT</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0016</VERSION>
+      <TXTLINES>00164</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC420_SPTD_RFBIDE00_CT</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00016</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The RFBIDE00 batch input program is used for:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Creating and changing customer master data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Creating and changing credit limit data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Creating bank master data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Structures:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Information that affects the entire batch input session is defined in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the session prefix.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Information that applies to an entire transaction, is defined in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>header record. For example, this is transaction code and key.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Finally, a batch input structure was created in the Data Dictionary for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>every customer table for which batch input is possible.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Every structure is identified by record type and possible table name.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The structures are in detail:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BGR00 record type 0 session prefix</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKN00 record type 1 header data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNA1 record type 2 general information data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVA record type 2 unloading points</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVK record type 2 contact person</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNBK record type 2 bank data including new bank master data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNB1 record type 2 company code data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNB5 record type 2 dunning dates</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNEX record type 2 foreign trade</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNKA record type 2 credit limit is central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNKK record type 2 credit limit control area</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVV record type 2 sales area data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVD record type 2 output</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVI record type 2 taxes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVL record type 2 licenses</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNVP record type 2 partner functions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNZA record type 2 alternative payers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Country-specific structures:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>BKNAT record type 2 tax categories (South America)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Special character NODATA:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For every field which is transferred in batch input structure, you must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be able to decide whether the value of the field is initial (for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>example, the field should be reset to the initial value) or whether no</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>batch input at all is necessary for this field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>That is, a special character must be specified which has function: &quot;no</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>batch input for this field&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This special character is the character &quot;/&quot; by default.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the special character &quot;/&quot; is not to be used, you can specify another</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>special character in the session prefix in field BGR00-NODATA, which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>will carry out this function.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Before filling the batch input structure, every field of the structures</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(with the exception of the session prefix BGR00) must be prepared for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the beginning of the field with this special character.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The fields of the structures refer to data elements of the fields of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the original tables. However, numeric and packed fields are an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>exception These need separate data elements of category CHAR for batch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>input, since packed fields cannot be preset with a special character.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>That means that amounts with decimal point can be transferred to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>interface.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>End of record marker:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If a batch input structure is later extended, the new end of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>structure is indicated by a special field (SENDE). If you are already</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>working with the new, extended structure, you must also supply this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>field with the NODATA indicator when &quot;initializing&quot; the structure. As a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>result, it can be recognized when importing the structure whether the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data is based on the old or the new structure.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Special fields in the session prefix:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In the session prefix, the batch input session name must be given</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(BGR00-GROUP). Sending a second session prefix causes the closing of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the current session and the opening of a further session.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In the session prefix, the special character NODATA can be transferred</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(see above).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A block date can be transferred in the session prefix (BGR00-START). If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this date is set, it must have the format &quot;YYYYMMDD&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Additional address fields:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>There are additional address fields available due to linking the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer and vendor master and the respective contact person to central</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>address management. This additional address information is stored in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>central address management&apos;s own tables rather than being kept in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>actual master tables (KNA1 for the customer master, LFA1 for the vendor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>master, KNVK for the contact person).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A separate transfer run via the ALE interface is needed to transfer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this additional address information. This run should be before the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transfer run for master data.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you use number ranges with internal number assignment when creating</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>new customer and vendor masters, the number which is used to identify</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the master object in the system must be determined beforehand due to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>address information and master data being transferred separately.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can determine the numbers using the following BAPIs:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>BAPI_VENDOR_GETINTNUMBER (for the vendor master)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>BAPI_CUSTOMER_GETINTNUMBER (for the customer master)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>BAPI_PARTNEREMPLOYEE_GETINTNUM (for the contact person)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Master data fields for which there is a counterpart in central address</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>management (such as name, street, or telephone number) continue to be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>filled in the actual master tables. The formatting for these fields</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>within central address management is different from the original</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>formatting of the fields without the link to central address</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>management. We therefore recommend that you only transfer the data for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>such fields when transferring central address management address</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Programs:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RFBIDE00   Executable batch input program</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RFBIDE01   Basic program with processing logic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>RFBIDEG0   Generation program</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The generation program RFBIDEG0 uses the frame RFBIDE01 and writes the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>coding contained in it together with the newly generated coding to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>batch input program RFBIDE00.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Source code for the &quot;field transports&quot; is generated by the generation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>program per screen and per input field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Transactions supported:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The following central transactions are supported in the present</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>version:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD01 Create customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD02 Change customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD05 Block/unblock customer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>XD06 Set/cancel customer deletion flag</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>FD32 Maintain credit limit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>With the creation and change transaction, transferred block fields or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>delete flags are also processed. The system then goes onto the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>additional screens provided for this.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Block fields can only be processed with block transaction XD05.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Delete flags can only be processed with delete transaction XD06.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For all bank data to be processed, the structure BKNBK must be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transferred. If an existing bank data is to be deleted, the field</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BKNBK-XDELE must be marked.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the bank master data of a bank data is new, the data of this bank</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can also be transferred in structure BKNBK. The new bank master data is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>then created when processing the session.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can change the key fields &quot;Bank country key&quot; BANKS, &quot;Bank key&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BANKL, and &quot;Bank account number&quot; BANKN for bank details (table KNBK)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only by deleting the old bank details and creating a new set of bank</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>details.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For every unloading point/contact person/tax/license/output/partner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>function to be processed, the structure BKNVA/BKNVK/BKNVI/BKNVL/</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BKNVD/BKNVP must be transferred. If a record is to be deleted, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>XDELE field is to be marked in the relevant structure.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For unloading points, it is to be noted that EITHER a goods receiving</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hours ID (BKNVA-WANID) OR goods receiving hours can be transferred</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(BKNVA-MOAB1, BKNVA-MOAB2, and so on).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For contact persons, it is to be noted that no partner number is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>specified when creating (internal number assignment).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For taxes, only &quot;valid&quot; records may be transferred, that is,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BKNVI-ALAND must be the country of the sales organization or one of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>plants belonging to it and BKNVI-TATYP must be allocated to this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>country via table TSTL. These two fields must be transferred.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Furthermore, it is to be noted that the tax classification BKNVI-TAXKD</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the tax type is permitted (table TSKD).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When transferring tax data using batch input, you should also note that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the data is always transferred to the step loop screen 1350 of module</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pool SAPMF02D. This is also the case if there is only one relevant tax</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>rate (country/tax type/tax classification). In this case, screen 1350</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>would not apply online and the tax classification would be maintained</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>on screen 0320 (billing document). In batch input, however, tax data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>must never be transferred to screen 0320, otherwise a termination</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>occurs. Screen 1350 is switched to directly after screen 0320 during</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the process. The complete datasets (KNVI-ALAND, KNVI-TATYP and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>KNVI-TAXKD) are to be transferred in each case. It is advisable to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consider the tax determination and in particular the contents of table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>KNVI before structuring the batch input process online.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For licenses, the same counts as for taxes on the validity of country</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and tax type (BKNVL-ALAND, BKNVL-TATYP).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The alternative payers can be transferred in the BKNZA structure as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>either company code-specific or cross-company code. By entering a BLANK</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the BKNZA-BUKRS field or by selecting the NODATA indicator, you can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>define an alternative payer as cross-company code. By selecting the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BKNZA-XDELE field, you can delete the alternative payer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>LZ</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Generation of record layouts:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can generate record layouts via the menu bar option &quot;Tools&quot; in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Financial Accounting customizing menu. Alternatively, you can go</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>directly from here into customizing &lt;DS:TRAN.OBE8&gt;Proceed&lt;/&gt;. You will</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>find a description of this function in the IMG of the menu bar option.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

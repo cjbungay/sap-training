@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_PERSON</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Persons</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>DISPLAY_ATTRIBUTES</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Display Attributes for a Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>DISPLAY_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzeige der Attribute einer Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>DISPLAY_ATTRIBUTES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display Attributes for a Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>GET_NAME</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Find Person&apos;s Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>GET_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermitteln Personenname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>GET_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Find Person&apos;s Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>NAME</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Person&apos;s Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name der Person</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Person&apos;s Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>SET_NAME</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Set Person&apos;s Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>SET_NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen Personenname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_PERSON</CLSNAME>
+     <CMPNAME>SET_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Person&apos;s Name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Exercise and Demo Function Modules</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC427_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC427_00_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_01_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_02_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_03_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_04_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_05_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_06_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_07_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_08_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_09_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_10_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_11_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_12_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_13_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_14_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_15_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_16_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_17_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_18_CALC_PRICE</FUNCNAME>
+     <SHORT_TEXT>Calculation of Gross Price for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_FULLPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Gross Price (Incl. 19 % Tax)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>BC427_CALC_TAX</FUNCNAME>
+     <SHORT_TEXT>Calculation of Standard Tax for Specified Net Price</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EX_TAX</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BC427_PRICE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IM_NETPRICE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Net Price</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EX_TAX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tax (19 %)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

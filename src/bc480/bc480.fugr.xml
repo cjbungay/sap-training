@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function modules for BC480</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC480</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>CUSTOMER_ADDRESS_TO_ITF</FUNCNAME>
+     <SHORT_TEXT>Formats address taken from table SCUSTOM (training purposes only)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_CUSTOMER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SCUSTOM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SENDING_COUNTRY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SZAD_FIELD-SEND_CNTRY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NUMBER_OF_LINES</PARAMETER>
+       <DEFAULT>5</DEFAULT>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ADRS-ANZZL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_ADDRESS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TLINE_TAB</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_CUSTOMER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flight customer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SENDING_COUNTRY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sender country for address formatting</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NUMBER_OF_LINES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Number of lines in address</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ADDRESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>List of SAPscript Text Lines</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

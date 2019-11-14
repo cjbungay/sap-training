@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Demonstration Function Modules</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC402_FMDD_FLIGHT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC402_FMDD_GET_FREE_SEATS</FUNCNAME>
+     <SHORT_TEXT>Calculates Number of Free Seats</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IP_PLANETYPE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>S_PLANETYE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IP_SEATSOCC</PARAMETER>
+       <DEFAULT>0</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>S_SEATSMAX</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EP_SEATSFREE</PARAMETER>
+       <TYP>S_SEATSMAX</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_SEATS</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>OVERLOAD</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>DB_FAILURE</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IP_PLANETYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plane Type</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IP_SEATSOCC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Current Occupancy</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EP_SEATSFREE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Seats Still Free</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_SEATS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Cargo Plane</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OVERLOAD</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Overbooked</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DB_FAILURE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No data</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

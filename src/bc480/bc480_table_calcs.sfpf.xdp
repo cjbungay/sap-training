@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeDesigner_V7.1_SAP" APIVersion="2.4.6284.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2007-07-23T12:56:21Z" uuid="736875a0-2653-4997-ad67-301118f82a03">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.4/"><tags xmlns="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xmlns:xhtml="http://www.w3.org/1999/xhtml"><value id="N172">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.4.6284.0"><p style="text-decoration:none"><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/> booking(s) for carrier<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </value><value id="N259">ID</value><value id="N298">No.</value><value id="N337">Date</value><value id="N376">Booking</value><value id="N415">Fair</value><value id="N454">Currency</value><value id="N531">Airline Code</value><value id="N589">Flight Connection Number</value><value id="N650">Flight date</value><value id="N715">Booking number</value><value id="N776">Price of booking in local currency of airline</value><value id="N835">Local currency of airline</value><value id="N881">Table for Flight Bookings</value><value id="N94">Numeric Field</value></tags>
+   
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform layout="tb" locale="en_US" name="data">
+      <pageSet name="Masters">
+         <pageArea id="Page1" name="FIRST">
+            <contentArea h="110.7176mm" id="CONTENT_AREA_ID" name="CONTENT_AREA" w="182.2108mm" x="21.4392mm" y="34.3422mm"/>
+            <medium long="297mm" short="210mm" stock="a4"/>
+            <field access="readOnly" h="9mm" id="floatingField000041" name="COUNT" presence="hidden" w="62mm" x="0mm" y="0mm">
+               <ui>
+                  <numericEdit>
+                     <border>
+                        <?templateDesigner StyleID aped3?>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <caption reserve="25mm">
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N94">Numeric Field</text>
+                  </value>
+               </caption>
+               <?templateDesigner ScriptInitializers ready:layout:lang=JavaScript;?>
+               <event activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">this.rawValue = TableCalcs._doCount("LOCCURAM", xfa.layout.absPage(this), xfa.layout.absPage(this));</script>
+               </event>
+               <?digestForSAP digest="4905ac9d6a22bdfc1ae096094ce6248d"?></field>
+            <field access="readOnly" h="9mm" id="floatingField018467" name="CARRIER" presence="hidden" w="62mm" x="0mm" y="0mm">
+               <ui>
+                  <textEdit>
+                     <border>
+                        <?templateDesigner StyleID aped3?>
+                        <edge stroke="lowered"/>
+                     </border>
+                     <margin/>
+                  </textEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <event activity="ready" ref="$layout">
+                  <script contentType="application/x-javascript">var carrier;
+var oFields = xfa.layout.pageContent(xfa.layout.absPage(this), "field");
+var nNodesLength = oFields.length;
+
+if (nNodesLength &gt; 0) {
+	for (var i=0; i &lt; nNodesLength ; i++) {
+		if (oFields.item(i).name == "CARRID") {
+			carrier = oFields.item(i).rawValue;
+			break;
+		}
+	}
+}
+	
+this.rawValue = carrier;</script>
+               </event>
+               <?digestForSAP digest="65ec4a0c583406bbf98a5be33dd9e110"?></field>
+            <draw name="Bookings" x="23.043mm" y="12.4236mm">
+               <ui>
+                  <textEdit>
+                  </textEdit>
+               </ui>
+               <value>
+                  <exData xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" contentType="text/html" maxLength="0" xft-xliff:id="N172">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.4.6284.0"><p style="text-decoration:none"><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/> booking(s) for carrier<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                  </exData>
+               </value>
+               <font baselineShift="0pt" size="12pt" typeface="Arial"/>
+               <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+            </draw>
+         </pageArea>
+      </pageSet>
+      <subform layout="tb" name="BODY_01">
+         <subform columnWidths="0.1mm 18.79mm 30.43mm 29.1mm 30.43mm 25.66mm" layout="table" name="IT_BOOKINGS">
+            <subform id="HEADER_ID" layout="row" name="HEADER">
+               <draw name="Zelle 0" presence="invisible">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N259">ID</text>
+                  </value>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw name="Zelle 1">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N298">No.</text>
+                  </value>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw name="Zelle 2">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N337">Date</text>
+                  </value>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw name="Zelle 3">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N376">Booking</text>
+                  </value>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw name="Zelle 4">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N415">Fair</text>
+                  </value>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw name="Zelle 5">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para hAlign="center" vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" xft-xliff:id="N454">Currency</text>
+                  </value>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <assist role="TH"/>
+               <border>
+                  <edge presence="hidden"/>
+                  <fill>
+                     <color value="224,224,224"/>
+                  </fill>
+               </border>
+               <?templateDesigner expand 0?></subform>
+            <subform layout="row" name="DATA">
+               <field h="9mm" name="CARRID" presence="invisible" w="62mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+                  <bind match="dataRef" ref="CARRID"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N531">Airline Code</text>
+                  </desc>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <?digestForSAP digest="ff4010c48fb1734934695aca2a3de0c0"?></field>
+               <field h="9mm" name="CONNID" w="62mm" x="2.440945in">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="4"/>
+                  </value>
+                  <bind match="dataRef" ref="CONNID"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N589">Flight Connection Number</text>
+                  </desc>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <?digestForSAP digest="3901697584ba156368cc72fcefcea0f8"?></field>
+               <field h="9mm" name="FLDATE" w="69.596mm" x="4.88189in">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <bind match="dataRef" ref="FLDATE">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N650">Flight date</text>
+                  </desc>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <event activity="initialize">
+                     <script>$.format.picture = DateFmt(2, $.locale);
+$.ui.picture = DateFmt(2, $.locale);</script>
+                  </event>
+                  <?digestForSAP digest="6f4cacfa55c703e41be38c5834ec3aa8"?></field>
+               <field h="9mm" name="BOOKID" w="62mm" y="0.354331in">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="8"/>
+                  </value>
+                  <bind match="dataRef" ref="BOOKID"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N715">Booking number</text>
+                  </desc>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <?digestForSAP digest="51c2e900050326728b3e271a671e9bf6"?></field>
+               <field h="9mm" name="LOCCURAM" w="62mm" x="2.440945in" y="0.354331in">
+                  <ui>
+                     <numericEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="radix" radixOffset="28.346pt" vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="-1"/>
+                  </value>
+                  <bind match="dataRef" ref="LOCCURAM"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N776">Price of booking in local currency of airline</text>
+                  </desc>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <?digestForSAP digest="c0ed2b1f1f03a0313a6fd9033bac3d9c"?></field>
+               <field h="9mm" name="LOCCURKEY" w="62mm" x="4.88189in" y="0.354331in">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="5"/>
+                  </value>
+                  <bind match="dataRef" ref="LOCCURKEY"/>
+                  <desc>
+                     <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N835">Local currency of airline</text>
+                  </desc>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <?digestForSAP digest="f3e3755a9f43972369b386fa6268d4aa"?></field>
+               <assist role="TR"/>
+               <occur max="-1"/>
+               <bind match="dataRef" ref="DATA[*]"/>
+               <breakBefore leader="#HEADER_ID" startNew="1" targetType="pageArea" trailer="#FOOTER_ID">
+                  <script>DATA[-1].CARRID ne DATA.CARRID</script>
+               </breakBefore>
+               <?templateDesigner expand 1?></subform>
+            <occur min="0"/>
+            <bind match="dataRef" ref="$record.IT_BOOKINGS"/>
+            <desc>
+               <text xmlns:xft-xliff="http://www.xfa.org/schema/xfa-xliff/1.0/" name="Schema-Anmerkung" xft-xliff:id="N881">Table for Flight Bookings</text>
+            </desc>
+            <subform id="FOOTER_ID" layout="row" name="FOOTER">
+               <assist role="TF"/>
+               <draw h="7.0708mm" name="Cell1" w="62mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw h="7.0708mm" name="Cell2" w="62mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw h="7.0708mm" name="Cell3" w="69.596mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <draw h="7.0708mm" name="Cell4" w="62mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <para vAlign="middle"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+               </draw>
+               <field h="7.0708mm" name="SUBTOTAL" w="62mm" x="0mm" y="0mm">
+                  <ui>
+                     <numericEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="radix" radixOffset="28.346pt" vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="-1"/>
+                  </value>
+                  <event activity="ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = TableCalcs._doSum("LOCCURAM", xfa.layout.absPage(this), xfa.layout.absPage(this));</script>
+                  </event>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  <?digestForSAP digest="c8c9fef9549bc4f22305b77c65579dbe"?></field>
+               <field h="7.0708mm" name="CURRENCY" w="62mm" x="0mm" y="0mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <border>
+                     <edge thickness="0.2mm"/>
+                     <corner thickness="0.2mm"/>
+                  </border>
+                  
+                  <event activity="ready" ref="$layout">
+                     <script contentType="application/x-javascript">var currency;
+var oFields = xfa.layout.pageContent(xfa.layout.absPage(this), "field");
+//when "field" is specified, dynamic objects (like text fields) are considered
+var nNodesLength = oFields.length;
+
+if (nNodesLength &gt; 0) {
+	for (var i=0; i &lt; nNodesLength ; i++) {
+		if (oFields.item(i).name == "LOCCURKEY") {
+			currency = oFields.item(i).rawValue;
+			break;
+		}
+	}
+}
+this.rawValue = currency;</script>
+                  </event>
+               <?digestForSAP digest="4078b56c15c2087a7d223a5bdf104838"?></field>
+               <border>
+                  <edge presence="hidden"/>
+                  <corner presence="hidden" thickness="0.176mm"/>
+                  <fill>
+                     <color value="224,224,224"/>
+                  </fill>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <break overflowTrailer="#FOOTER_ID"/>
+         </subform>
+      </subform>
+      <variables>
+         <script contentType="application/x-javascript" name="TableCalcs">/**
+******************************************************************************************************
+*   Table Calculation Functions
+*
+*	To invoke these functions:
+*
+*   syntax:	scriptObjectSOM.obj.functionName(sFieldName, [startPage], [endPage]);
+*   example:	tableCalcs.Sum("Field1", 2, 3);
+*   notes: 		
+*				-The SOM expression of the Script Object may vary upon its position in the Hierarchy.
+*				-The start and end page arguments are 0-based numbers or a reference to an XFA object.
+*
+******************************************************************************************************
+*/
+
+
+/*
+DO NOT MODIFY THE CODE BEYOND THIS POINT - 705.20051114114126.253659.250577 - tableCalcs.xfo
+*/
+
+var obj = new CalcObject();
+
+function CalcObject()
+{
+	this.Sum = _doSum;
+	this.Average = _doAverage;
+	this.Count = _doCount;
+}
+
+/** 
+*	Calculate the sum of all fields with the same name.
+* 
+* 	NUMBER Sum(STRING sFieldName, [NUMBER pageNum])
+* 	NUMBER Sum(STRING sFieldName, [OBJECT xfaObject])
+* 	NUMBER Sum(STRING sFieldName, [NUMBER startPage], [NUMBER endPage])
+* 	NUMBER Sum(STRING sFieldName, [OBJECT xfaObject], [OBJECT xfaObject])
+*
+*	param1:	STRING; Name of field to calculate sum of
+*	param2:	NUMBER; Start page for calculation
+*	param2:	OBJECT; XFA object on the page calculation will start on
+*	param3:	NUMBER; End page for calculation
+*	param3:	OBJECT; XFA object on the page calculation will end on
+*
+*	return: NUMBER; Sum of all fields
+*
+*/
+function _doSum(fieldName)
+{
+	var fieldSum = null;
+	
+	var startPage = 0;
+	var endPage = 0;
+	var lengthOfDecimal = 0;
+
+
+	if (arguments.length == 2) {
+		startPage = _GetPageNum(arguments[1]);
+		endPage = startPage;
+	} else if (arguments.length == 3){
+		startPage = _GetPageNum(arguments[1]);
+		endPage = _GetPageNum(arguments[2]);
+	} else {
+		startPage = 0;
+		endPage = xfa.layout.pageCount() - 1;
+	}
+
+	if ((startPage &lt; 0) || (endPage &lt; 0) || (startPage &gt; endPage)) 
+		throw new PageNumberException(startPage, endPage);
+
+	var curPage = startPage;
+	while (curPage &lt;= endPage) {
+		// Get the field containers on the current page
+		var oFields = xfa.layout.pageContent(curPage, "field");
+		var fieldCount = oFields.length;
+		// Continue if fields were found on the page
+		if (fieldCount &gt; 0) {
+			var i = 0;
+			for (i=0; i &lt; fieldCount; i++) {
+				if (oFields.item(i).name == fieldName) {
+					//only count non-empty/numeric fields
+					var fieldVal = _GetFieldVal(oFields.item(i));
+					if (fieldVal != null) {					
+						fieldSum += fieldVal;
+					}
+					if (_GetLengthOfField(oFields.item(i)) &gt; lengthOfDecimal) {
+						lengthOfDecimal = _GetLengthOfField(oFields.item(i));
+					}
+				}
+			}
+		}
+
+		curPage++;
+	}
+	
+	if (fieldSum == null) 
+		throw new FieldNotFoundException(fieldName);
+	
+	if(lengthOfDecimal &gt; 0) {
+		return fieldSum.toFixed(lengthOfDecimal);
+	} 
+	return fieldSum;
+}
+
+/** 
+*	Calculate the average of all fields with the same name.
+* 
+* 	NUMBER Average(STRING sFieldName, [NUMBER pageNum])
+* 	NUMBER Average(STRING sFieldName, [OBJECT xfaObject])
+* 	NUMBER Average(STRING sFieldName, [NUMBER startPage], [NUMBER endPage])
+* 	NUMBER Average(STRING sFieldName, [OBJECT xfaObject], [OBJECT xfaObject])
+*
+*	param1:	STRING; Name of field to calculate average of
+*	param2:	NUMBER; Start page for calculation
+*	param2:	OBJECT; XFA object on the page calculation will start on
+*	param3:	NUMBER; End page for calculation
+*	param3:	OBJECT; XFA object on the page calculation will end on
+*
+*	return: NUMBER; Average of all fields
+*
+*/
+function _doAverage(fieldName)
+{
+	var fieldCount = null;
+	var fieldSum = null;
+	
+	var startPage = 0;
+	var endPage = 0;
+	var lengthOfDecimal = 0;
+
+	if (arguments.length == 2) {
+		startPage = _GetPageNum(arguments[1]);
+		endPage = startPage;
+	} else if (arguments.length == 3){
+		startPage = _GetPageNum(arguments[1]);
+		endPage = _GetPageNum(arguments[2]);
+	} else {
+		startPage = 0;
+		endPage = xfa.layout.pageCount() - 1;
+	}
+
+	if ((startPage &lt; 0) || (endPage &lt; 0) || (startPage &gt; endPage)) 
+		throw new PageNumberException(startPage, endPage);
+
+	var curPage = startPage;
+	while (curPage &lt;= endPage) {
+		// Get the field containers on the current page
+		var oFields = xfa.layout.pageContent(curPage, "field");
+		var allFields = oFields.length;
+
+		// Continue if fields were found on the page
+		if (allFields &gt; 0) {
+			var i = 0;
+			for (i=0; i &lt; allFields; i++) {
+				if (oFields.item(i).name == fieldName) {
+					//only count non-empty/numeric fields
+					var fieldVal = _GetFieldVal(oFields.item(i));
+					if (fieldVal != null) {
+						fieldCount ++;
+						fieldSum += fieldVal;
+					}
+					if (_GetLengthOfField(oFields.item(i)) &gt; lengthOfDecimal) {
+						lengthOfDecimal = _GetLengthOfField(oFields.item(i));
+					}
+				}
+			}
+		}
+
+		curPage++;
+	}
+
+	if (fieldCount == null) 
+		throw new FieldNotFoundException(fieldName);
+
+	if (fieldCount != null &amp;&amp; fieldSum != null &amp;&amp; fieldCount &gt; 0) {
+		var average = fieldSum / fieldCount;
+		if(lengthOfDecimal &gt; 0) {
+			return average.toFixed(lengthOfDecimal);
+		}
+		return average; 
+	}
+	else {
+		return null;
+	}
+}
+
+/** 
+*	Calculate the number of fields with the same name.
+* 
+* 	NUMBER Count(STRING sFieldName, [NUMBER pageNum])
+* 	NUMBER Count(STRING sFieldName, [OBJECT xfaObject])
+* 	NUMBER Count(STRING sFieldName, [NUMBER startPage], [NUMBER endPage])
+* 	NUMBER Count(STRING sFieldName, [OBJECT xfaObject], [OBJECT xfaObject])
+*
+*	param1:	STRING; Name of field to calculate number of
+*	param2:	NUMBER; Start page for calculation
+*	param2:	OBJECT; XFA object on the page calculation will start on
+*	param3:	NUMBER; End page for calculation
+*	param3:	OBJECT; XFA object on the page calculation will end on
+*
+*	return: NUMBER; Number of fields found
+*
+*/
+function _doCount(fieldName)
+{
+	var fieldCount = null;
+	
+	var startPage = 0;
+	var endPage = 0;
+
+	if (arguments.length == 2) {
+		startPage = _GetPageNum(arguments[1]);
+		endPage = startPage;
+	} else if (arguments.length == 3){
+		startPage = _GetPageNum(arguments[1]);
+		endPage = _GetPageNum(arguments[2]);
+	} else {
+		startPage = 0;
+		endPage = xfa.layout.pageCount() - 1;
+	}
+
+	if ((startPage &lt; 0) || (endPage &lt; 0) || (startPage &gt; endPage)) 
+		throw new PageNumberException(startPage, endPage);
+
+	var curPage = startPage;
+	while (curPage &lt;= endPage) {
+		// Get the field containers on the current page
+		var oFields = xfa.layout.pageContent(curPage, "field");
+		var allFields = oFields.length;
+
+		// Continue if fields were found on the page
+		if (allFields &gt; 0) {
+			var i = 0;
+			for (i=0; i &lt; allFields; i++) {
+				if (oFields.item(i).name == fieldName) {
+					//only count non-empty/numeric fields
+					var fieldVal = _GetFieldVal(oFields.item(i));
+					if (fieldVal != null) {
+						fieldCount ++;
+					}
+				}
+			}
+		}
+
+		curPage++;
+	}
+	
+	if (fieldCount == null) 
+		throw new FieldNotFoundException(fieldName);
+
+	return fieldCount;
+}
+
+function _GetFieldVal(obj)
+{
+	var fieldVal = obj.rawValue;
+	if (typeof fieldVal != "number") {					
+		if (typeof fieldVal == "string" &amp;&amp; fieldVal.length &gt; 0) {
+			fieldVal = parseFloat(fieldVal);
+			if (isNaN(fieldVal))
+				fieldVal = null;
+		} else {
+			fieldVal = null;
+		}
+	}
+	return fieldVal;
+}
+
+function _GetPageNum(val)
+{
+	var pageNum = -1;
+	if (typeof val == "number") {					
+		pageNum = val;
+	}
+	else if (typeof val == "object") {
+		if (val != null) {			
+			pageNum = xfa.layout.page(val) - 1
+		}
+	}
+	return pageNum;
+}
+
+function _GetLengthOfField(obj)
+{
+	var fieldVal = obj.rawValue;
+	if (fieldVal != null) {
+		if (typeof fieldVal == "number") {
+		 fieldVal = new String(fieldVal);
+		}
+		var index = fieldVal.indexOf(".");
+		if (index &gt; -1) {
+			return fieldVal.length - index - 1;
+		}
+	}
+	return 0;
+}
+
+
+function getExceptionString() { return this.message; }
+
+function FieldNotFoundException(fieldName)
+{
+	this.message = "Calculation failed: No non-empty fields found called '" + fieldName + "'.";
+	this.name = "FieldNotFoundException";
+	this.toString = getExceptionString;
+}
+
+function PageNumberException(startPage, endPage)
+{
+	this.message = "Calculation failed: Incorrect page references (start page = " + startPage + ", end page = " + endPage + ").";
+	this.name = "PageNumberException";
+	this.toString = getExceptionString;
+
+// END OF DO NOT MODIFY	
+}</script>
+      </variables>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 148 37 0003000B000C0011002400250026002700280029002C00310032003500370038004400450046004700480049004A004C004E004F0050005100520055005600570058005B005C005E0060 ().ABCDEFINORTUabcdefgiklmnorstuxy{}?></subform>
+   <?templateDesigner Grid show:0, snap:0, units:1, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.2/?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner DefaultPreviewType print?>
+   <?templateDesigner XDPPreviewFormat 1?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 78?>
+   <?templateDesigner DefaultPreviewDataFileName C:\Documents and Settings\d030662\My Documents\Schulungen\Formulare\BC480\BC480 Coll 62\Uebergabe\Coding\BC480_FINAL_incl._LOCCURAM_Testdaten.xml?></template>
+<config xmlns="http://www.xfa.org/schema/xci/1.0/" xmlns:xfa="http://www.xfa.org/schema/xci/1.0/">
+   <trace>
+      <area level="1" name="font"/>
+   </trace>
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <template>
+            <base>http://uscikpg.wdf.sap.corp:50077/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+         <taggedMode>custom</taggedMode>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+      <cache>
+         <macroCache/>
+      </cache>
+   </present>
+</config>
+<sourceSet xmlns="http://www.xfa.org/schema/xfa-source-set/1.0/"/>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.1/">
+   <xsdConnection dataDescription="data" name="BC480_TABLE_CALCS">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <IT_BOOKINGS dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <CARRID/>
+               <CONNID/>
+               <FLDATE/>
+               <BOOKID/>
+               <LOCCURAM/>
+               <LOCCURKEY/>
+            </DATA>
+         </IT_BOOKINGS>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.1/">
+   <locale desc="German (Germany)" name="de_DE">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>Januar</month>
+            <month>Februar</month>
+            <month>März</month>
+            <month>April</month>
+            <month>Mai</month>
+            <month>Juni</month>
+            <month>Juli</month>
+            <month>August</month>
+            <month>September</month>
+            <month>Oktober</month>
+            <month>November</month>
+            <month>Dezember</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mrz</month>
+            <month>Apr</month>
+            <month>Mai</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Okt</month>
+            <month>Nov</month>
+            <month>Dez</month>
+         </monthNames>
+         <dayNames>
+            <day>Sonntag</day>
+            <day>Montag</day>
+            <day>Dienstag</day>
+            <day>Mittwoch</day>
+            <day>Donnerstag</day>
+            <day>Freitag</day>
+            <day>Samstag</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>So</day>
+            <day>Mo</day>
+            <day>Di</day>
+            <day>Mi</day>
+            <day>Do</day>
+            <day>Fr</day>
+            <day>Sa</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>v. Chr.</era>
+            <era>n. Chr.</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D. MMMM YYYY</datePattern>
+         <datePattern name="long">D. MMMM YYYY</datePattern>
+         <datePattern name="med">DD.MM.YYYY</datePattern>
+         <datePattern name="short">DD.MM.YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">H.MM' Uhr 'Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GjMtkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">z,zz9.99 $</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">€</currencySymbol>
+         <currencySymbol name="isoname">EUR</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+   </locale>
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+   </locale>
+</localeSet></xdp:xdp>

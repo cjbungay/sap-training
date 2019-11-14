@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_W3MI" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <NAME>BC480_SP01_MULTI_PDF_DE</NAME>
+   <TEXT>SP01 Navigation für mehrfache PDF-Dokumente</TEXT>
+   <PARAMS>
+    <WWWPARAMS>
+     <RELID>MI</RELID>
+     <OBJID>BC480_SP01_MULTI_PDF_DE</OBJID>
+     <NAME>fileextension</NAME>
+     <VALUE>.bmp</VALUE>
+    </WWWPARAMS>
+    <WWWPARAMS>
+     <RELID>MI</RELID>
+     <OBJID>BC480_SP01_MULTI_PDF_DE</OBJID>
+     <NAME>filename</NAME>
+     <VALUE>SP01 for report ADD_LAYOUT_DE.bmp</VALUE>
+    </WWWPARAMS>
+    <WWWPARAMS>
+     <RELID>MI</RELID>
+     <OBJID>BC480_SP01_MULTI_PDF_DE</OBJID>
+     <NAME>mimetype</NAME>
+     <VALUE>image/bmp</VALUE>
+    </WWWPARAMS>
+   </PARAMS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Modules for BC470</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLBC470</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>BC470_CHECK_FORM_IS_OK</FUNCNAME>
+     <SHORT_TEXT>Does the Smart Form have a suitable interface for the demo program?</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SMART_FORM_NAME</PARAMETER>
+       <TYP>STXFADM-FORMNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_FORM</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NOT_SUITABLE</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SMART_FORM_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name of a Smart Form</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_FORM</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Form does not exist</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_SUITABLE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Form has unsuitable interface</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

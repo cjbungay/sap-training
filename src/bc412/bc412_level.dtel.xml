@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BC412_LEVEL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BC412_LEVEL</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>BC412: Level</DDTEXT>
+    <SCRTEXT_S>Level</SCRTEXT_S>
+    <SCRTEXT_M>Level</SCRTEXT_M>
+    <SCRTEXT_L>Hierarchy level</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>BC412: Level</DDTEXT>
+     <SCRTEXT_S>Level</SCRTEXT_S>
+     <SCRTEXT_M>Level</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchiestufe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>BC412: Level</DDTEXT>
+     <SCRTEXT_S>Level</SCRTEXT_S>
+     <SCRTEXT_M>Level</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchiestufe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>BC412: Level</DDTEXT>
+     <SCRTEXT_S>Level</SCRTEXT_S>
+     <SCRTEXT_M>Level</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchy level</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>BC412: レベル</DDTEXT>
+     <SCRTEXT_S>レベル</SCRTEXT_S>
+     <SCRTEXT_M>レベル</SCRTEXT_M>
+     <SCRTEXT_L>階層レベル</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>BC412: Level</DDTEXT>
+     <SCRTEXT_S>Level</SCRTEXT_S>
+     <SCRTEXT_M>Level</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchy level</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

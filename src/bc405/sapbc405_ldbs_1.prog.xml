@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC405_LDBS_1</NAME>
+    <DBAPL>S</DBAPL>
+    <DBNA>F1</DBNA>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>F1S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>  ID  No.  From             Airport To                  Airport</ENTRY>
+     <LENGTH>63</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>  Date                    Price         Flight Type     Max.        Occ.      Free</ENTRY>
+     <LENGTH>82</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>003</KEY>
+     <ENTRY>  B. No.   C. No.   TA  Luggage Weight</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Solution: Exercise 1; Logical Database</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>  ID  No.  From             Airport To                  Airport</ENTRY>
+       <LENGTH>63</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>  Date                    Price         Flight Type     Max.        Occ.      Free</ENTRY>
+       <LENGTH>82</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>  B. No.   C. No.   TA  Luggage Weight</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution: Exercise 1; Logical Database</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>  ID  Nr.  Abflugstadt          FLH Ankunftstadt        FLH</ENTRY>
+       <LENGTH>59</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>  Datum                   Preis         F.-typ          max         bel.      frei</ENTRY>
+       <LENGTH>82</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>  B.-Nr.   K.-Nr.   R   Gepäckgewicht</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Lösung:  Aufgabe 1; Logische Datenbank</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

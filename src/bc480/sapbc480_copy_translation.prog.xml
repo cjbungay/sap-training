@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC480_COPY_TRANSLATION</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>ACT</KEY>
+     <ENTRY>No active forms found</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>AUT</KEY>
+     <ENTRY>No authorization to change object.</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CAT</KEY>
+     <ENTRY>No valid object catalog entry</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>ENQ</KEY>
+     <ENTRY>Form could not be locked</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>EXI</KEY>
+     <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>MAS</KEY>
+     <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+     <LENGTH>100</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NEW</KEY>
+     <ENTRY>New language version created</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>OVE</KEY>
+     <ENTRY>Previous language version overwritten</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>OWN</KEY>
+     <ENTRY>You may change only your own objects</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_LANG</KEY>
+     <ENTRY>Target Language</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_OVER</KEY>
+     <ENTRY>Overwrite if existing</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_NAMES</KEY>
+     <ENTRY>Forms to be copied</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>Keine aktiven Formulare gefunden</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>Keine Änderungsberechtigung für das Objekt</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>Kein gültiger Objektkatalogeintrag</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Formular konnte nicht gesperrt werden</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>vorhanden in Zielsprache. Es wurde nicht überschrieben.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>vorhanden in Zielsprache, die auch Mastersprache ist. Überschreiben nicht möglich.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>Neu erstellt:</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Überschrieben:</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>Sie dürfen nur Ihre eigenen Objekte ändern</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Kopieren von PDF-basierten Formularen in eine andere Sprache</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Zielsprache</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Überschreiben, falls vorhanden</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Zu kopierende Formulare</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ACT</KEY>
+       <ENTRY>No active forms found</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>AUT</KEY>
+       <ENTRY>No authorization to change object.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CAT</KEY>
+       <ENTRY>No valid object catalog entry</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>ENQ</KEY>
+       <ENTRY>Form could not be locked</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EXI</KEY>
+       <ENTRY>exists in  target language. It must not be overwritten.</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>MAS</KEY>
+       <ENTRY>exists in  target language, which is also the master language. It cannot be overwritten.</ENTRY>
+       <LENGTH>100</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NEW</KEY>
+       <ENTRY>New language version created</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OVE</KEY>
+       <ENTRY>Previous language version overwritten</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OWN</KEY>
+       <ENTRY>You may change only your own objects</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copying PDF-based forms from one language to another</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Target Language</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OVER</KEY>
+       <ENTRY>Overwrite if existing</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_NAMES</KEY>
+       <ENTRY>Forms to be copied</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

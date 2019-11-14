@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>Enhancement Spot with Menu Exit BAdI</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>BC427_13_MX_BADI</BADI_NAME>
+     <INTERFACE_NAME>IF_EX_BC427_13_MX_BADI</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>S</CONTEXT_MODE>
+     <BADI_SHORTTEXT>Menu Exit to Integrate a Customer Function in the Individual Customer Display</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>46AF17199B7C4428E10000000A424239</BADI_SHORTTEXT_ID>
+     <MENU_ELEMENTS>
+      <ENH_BADI_GUI>
+       <GUI_PROG>BC427_13_NBD_MX</GUI_PROG>
+       <GUI_CODE>+EXT</GUI_CODE>
+       <GUI_TEXT>Menü-Exit bei Anzeige Einzelkunde</GUI_TEXT>
+      </ENH_BADI_GUI>
+     </MENU_ELEMENTS>
+     <IMG_DOCU_ID>BC427_13_MX_BADI</IMG_DOCU_ID>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WAPA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <APPLNAME>BC470_WAS</APPLNAME>
+    <APPLEXT>bc470_was</APPLEXT>
+    <STARTPAGE>start.htm</STARTPAGE>
+    <ORIGLANG>D</ORIGLANG>
+    <MODIFLANG>E</MODIFLANG>
+    <TEXT>Web Forms with SAP Web Application Server</TEXT>
+   </ATTRIBUTES>
+   <NAVGRAPH>
+    <O2APPLGRAP>
+     <APPLNAME>BC470_WAS</APPLNAME>
+     <NODEEXIT>SHOW_RESULT</NODEEXIT>
+     <CURRNAME>show_smart_form.htm</CURRNAME>
+     <FUPNAME>result.htm</FUPNAME>
+    </O2APPLGRAP>
+    <O2APPLGRAP>
+     <APPLNAME>BC470_WAS</APPLNAME>
+     <NODEEXIT>SHOW_SMART_FORM</NODEEXIT>
+     <CURRNAME>start.htm</CURRNAME>
+     <FUPNAME>show_smart_form.htm</FUPNAME>
+    </O2APPLGRAP>
+   </NAVGRAPH>
+   <PAGES>
+    <item>
+     <ATTRIBUTES>
+      <APPLNAME>BC470_WAS</APPLNAME>
+      <PAGEKEY>RESULT.HTM</PAGEKEY>
+      <PAGENAME>result.htm</PAGENAME>
+      <MIMETYPE>text/html</MIMETYPE>
+      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <VERSION>A</VERSION>
+      <LANGU>D</LANGU>
+      <DESCRIPT>Auswertung der Formulareingaben</DESCRIPT>
+     </ATTRIBUTES>
+     <EVENT_HANDLERS>
+      <O2PAGEVHS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>RESULT.HTM</PAGEKEY>
+       <EVHANDLER>ONINITIALIZATION</EVHANDLER>
+       <VERSION>A</VERSION>
+       <EVHNAME>OnInitialization</EVHNAME>
+       <SOURCE>
+        <item>* event handler for data retrieval</item>
+        <item/>
+        <item>call method request-&gt;get_form_fields</item>
+        <item>changing fields = it_http_fields.</item>
+       </SOURCE>
+      </O2PAGEVHS>
+     </EVENT_HANDLERS>
+     <PARAMETERS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>RESULT.HTM</PAGEKEY>
+       <COMPNAME>IT_HTTP_FIELDS</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>TIHTTPNVP</TYPE>
+       <ALIASNAME>it_http_fields</ALIASNAME>
+       <TEXT>HTTP Framework (iHTTP) Tabelle Name/Wert-Paare</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>RESULT.HTM</PAGEKEY>
+       <COMPNAME>WA_HTTP_FIELD</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>IHTTPNVP</TYPE>
+       <ALIASNAME>wa_http_field</ALIASNAME>
+       <TEXT>HTTP Framework (iHTTP) Name/Wert-Paar</TEXT>
+      </O2PAGPARS>
+     </PARAMETERS>
+    </item>
+    <item>
+     <ATTRIBUTES>
+      <APPLNAME>BC470_WAS</APPLNAME>
+      <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+      <PAGENAME>show_smart_form.htm</PAGENAME>
+      <MIMETYPE>text/html</MIMETYPE>
+      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <VERSION>A</VERSION>
+      <LANGU>D</LANGU>
+      <DESCRIPT>Anzeige eines SAP Smart Forms</DESCRIPT>
+     </ATTRIBUTES>
+     <EVENT_HANDLERS>
+      <O2PAGEVHS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <EVHANDLER>ONINITIALIZATION</EVHANDLER>
+       <VERSION>A</VERSION>
+       <EVHNAME>OnInitialization</EVHNAME>
+       <SOURCE>
+        <item>* event handler for data retrieval</item>
+        <item/>
+        <item>* the handler is called whenever a request is made for a particular page</item>
+        <item>* it is used to restore the internal data structures from the request</item>
+        <item/>
+        <item>* business data</item>
+        <item>DATA:</item>
+        <item>  gs_customer TYPE scustom,</item>
+        <item>  gt_bookings TYPE TABLE OF sbook,</item>
+        <item/>
+        <item>  gt_car TYPE RANGE OF sbook-carrid,</item>
+        <item>  gs_car LIKE LINE OF gt_car.</item>
+        <item/>
+        <item/>
+        <item>DATA:</item>
+        <item>  gs_control_params   TYPE ssfctrlop,</item>
+        <item>  gs_output_data TYPE ssfcrescl,</item>
+        <item>  gs_output_options TYPE ssfcompop.</item>
+        <item/>
+        <item>* generated result: HTML with embedded CSS</item>
+        <item>DATA: xmloutput TYPE ssfxmlout,</item>
+        <item>      it_html_raw  TYPE tsfixml.</item>
+        <item>DATA: xstring    TYPE xstring,    &quot;needed for HTTP response</item>
+        <item>      xlength    TYPE i,</item>
+        <item>      html_xstring   TYPE xstring.</item>
+        <item/>
+        <item>TRANSLATE:</item>
+        <item>  carrier_low TO UPPER CASE,</item>
+        <item>  carrier_high TO UPPER CASE.</item>
+        <item>IF NOT carrier_low IS INITIAL.</item>
+        <item>  gs_car-sign = &apos;I&apos;.</item>
+        <item>  IF carrier_high IS INITIAL.</item>
+        <item>    gs_car-option = &apos;EQ&apos;.</item>
+        <item>  ELSE.</item>
+        <item>    gs_car-option = &apos;BT&apos;.</item>
+        <item>  ENDIF.</item>
+        <item>  gs_car-low = carrier_low.</item>
+        <item>  gs_car-high = carrier_high.</item>
+        <item>  APPEND gs_car TO gt_car.</item>
+        <item>ENDIF.</item>
+        <item/>
+        <item>* read booking data</item>
+        <item>SELECT *</item>
+        <item>  FROM sbook</item>
+        <item>  INTO TABLE gt_bookings</item>
+        <item>  WHERE carrid IN gt_car AND</item>
+        <item>        customid = customer.</item>
+        <item/>
+        <item>SELECT SINGLE *</item>
+        <item>  FROM scustom</item>
+        <item>  INTO gs_customer</item>
+        <item>  WHERE id = customer.</item>
+        <item>IF sy-subrc &lt;&gt; 0.</item>
+        <item>  error = &apos;NO_CUSTOMER_FOUND&apos;.</item>
+        <item>  EXIT.</item>
+        <item>ENDIF.</item>
+        <item/>
+        <item>gs_control_params-langu = sy-langu.</item>
+        <item>* set output options</item>
+        <item>gs_output_options-xsf = &apos;X&apos;.</item>
+        <item/>
+        <item>gs_output_options-xsfcmode = &apos;X&apos;.</item>
+        <item>&quot;ignore poutput parameters of form attributes</item>
+        <item/>
+        <item>gs_output_options-xsfoutmode = &apos;A&apos;. &quot; application</item>
+        <item>gs_output_options-xsfformat  = &apos;X&apos;. &quot; formatting on</item>
+        <item>gs_output_options-xsfaction  = &apos;RESULT.HTM&apos;.</item>
+        <item/>
+        <item>* find out name of generated function module</item>
+        <item>CALL FUNCTION &apos;SSF_FUNCTION_MODULE_NAME&apos;</item>
+        <item>  EXPORTING</item>
+        <item>    formname           = smart_form</item>
+        <item>  IMPORTING</item>
+        <item>    fm_name            = fm_name</item>
+        <item>  EXCEPTIONS</item>
+        <item>    no_form            = 1</item>
+        <item>    no_function_module = 2</item>
+        <item>    OTHERS             = 3.</item>
+        <item/>
+        <item>IF sy-subrc &lt;&gt; 0.</item>
+        <item>  error = &apos;NO_FUNCTION_MODULE&apos;.</item>
+        <item>  EXIT.</item>
+        <item>ENDIF.</item>
+        <item/>
+        <item>CALL FUNCTION fm_name</item>
+        <item>  EXPORTING</item>
+        <item>  control_parameters        = gs_control_params</item>
+        <item>  output_options            = gs_output_options</item>
+        <item>  user_settings             = space</item>
+        <item>  is_customer               = gs_customer</item>
+        <item>  ie_color                  = &apos;BMON&apos;</item>
+        <item>IMPORTING</item>
+        <item> job_output_info            = gs_output_data</item>
+        <item>TABLES</item>
+        <item>   it_bookings              = gt_bookings</item>
+        <item> EXCEPTIONS</item>
+        <item>   OTHERS                     = 5</item>
+        <item>          .</item>
+        <item>IF sy-subrc &lt;&gt; 0.</item>
+        <item>  error = &apos;INTERNAL_ERROR&apos;.</item>
+        <item>  EXIT.</item>
+        <item>ENDIF.</item>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item>********************************************************************</item>
+        <item>xmloutput = gs_output_data-xmloutput.</item>
+        <item>it_html_raw  = xmloutput-trfresult-content[].</item>
+        <item/>
+        <item>*--------------------------------------------------------------------</item>
+        <item>* Fill HTTP request</item>
+        <item/>
+        <item>response-&gt;set_header_field( name  = &apos;content-type&apos;</item>
+        <item>*                            value = xmloutput-trfresult-type ).</item>
+        <item>                          value = &apos;text/html; charset=UTF-8&apos; ).</item>
+        <item/>
+        <item>* SAP Smart Forms returns XML data island in raw data format.</item>
+        <item>* method &apos;set_data&apos; of the response object needs the output</item>
+        <item>* in XSTRING. The next loop convertes the raw table into xstring.</item>
+        <item>LOOP AT it_html_raw INTO xstring.</item>
+        <item>  CONCATENATE html_xstring xstring INTO html_xstring</item>
+        <item>    IN BYTE MODE.</item>
+        <item>ENDLOOP.</item>
+        <item/>
+        <item>xlength = xstrlen( html_xstring ).</item>
+        <item/>
+        <item>response-&gt;set_data( data   = html_xstring</item>
+        <item>                    length = xlength ).</item>
+       </SOURCE>
+      </O2PAGEVHS>
+     </EVENT_HANDLERS>
+     <PARAMETERS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>CARRIER_HIGH</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>SPFLI-CARRID</TYPE>
+       <ALIASNAME>carrier_high</ALIASNAME>
+       <TEXT>Kurzbezeichnung der Fluggesellschaft</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>CARRIER_LOW</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>SPFLI-CARRID</TYPE>
+       <ALIASNAME>carrier_low</ALIASNAME>
+       <TEXT>Kurzbezeichnung der Fluggesellschaft</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>COLOR</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>CHAR4</TYPE>
+       <ALIASNAME>color</ALIASNAME>
+       <TEXT>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>CUSTOMER</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>SCUSTOM-ID</TYPE>
+       <ALIASNAME>customer</ALIASNAME>
+       <TEXT>Flugkundennummer</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>ERROR</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>CHAR20</TYPE>
+       <ALIASNAME>error</ALIASNAME>
+       <TEXT>Char 20</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>FM_NAME</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>RS38L_FNAM</TYPE>
+       <ALIASNAME>fm_name</ALIASNAME>
+       <TEXT>Name des Funktionsbausteins</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>SHOW_SMART_FORM.HTM</PAGEKEY>
+       <COMPNAME>SMART_FORM</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>STXFADM-FORMNAME</TYPE>
+       <ALIASNAME>smart_form</ALIASNAME>
+       <TEXT>Smart Forms: Formularname</TEXT>
+      </O2PAGPARS>
+     </PARAMETERS>
+    </item>
+    <item>
+     <ATTRIBUTES>
+      <APPLNAME>BC470_WAS</APPLNAME>
+      <PAGEKEY>START.HTM</PAGEKEY>
+      <PAGENAME>start.htm</PAGENAME>
+      <MIMETYPE>text/html</MIMETYPE>
+      <LAYOUTLANGU>D</LAYOUTLANGU>
+      <VERSION>A</VERSION>
+      <LANGU>D</LANGU>
+      <DESCRIPT>Start zur Formularwahl</DESCRIPT>
+     </ATTRIBUTES>
+     <EVENT_HANDLERS>
+      <O2PAGEVHS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <EVHANDLER>ONINITIALIZATION</EVHANDLER>
+       <VERSION>A</VERSION>
+       <EVHNAME>OnInitialization</EVHNAME>
+       <SOURCE>
+        <item>* Event handler for data retrieval</item>
+        <item/>
+        <item>* Read which suitable SAP Smart Forms are available so that</item>
+        <item>* the dropdown listboxes can be filled with values.</item>
+        <item/>
+        <item>* Select only those forms that have a generated function module</item>
+        <item>SELECT stxfadm~formname</item>
+        <item>  FROM stxfadm</item>
+        <item>  INNER JOIN stxfadmi</item>
+        <item>  ON stxfadm~formname = stxfadmi~formname</item>
+        <item>  INTO table it_smart_form</item>
+        <item>  WHERE ( stxfadm~formname LIKE &apos;ZBC470%&apos; OR stxfadm~formname LIKE</item>
+        <item>  &apos;BC470%&apos; ) AND   formtype = space.</item>
+        <item/>
+        <item>* Select only those forms whose interface fits</item>
+        <item>LOOP AT it_smart_form INTO smart_form.</item>
+        <item>  CALL FUNCTION &apos;BC470_CHECK_FORM_IS_OK&apos;</item>
+        <item>    EXPORTING</item>
+        <item>      smart_form_name = smart_form</item>
+        <item>    EXCEPTIONS</item>
+        <item>      no_form         = 1</item>
+        <item>      not_suitable    = 2</item>
+        <item>      OTHERS          = 3.</item>
+        <item>  CASE sy-subrc.</item>
+        <item>    WHEN 1 OR 2.</item>
+        <item>      DELETE it_smart_form INDEX sy-tabix.</item>
+        <item>  ENDCASE.</item>
+        <item>ENDLOOP.</item>
+        <item/>
+        <item>SORT it_smart_form.</item>
+        <item/>
+        <item/>
+        <item>* Check which prepared SF_EXAMPLEXXX BSPs are available in the system.</item>
+        <item>SELECT applname FROM o2appl</item>
+        <item>  INTO TABLE it_smart_forms_bsps</item>
+        <item>  WHERE applname LIKE &apos;SF_WEBFORM%&apos; AND</item>
+        <item>        version = &apos;A&apos;.</item>
+        <item/>
+       </SOURCE>
+      </O2PAGEVHS>
+      <O2PAGEVHS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <EVHANDLER>ONINPUTPROCESSING</EVHANDLER>
+       <VERSION>A</VERSION>
+       <EVHNAME>OnInputProcessing</EVHNAME>
+       <SOURCE>
+        <item>* event handler for checking and processing user input and</item>
+        <item>* for defining navigation</item>
+        <item/>
+        <item>DATA: next_page type string.</item>
+        <item/>
+        <item>* If the action of the HTML form is set with navigation-methods</item>
+        <item>* (next_page or goto_page), the page attributes have to be set</item>
+        <item>* manually.</item>
+        <item>navigation-&gt;set_parameter( name = &apos;carrier_low&apos; ).</item>
+        <item>navigation-&gt;set_parameter( name = &apos;carrier_high&apos; ).</item>
+        <item>navigation-&gt;set_parameter( name = &apos;customer&apos; ).</item>
+        <item>navigation-&gt;set_parameter( name = &apos;smart_form&apos; ).</item>
+        <item>CASE event_id.</item>
+        <item>  WHEN &apos;normal_form&apos;.</item>
+        <item>    navigation-&gt;next_page( &apos;SHOW_SMART_FORM&apos; ).</item>
+        <item/>
+        <item>  WHEN &apos;web_form&apos;.</item>
+        <item>    CONCATENATE &apos;../&apos; smart_form_bsp &apos;/&apos; &apos;start.htm&apos; INTO  next_page.</item>
+        <item>    navigation-&gt;goto_page( next_page ).</item>
+        <item>ENDCASE.</item>
+       </SOURCE>
+      </O2PAGEVHS>
+     </EVENT_HANDLERS>
+     <PARAMETERS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>BUTTON_TEXT</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>TEXT40</TYPE>
+       <ALIASNAME>button_text</ALIASNAME>
+       <TEXT>Text für Drucktaste</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>CARRIER_HIGH</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>SPFLI-CARRID</TYPE>
+       <ALIASNAME>carrier_high</ALIASNAME>
+       <TEXT>Kurzbezeichnung der Fluggesellschaft</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>CARRIER_LOW</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>SPFLI-CARRID</TYPE>
+       <ALIASNAME>carrier_low</ALIASNAME>
+       <TEXT>Kurzbezeichnung der Fluggesellschaft</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>CUSTOMER</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>SCUSTOM-ID</TYPE>
+       <ALIASNAME>customer</ALIASNAME>
+       <TEXT>Flugkundennummer</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>IT_SMART_FORM</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>TY_IT_SMART_FORM</TYPE>
+       <ALIASNAME>it_smart_form</ALIASNAME>
+       <TEXT>vorhandene Smart Forms</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>IT_SMART_FORMS_BSPS</COMPNAME>
+       <VERSION>A</VERSION>
+       <PARDECLTYP>1</PARDECLTYP>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>TY_IT_SMART_FORMS_BSPS</TYPE>
+       <ALIASNAME>it_smart_forms_bsps</ALIASNAME>
+       <TEXT>vorhandene BSPs</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>SMART_FORM</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>STXFADM-FORMNAME</TYPE>
+       <ALIASNAME>smart_form</ALIASNAME>
+       <TEXT>Smart Forms: Formularname</TEXT>
+      </O2PAGPARS>
+      <O2PAGPARS>
+       <APPLNAME>BC470_WAS</APPLNAME>
+       <PAGEKEY>START.HTM</PAGEKEY>
+       <COMPNAME>SMART_FORM_BSP</COMPNAME>
+       <VERSION>A</VERSION>
+       <TYPTYPE>1</TYPTYPE>
+       <TYPE>O2APPL-APPLNAME</TYPE>
+       <ALIASNAME>smart_form_bsp</ALIASNAME>
+       <TEXT>Name einer BSP-Applikation</TEXT>
+      </O2PAGPARS>
+     </PARAMETERS>
+     <TYPES>
+      <item>types:</item>
+      <item>  ty_it_smart_form type table of stxfadm-formname,</item>
+      <item/>
+      <item>  ty_it_smart_forms_bsps type table of o2appl-APPLNAME.</item>
+     </TYPES>
+    </item>
+   </PAGES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

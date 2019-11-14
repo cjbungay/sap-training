@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC401_DTOS_SPLIT_STRING</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RSTAT>T</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+     <LENGTH>79</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>                                                         available       seats</ENTRY>
+     <LENGTH>79</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>003</KEY>
+     <ENTRY>                                                             seats</ENTRY>
+     <LENGTH>67</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Model Solution: Character String Processing</ENTRY>
+     <LENGTH>43</LENGTH>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>Flight details</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Musterlösung: Zeichenkettenverarbeitung</ENTRY>
+       <LENGTH>39</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Daten des Flugtermins</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fgs. Fnr. Flugdatum          Flugpreis Währung Flugzeugtyp  maximal     belegte</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         verfügbare      Plätze</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Plätze</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Air. No.  Date               Fare     Currency Aircraft    maximum     reservd</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         available       seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Model Solution: Character String Processing</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flight details</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

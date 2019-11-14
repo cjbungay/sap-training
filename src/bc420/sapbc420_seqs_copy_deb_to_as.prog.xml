@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC420_SEQS_COPY_DEB_TO_AS</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RSTAT>T</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Copy file from PC to application server</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>ASFILE</KEY>
+     <ENTRY>File on application server</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PCFILE</KEY>
+     <ENTRY>File on PC</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Kopieren einer Datei vom PC aud den App-Server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>Datei auf  Applikationsserver</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>Datei auf dem PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Copy file from PC to application server</ENTRY>
+       <LENGTH>46</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>ASFILE</KEY>
+       <ENTRY>File on application server</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PCFILE</KEY>
+       <ENTRY>File on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

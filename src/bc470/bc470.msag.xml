@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC470</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten für BC470 (SAP Smart Forms)</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Printer &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Function module does not exist for form &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Interface not suitable for form &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Form &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>User-defined exception raised in form</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Package &amp;1 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Target system of request does not match selected transport layer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Transport layer &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>You are not assigned to request &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Order &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>You cannot change request &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Request &amp;1 is not a Workbench request</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>No more than 99 users allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No procedure selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>No download possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Enter file (including path)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Download not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>File &amp;1 already exists</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC470002</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC470002</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Funktionsbaustein &amp;v1&amp; hat eine unpassende Schnittstelle.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Damit die Standard-Demo-Programme des BC470 funktionieren, dürfen die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verwendeten Formulare keine obligatorischen Schnittstellen-Parameter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>haben außer:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Import-Parameter: WA_CUSTOMERS (Typ: SCUSTOM) und COLOR (Typ: CHAR4)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Tables-Parameter: IT_BOOKINGS (Typ: TY_BOOKINGS)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Anderes Formular wählen oder Schnittstelle passend ändern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC470002</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC470002</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Function module &amp;v1&amp; has an unsuitable interface.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For the standard demo programs for BC470 to work, the forms used cannot</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>have any obligatory interface parameters except for:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Import parameters: WA_CUSTOMERS (type: SCUSTOM) and COLOR (type: CHAR4)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Tables parameter: IT_BOOKINGS (type: TY_BOOKINGS)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Choose another form or adapt the interface accordingly.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC470025</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC470025</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Keins der Ankreuzfelder (Checkboxes) wurde ausgewählt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wählen Sie, was das Programm tun soll:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Entwicklungsklassen für die Kursteilnehmer anlegen und/oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Default-Drucker für Teilnehmer fetstlegen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC470025</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC470025</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>None of the checkboxes were selected</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Choose what the program is to do:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Create development classes for the course participants and/or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Define default printers for participants</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>B</LANGU>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>B</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <STEXT>Messages for BC470 (SAP Smart Forms)</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>BC470</ARBGB>
+     <STEXT>Nachrichten für BC470 (SAP Smart Forms)</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Printer &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Function module does not exist for form &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Interface not suitable for form &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Form &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>User-defined exception raised in form</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Package &amp;1 already exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Target system of request does not match selected transport layer</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Transport layer &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>You are not assigned to request &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Order &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>You cannot change request &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Request &amp;1 is not a Workbench request</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>No more than 99 users allowed</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>No procedure selected</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>No download possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Enter file (including path)</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Download not possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>File &amp;1 already exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Drucker &amp;1 existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Funktionsbaustein existiert nicht zum Formular &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Schnittstelle unpassend für Formular &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Formular &amp;1 existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>User-definierte Ausnahme wurde im Formular ausgelöst.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Paket &amp;1 existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Zielsystem des Auftrags passt nicht zur gewählten Transportschicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Transportschicht &amp;1 existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Sie sind dem Auftrag &amp;1 nicht zugeordnet!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Auftrag &amp;1 nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Auftrag &amp;1 nicht änderbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Auftrag &amp;1 ist kein Workbench-Auftrag.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Nicht mehr als 99 User erlaubt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Keine Aktion ausgewählt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Download fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Bitte Datei (incl. Pfad) eintragen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Download nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Datei &amp;1 existiert bereits.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

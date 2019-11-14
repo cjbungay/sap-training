@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>TAW10_BASICS_CALL_FUNCTION</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>                                    Turnover per Seat</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CARR</KEY>
+     <ENTRY>Airline Carrier</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CURR</KEY>
+     <ENTRY>Currency</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_OCC</KEY>
+     <ENTRY>Number of Occupied Seats</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PAYSU</KEY>
+     <ENTRY>Turnover so far</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+     <LENGTH>43</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Flugzeugtyp      max. Plätze        durchschnittlicher</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Umsatz pro Platz</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Lösung 3 - Funktionsgruppen und Funktionsbausteine</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Fluggesellschaft</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Währung</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Anzahl belegter Plätze</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>bisheriger Umsatz</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Liste möglicher Ersatzflugzeugtypen</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Aircraft Type    Max.Seats          average</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                    Turnover per Seat</ENTRY>
+       <LENGTH>54</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Solution 3 - Function Groups and Function Modules</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CARR</KEY>
+       <ENTRY>Airline Carrier</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CURR</KEY>
+       <ENTRY>Currency</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_OCC</KEY>
+       <ENTRY>Number of Occupied Seats</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PAYSU</KEY>
+       <ENTRY>Turnover so far</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>List of Possible Alternative Aircraft Types</ENTRY>
+       <LENGTH>43</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DSYS>
+    <HEAD>
+     <TDOBJECT>DSYS</TDOBJECT>
+     <TDNAME>SIMGBC427_16_SX_BADI</TDNAME>
+     <TDID>HY</TDID>
+     <TDSPRAS>E</TDSPRAS>
+     <TDFORM>S_DOCU_SHOW</TDFORM>
+     <TDSTYLE>S_DOCUS1</TDSTYLE>
+     <TDVERSION>00001</TDVERSION>
+     <TDLINESIZE>072</TDLINESIZE>
+    </HEAD>
+    <LINES>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;USE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>The screen exit in this BAdI enables you to show additional data about</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>the displayed airline (screen 100 of program BC427_16_NBD_SX).</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+      <TDLINE>Procedure:</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>*</TDFORMAT>
+      <TDLINE>1. Create a function group containing the relevant subscreen.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>*</TDFORMAT>
+      <TDLINE>2. Position the SCARR fields that you want to display on the subscreen.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>*</TDFORMAT>
+      <TDLINE>3. Create a function module that has an IMPORT parameter typed using</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>SCARR. This function module must write the value of the parameter to the</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>global function group TABLES structure scarr. (You can create the TABLES</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>structure in the TOP include of the function group by navigating</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>forwards from the source code of the function module.)</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>*</TDFORMAT>
+      <TDLINE>4. Create a spot implementation and a BAdI implementation. Define the</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>method put_data in your implementation so that it calls the function</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDLINE>module and passes your IMPORT parameter im_wa_scarr to it.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>5. Activate all objects and implementations.</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>UT</TDFORMAT>
+      <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+     </TLINE>
+     <TLINE>
+      <TDFORMAT>AS</TDFORMAT>
+     </TLINE>
+    </LINES>
+   </DSYS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

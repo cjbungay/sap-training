@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC402_TABD_STORE_DUPL_COMPL</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RSTAT>T</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>                                                         Available       Seats</ENTRY>
+     <LENGTH>79</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>003</KEY>
+     <ENTRY>                                                             Seats</ENTRY>
+     <LENGTH>67</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DOB</KEY>
+     <ENTRY>Following data records occurred more than once:</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+     <LENGTH>60</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DATE</KEY>
+     <ENTRY>Key Date</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LIST</KEY>
+     <ENTRY>List Display Using ALV</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>Flights</ENTRY>
+     <LENGTH>11</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Fgs. Fnr. Flugdatum          Flugpreis Währung Flugzeugtyp  maximal     belegte</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         verfügbare      Plätze</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Plätze</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Die folgenden Datensätze kamen mehr als einmal vor:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration interne Tabellen: Historie Duplikate speichern</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Stichtag</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>Listenausgabe per ALV</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flugtermine</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>H</ID>
+       <KEY>001</KEY>
+       <ENTRY>Carr.No.  Date               Price     Currency Aircraft    Maximum     Reserved</ENTRY>
+       <LENGTH>80</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>002</KEY>
+       <ENTRY>                                                         Available       Seats</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>H</ID>
+       <KEY>003</KEY>
+       <ENTRY>                                                             Seats</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOB</KEY>
+       <ENTRY>Following data records occurred more than once:</ENTRY>
+       <LENGTH>51</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Internal Table Demonstration: Save Duplicates History</ENTRY>
+       <LENGTH>60</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DATE</KEY>
+       <ENTRY>Key Date</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_LIST</KEY>
+       <ENTRY>List Display Using ALV</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>T</ID>
+       <ENTRY>Flights</ENTRY>
+       <LENGTH>11</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

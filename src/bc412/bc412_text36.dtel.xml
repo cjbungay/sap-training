@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BC412_TEXT36</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BC412_TEXT36</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>BC412: Text With Length 36</DDTEXT>
+    <SCRTEXT_S>Text</SCRTEXT_S>
+    <SCRTEXT_M>Text</SCRTEXT_M>
+    <SCRTEXT_L>Text</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>N</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>BC412: Text der Länge 36</DDTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Text</SCRTEXT_M>
+     <SCRTEXT_L>Text</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>BC412: Text der Länge 36</DDTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Text</SCRTEXT_M>
+     <SCRTEXT_L>Text</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>BC412: Text With Length 36</DDTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Text</SCRTEXT_M>
+     <SCRTEXT_L>Text</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>BC412: 長さ 36 のテキスト</DDTEXT>
+     <SCRTEXT_S>テキスト</SCRTEXT_S>
+     <SCRTEXT_M>テキスト</SCRTEXT_M>
+     <SCRTEXT_L>テキスト</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>BC412: Text With Length 36</DDTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Text</SCRTEXT_M>
+     <SCRTEXT_L>Text</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC414</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>BC414: Datenbankänderungen programmieren</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Unable to create table entry</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>&amp;1: Unable to create airline</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp;1 &amp;2: Unable to create flight connection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Unable to create flight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Unable to create bookings</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Table entry created successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1: Airline created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>&amp;1 &amp;2: Connection created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Flight created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Booking(s) created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Customer number &amp;1 created successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Table entry does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>&amp;1: Carrier is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>&amp;1 &amp;2: Flight connection is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Flight is not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Booking(s) do not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Table entry successfully updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>&amp;1: Carrier updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>&amp;1 &amp;2: Flight connection updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Flight updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Flight and booking(s) updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Table entry could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>&amp;1: Carrier could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>&amp;1 &amp;2: Flight connection could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Flight could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3: Flight and booking(s) could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Changes not successful (flight is full)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Changes not successful (flight is not maintained)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Changes not successful (booking does not exist)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Changes not successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Changes not successful (conversion to local currency failed)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Changes not successful (carrier already created)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Changes not successful (flight already created)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Changes not successful (booking for key already entered)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>&amp;1: Carrier already maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>&amp;1 &amp;2: Flight connection already maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3_ Föogjt already maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Data record is already being edited</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Editing terminated (booking already locked)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Flight and/or bookings are already being edited</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Lock request not successful (sy-subrc = &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Supply of numbers exceeded critical level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Caution: Last number was taken</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>No more free numbers</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Internal error assigning numbers (sy-subrc = &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Error converting to local currency (sy-subrc = &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>This function first has to be implemented</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>&amp; flight connections output in the list</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>No data could be read from the ABAP memory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC414</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Update request successfully created</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

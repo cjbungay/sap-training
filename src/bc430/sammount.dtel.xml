@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>SAMMOUNT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SAMMOUNT</DOMNAME>
+    <HEADLEN>06</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Salary according to salary level</DDTEXT>
+    <REPTEXT>Salary</REPTEXT>
+    <SCRTEXT_S>Salary</SCRTEXT_S>
+    <SCRTEXT_M>Salary</SCRTEXT_M>
+    <SCRTEXT_L>Salary</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gehalt zur Gehaltsstufe</DDTEXT>
+     <REPTEXT>Gehalt</REPTEXT>
+     <SCRTEXT_S>Gehalt</SCRTEXT_S>
+     <SCRTEXT_M>Gehalt</SCRTEXT_M>
+     <SCRTEXT_L>Gehalt</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

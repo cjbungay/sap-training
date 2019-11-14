@@ -1,0 +1,2003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC400</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten zur Schulung BC400</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC400002</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC400002</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie wollten die Zeile &amp;v1&amp; einer internen Tabelle lesen. Die Anzahl der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zeilen der internen Tabelle ist kleiner als die gewünschte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zeilennummer. Daher konnte kein Eintrag gelesen werden. Die Ausgabe der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Daten der Zeile &amp;v1&amp; wird unterdrückt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC400002</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC400002</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You tried to read line &amp;v1&amp; of an internal table. The total number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>lines in the internal table is less than the line number you chose.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Thus the system could not read the entry and will not display the  data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>from line &amp;v1&amp;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC400058</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC400058</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Datenbankänderung muß noch implementiert werden. Aus didaktischen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Gründen wurde dies noch zurückgestellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC400058</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC400058</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The change to the database still has to be implemented. This was reset</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for didactic reasons.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC400151</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00014</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC400151</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben eine Betragsänderung vorgenommen mit einer Währung, die nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Hauswährung der Fluggesellschaft entspricht. Daher ist es</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>notwendig, vor der Datenbankänderung den Betrag in Hauswährung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>umzurechnen. Diese Umrechnung konnte nicht durchgeführt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Möglicherweise ist die Tabelle mit den Umrechnungskursen TCURR, die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Tabelle für Kursspannen TCURS, die Tabelle für Umrechnungsfaktoren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>TCURF, die Tabellle für Kurstypen bei Währungsumrechnung TCURV, die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Tabelle für Währungscodes TCURC oder  die Tabelle für Dezimalstellen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Währungen TCURX nicht korrekt gefüllt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Datenbankänderung kann nicht durchgeführt werden, da sonst eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Inkonsistenz in den Daten entstehen würde.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Überprüfen Sie den Inhalt der Tabellen TCURR, TCURS, TCURF, TCURV,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>TCURC und TCURX und benachrichtigen Sie die zuständige Person für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>BC400151</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00012</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC400151</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You changed an amount in a currency that is not the local currency for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the airline. Before the database is changed, therefore,  the system has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to convert the amount to the local currency. It could not do so.  The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>exchange rate table (TCURR), the currency spread table (TCURS), the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>translation ratio table (TCURF), the table of exchnage rate types for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>currency conversion (TCURV), the currency codes table (TCURC) or the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table of decimal places for currencies (TCURX) has not been filled</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correctly.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The database cannot be changed; if it were, a data inconsistency would</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>occur.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Check the contents of the tables TCURR, TCURS, TCURF, TCURV, TCURC ánd</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>TCURX and inform whoever is responsible for Customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>4</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>d</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>4</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>5</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>6</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>B</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Nachrichten zur Schulung BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>G</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>R</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>W</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>d</SPRSL>
+     <ARBGB>BC400</ARBGB>
+     <STEXT>Messages for Training Course BC400</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>4</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>5</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>6</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>B</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Objekt bereits gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Die interne Tabelle besitzt einen Eintrag in Zeile &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Die interne Tabelle besitzt keinen Eintrag in Zeile &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Tabelleneintrag zum eingegebenen Schlüssel ist nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Sperre konnte nicht gesetzt werden (Systemfehler)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Es wurde ein Eintrag aus der Datenbank gelesen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Im gewählten Zeitraum existiert kein Flug zur Fluglinie &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Der Name der Fluggesellschaft &amp;1 ist &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Fluggesellschaft &amp;1 ist nicht vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Keine Berechtigung für Fluggesellschaft &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Keine Anzeige-Berechtigung für Fluggesellschaft &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Keine Änderungs-Berechtigung für Fluggesellschaft &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division durch Null</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Das Dynpro wurde verlassen, ohne zu sichern</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Es wurde &apos;sichern&apos; gewählt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...leider können wir das noch nicht :-((</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Objekt ist bereits gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Anzahl gebuchter Plätze überschreitet Flugzeugkapazität</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Keinen Flug gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Objekt bereits gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Objekt nicht sperrbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Änderung Flugverbindung konnte nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Änderung erfolgreich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Änderung nicht erfolgreich!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Änderung zur Buchung &amp; &amp; &amp; &amp; konnte nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Es ist ein Konvertierungsfehler aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Buchung nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Fehlender Parameter</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Operator Ungültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>G</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>R</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>W</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Internal table has entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Internal table has no entry in row &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Table entry for specified key does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Could not set lock (system error)</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Entry read from database</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No flights available at times selected for carrier &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Name of carrier &amp;1 is &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Carrier &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No display authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>No change authorization for carrier &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Division by zero</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>You left the screen without saving</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>&apos;Save&apos; chosen</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>...unfortunately, we can&apos;t do that yet...</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Number of seats booked exceeds capacity of aircraft</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No flight found</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Object already locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Object cannot be locked</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Could not save changes to flight connection</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Change successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Change not successful</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Could not save change to booking &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Conversion error</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Booking not found</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>312</MSGNR>
+     <TEXT>Parameter missing</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>314</MSGNR>
+     <TEXT>Invalid operator</TEXT>
+    </item>
+    <item>
+     <SPRSL>d</SPRSL>
+     <MSGNR>555</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

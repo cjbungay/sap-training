@@ -1,0 +1,13 @@
+*&---------------------------------------------------------------------*
+*& Modulpool         SAPBC414T_BOOKINGS_02                             *
+*&---------------------------------------------------------------------*
+
+INCLUDE BC414T_BOOKINGS_02TOP.
+INCLUDE BC414T_BOOKINGS_02O01.
+INCLUDE BC414T_BOOKINGS_02F04.
+INCLUDE BC414T_BOOKINGS_02F05.
+INCLUDE BC414T_BOOKINGS_02F06.
+INCLUDE BC414T_BOOKINGS_02I01.
+INCLUDE BC414T_BOOKINGS_02F01.
+INCLUDE BC414T_BOOKINGS_02F02.
+INCLUDE BC414T_BOOKINGS_02F03.

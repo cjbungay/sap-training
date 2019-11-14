@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_BC427_00_EXT_FL_DISP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BAdI Interface IF_EX_BC427_00_EXT_FL_DISP</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_BC427_00_EXT_FL_DISP</CLSNAME>
+     <CMPNAME>WRITE_ADDITIONAL_COLS</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Additional Columns Display</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_BC427_00_EXT_FL_DISP</CLSNAME>
+     <CMPNAME>WRITE_ADDITIONAL_COLS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausgabe von Zusatzspalten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>IF_EX_BC427_00_EXT_FL_DISP</CLSNAME>
+     <CMPNAME>WRITE_ADDITIONAL_COLS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Additional Columns Display</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

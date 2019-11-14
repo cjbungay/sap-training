@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC420</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Schulung: BC420 - Datenübernahme</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC420</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Error creating file &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC420</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Error opening file &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC420</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Error deleting file &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CX_BC401_CUST_NOT_IN_LIST</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Kunde nicht auf  Warteliste vorhanden</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>0AAA9D3DC2AB2225E10000000A114627</CONCEPT>
+      <CREA_LAN>D</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <ALIAS_NAME>BC_TAW10/CUST_NOT_IN_LIST</ALIAS_NAME>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>0AAA9D3DC2AB2225E10000000A114627</CONCEPT>
+       <LANGU>D</LANGU>
+       <OBJECT>0BAA9D3DC2AB2225E10000000A114627</OBJECT>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Kunde &amp;customer&amp; befindet sich nicht auf der Warteliste zum Flug &amp;carrid&amp; &amp;connid&amp; &amp;fldate&amp;</TEXT>
+      </SOTR_TEXT>
+      <SOTR_TEXT>
+       <CONCEPT>0AAA9D3DC2AB2225E10000000A114627</CONCEPT>
+       <LANGU>E</LANGU>
+       <OBJECT>05E14F3ECB839638E10000000A1148FD</OBJECT>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Customer &amp;customer&amp; is not on the waiting list for flight &amp;carrid&amp; &amp;connid&amp; &amp;fldate&amp;</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_BC401_CUST_NOT_IN_LIST</CLSNAME>
+     <CMPNAME>CARRID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kurzbezeichnung der Fluggesellschaft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_BC401_CUST_NOT_IN_LIST</CLSNAME>
+     <CMPNAME>CONNID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Code der Einzelflugverbindung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_BC401_CUST_NOT_IN_LIST</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_BC401_CUST_NOT_IN_LIST</CLSNAME>
+     <CMPNAME>CUSTOMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Flugkundennummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CX_BC401_CUST_NOT_IN_LIST</CLSNAME>
+     <CMPNAME>FLDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Flugdatum</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

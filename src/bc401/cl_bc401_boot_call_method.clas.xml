@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Copy Template: Demonstration Refactoring Assistant</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>STR</KEY>
+     <ENTRY>New Charact.Strng</ENTRY>
+     <LENGTH>17</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ruft eine private Methode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>G</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>W</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>CALLER</CMPNAME>
+     <LANGU>d</LANGU>
+     <DESCRIPT>Calls a private method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>sendet Zeichenkette als Nachricht</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>G</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>W</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC401_BOOT_CALL_METHOD</CLSNAME>
+     <CMPNAME>SEND_MESSAGE</CMPNAME>
+     <LANGU>d</LANGU>
+     <DESCRIPT>Sends character string as message</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

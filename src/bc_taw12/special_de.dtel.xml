@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>SPECIAL_DE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SPECIAL_DOM</DOMNAME>
+    <HEADLEN>42</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Special Request / Additional Information for Booking</DDTEXT>
+    <REPTEXT>Special Request / Addit.Data for Booking</REPTEXT>
+    <SCRTEXT_S>Supplement</SCRTEXT_S>
+    <SCRTEXT_M>Special Request</SCRTEXT_M>
+    <SCRTEXT_L>Special Request / Addit.Data</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Sonderwunsch/Zusatzinformation zur Buchung</DDTEXT>
+     <REPTEXT>Sonderwunsch/Zusatzinformation zur Buchung</REPTEXT>
+     <SCRTEXT_S>Zusatz</SCRTEXT_S>
+     <SCRTEXT_M>Sonderwunsch</SCRTEXT_M>
+     <SCRTEXT_L>Sonderwunsch/Zusatzinformation</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

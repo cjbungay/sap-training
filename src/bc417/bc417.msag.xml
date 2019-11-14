@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>BC417</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Training:BC417 - BAPI Dev. for Accessing SAP Components</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>You are not authorized to display customers</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No customer found for this selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>A country code was not entered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Record already locked by another user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Lock could not be set (system error)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error during update</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>BC417</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Change successfully made</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

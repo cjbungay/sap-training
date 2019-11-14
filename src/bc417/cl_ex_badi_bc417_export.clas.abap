@@ -1,0 +1,82 @@
+class CL_EX_BADI_BC417_EXPORT definition
+  public
+  final
+  create public .
+
+*"* public components of class CL_EX_BADI_BC417_EXPORT
+*"* do not include other source files here!!!
+public section.
+
+  interfaces IF_EX_BADI_BC417_EXPORT .
+  type-pools SEEX .
+protected section.
+*"* protected components of class CL_EX_BADI_BC417_EXPORT
+*"* do not include other source files here!!!
+private section.
+*"* private components of class CL_EX_BADI_BC417_EXPORT
+*"* do not include other source files here!!!
+
+  data INSTANCE_BADI_TABLE type SEEX_EXIT_TAB .
+ENDCLASS.
+
+
+
+CLASS CL_EX_BADI_BC417_EXPORT IMPLEMENTATION.
+
+
+method IF_EX_BADI_BC417_EXPORT~EXPORT_DATA.
+CLASS CL_EXIT_MASTER DEFINITION LOAD.
+DATA: EXIT_OBJ_TAB TYPE SEEX_EXIT_TAB,
+      EXIT_OBJ TYPE SEEX_EXIT_TAB_STRUCT.
+
+DATA: EXITINTF TYPE REF TO IF_EX_BADI_BC417_EXPORT.
+
+
+  LOOP AT INSTANCE_BADI_TABLE INTO EXIT_OBJ WHERE
+       INTER_NAME = 'IF_EX_BADI_BC417_EXPORT' AND
+       FLT_VAL    = SPACE.
+    APPEND EXIT_OBJ TO EXIT_OBJ_TAB.
+  ENDLOOP.
+
+  IF SY-SUBRC = 4.
+    CALL METHOD CL_EXIT_MASTER=>CREATE_OBJ_BY_INTERFACE_FILTER
+       EXPORTING
+          INTER_NAME   = 'IF_EX_BADI_BC417_EXPORT'
+          FLT_VAL      = SPACE
+       IMPORTING
+          EXIT_OBJ_TAB = EXIT_OBJ_TAB.
+
+    APPEND LINES OF EXIT_OBJ_TAB TO INSTANCE_BADI_TABLE.
+  ENDIF.
+
+  LOOP AT EXIT_OBJ_TAB INTO EXIT_OBJ.
+
+    CHECK NOT EXIT_OBJ-OBJ IS INITIAL.
+    CHECK EXIT_OBJ-ACTIVE = SEEX_TRUE.
+
+
+    EXITINTF ?= EXIT_OBJ-OBJ.
+
+    CALL FUNCTION 'PF_ASTAT_OPEN'
+       EXPORTING
+           OPENKEY = 'Y1zhPaENrH6hT03Gjpo6nG'
+           TYP     = 'UE'.
+
+    CALL METHOD EXITINTF->EXPORT_DATA
+       EXPORTING
+         COUNTRY = COUNTRY
+       IMPORTING
+         EXTENSION_OUT = EXTENSION_OUT.
+
+
+
+    CALL FUNCTION 'PF_ASTAT_CLOSE'
+       EXPORTING
+           OPENKEY = 'Y1zhPaENrH6hT03Gjpo6nG'
+           TYP     = 'UE'.
+
+  ENDLOOP.
+
+
+ENDMETHOD.
+ENDCLASS.

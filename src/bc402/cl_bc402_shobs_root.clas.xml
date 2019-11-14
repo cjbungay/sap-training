@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BC402 Solution for Shared Objects: Root Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <CLSSHAREDMEMORY>X</CLSSHAREDMEMORY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>4</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>5</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>6</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>B</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Katalogklasse für Flugtermine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>G</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>W</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>CL_BC402_SHOBS_ROOT</CLSNAME>
+     <CMPNAME>GR_CATALOG</CMPNAME>
+     <LANGU>d</LANGU>
+     <DESCRIPT>Catalog for Flight Dates</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

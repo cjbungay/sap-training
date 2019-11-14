@@ -1,0 +1,897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC402_RUND_EVENTS</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RSTAT>T</RSTAT>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DYNNR</KEY>
+     <ENTRY>Screen Number</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_DYNNRA</KEY>
+     <ENTRY>Screen Number</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MARKIA</KEY>
+     <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MARKLA</KEY>
+     <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MARKOA</KEY>
+     <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MARK_I</KEY>
+     <ENTRY>INITIALIZATION triggered</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MARK_L</KEY>
+     <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_MARK_O</KEY>
+     <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration Ereignisse einer Reporttransaktion</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Dynpro-Nummer</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Dynpro-Nummer</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Mark. INITIALIZATION (Kopie)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Mark. LOAD-OF-PROGRAM (Kopie)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCR OUT ausgelöst</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION ausgelöst</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM ausgelöst</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCR OUT ausgelöst</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demonstration: Events in Report Transaction</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNR</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_DYNNRA</KEY>
+       <ENTRY>Screen Number</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKIA</KEY>
+       <ENTRY>Select INITALIZATION (Copy)</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKLA</KEY>
+       <ENTRY>Select LOAD-OF-PROGRAM (Copy)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARKOA</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_I</KEY>
+       <ENTRY>INITIALIZATION triggered</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_L</KEY>
+       <ENTRY>LOAD-OF-PROGRAM triggered</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>P_MARK_O</KEY>
+       <ENTRY>AT SEL.-SCREEN OUT triggered</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC402_RUND_EVENTS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00026</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC402_RUND_EVENTS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;TITLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zwei Selektionsbilder, Grundliste und Verzweigungslisten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Demonstration der Programm- und Listenereignisse</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>BC402 - Kapitel &quot;ABAP Laufzeitumgebung&quot; (Ausführung einer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Report-Transaktion)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>keine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Man sieht die Nummer des jeweiligen Selektionsbildes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>An den Markierungen sieht man jeweils, welche Ereignisse ausgelöst</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>worden sind. Damit diese Anzeige nicht durch manuelle Eingabe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verfälscht wird, muß vor dem Anzeigen der Grundliste jede Markierung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entfernt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Anhand der Nachrichten sieht man zusätzlich, welche Ereignisse</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ausgelöst worden sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Auf der Grundliste sieht man anhand der Ausgaben, welche</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Listenereignisse ausgelöst worden sind und wie diese im Zusammenhang</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mit der Seitenlänge (hier: zehn Zeilen) stehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Auf den Verzweigungslisten wird zusätzlich noch der Index der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verzweigungsliste mitausgegeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sonderfall:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wählt man von der Grundliste die Funktion &lt;PF&gt;Zurück&lt;/&gt; (&lt;PF&gt;F3&lt;/&gt;),</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wird das Programm neu gestartet, wobei allerdings die Eingabefelder des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Standardselektionsbildes mit den letzten Werten vorbelegt werden. So</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsteht der Eindruck, man würde die Dialogschritte &quot;rückwärts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>durchlaufen&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC402_RUND_EVENTS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <TXTLINES>00021</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC402_RUND_EVENTS</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;TITLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Two Selection Screens, Basic List, and Detail Lists</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Demonstration of program and list events</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>BC402 - &quot;ABAP Runtime Environment&quot; Unit (running a report transaction)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>None</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The screen shows the number of the selection screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The checkboxes show which events have been triggered. To ensure that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this cannot be affected by manual entries, all of the selections must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be removed before the basic list is displayed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The messages also indicate which events have been triggered.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>On the basic list, the output shows which list events have been</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>triggered and how they relate to the page length (in this case, 10</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>lines).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>On the detail lists, the index of the list is displayed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>To test the effect of the EXIT statement, remove the comment character</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&apos;*&apos; at the relevant point.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Special case:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If you choose Back from the basic list (F3), the program is restarted.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>However, the input fields on the standard selection screen are filled</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with the last set of values. This gives you the impression that the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>program is &quot;running backwards&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

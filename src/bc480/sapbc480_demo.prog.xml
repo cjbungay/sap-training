@@ -1,0 +1,3443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>SAPBC480_DEMO</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>ADV</KEY>
+     <ENTRY>Advanced functions</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>CHO</KEY>
+     <ENTRY>Choose graphic file</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>DOW</KEY>
+     <ENTRY>Select download directory</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>EBA</KEY>
+     <ENTRY>Download not possible in background</ENTRY>
+     <LENGTH>35</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NOA</KEY>
+     <ENTRY>No advanced functions</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S10</KEY>
+     <ENTRY>if you have created the form in several languages</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S11</KEY>
+     <ENTRY>The sending country determines only one thing:</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S12</KEY>
+     <ENTRY>If the mail is treated as domestic or international</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE1</KEY>
+     <ENTRY>Data source</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE2</KEY>
+     <ENTRY>Language/Country</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE3</KEY>
+     <ENTRY>Processing settings</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE4</KEY>
+     <ENTRY>Sundries</ENTRY>
+     <LENGTH>25</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE5</KEY>
+     <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE6</KEY>
+     <ENTRY>Override recipient&apos;s country/language</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE7</KEY>
+     <ENTRY>Image from intranet</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE8</KEY>
+     <ENTRY>Image from Internet</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SE9</KEY>
+     <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+     <LENGTH>66</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_ADDR</KEY>
+     <ENTRY>Mail address</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_ANY</KEY>
+     <ENTRY>Determine customers yourself</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CNFIX</KEY>
+     <ENTRY>Override country/language</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_CNTRY</KEY>
+     <ENTRY>Country</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_DB</KEY>
+     <ENTRY>Bookings from database</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FAX</KEY>
+     <ENTRY>Send PDF as fax</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FAXCT</KEY>
+     <ENTRY>Fax country</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FAXNO</KEY>
+     <ENTRY>Fax number</ENTRY>
+     <LENGTH>18</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FILL</KEY>
+     <ENTRY>Allow interactive features</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FORM</KEY>
+     <ENTRY>Form</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_FOUR</KEY>
+     <ENTRY>Customers of 4 countries</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_GUI</KEY>
+     <ENTRY>Download PDF on PC</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_IMAGE</KEY>
+     <ENTRY>Image file on PC</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_LANG</KEY>
+     <ENTRY>Language</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_MAIL</KEY>
+     <ENTRY>Send PDF as mail</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_NEWID</KEY>
+     <ENTRY>New spool ID</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_NODLG</KEY>
+     <ENTRY>Suppress print dialog</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_NOPDF</KEY>
+     <ENTRY>No PDF (speed up performance)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_NO_DB</KEY>
+     <ENTRY>Determine number of bookings</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_NUMB</KEY>
+     <ENTRY>Number of random bookings</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PATH</KEY>
+     <ENTRY>Download path (NOT file name)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PREV</KEY>
+     <ENTRY>Print preview</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_PRNT</KEY>
+     <ENTRY>Printer</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_RFC</KEY>
+     <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_SEND</KEY>
+     <ENTRY>Sending country (for address)</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_SFTXT</KEY>
+     <ENTRY>Smart Forms text module</ENTRY>
+     <LENGTH>31</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_SO10</KEY>
+     <ENTRY>SAPscript text</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_SPOOL</KEY>
+     <ENTRY>Spool processing</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PA_URL</KEY>
+     <ENTRY>Image URL</ENTRY>
+     <LENGTH>37</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_CUSID</KEY>
+     <ENTRY>Customer number</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Zusatzfunktionen</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Graphikdatei wählen</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Bitte Downloadverzeichnis wählen</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download unmöglich im Hintergrund</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>Keine Zusatzfunktionen</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>falls Sie das Formular in verschiedenen Sprachen angelegt haben</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>Das Absenderland bestimmt nur eine Sache:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>Ob die Post als Inlands- oder Auslandspost betrachtet wird</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Datenquelle</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Sprache/Land</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Prozessierungseinstellung</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Diverses</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Schauplatz für Formular (Sprache, Datumsformat, Dezimalformat, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Land/Sprache des Kunden übersteuern</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Graphik aus dem Intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Graphik aus dem Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Das testweise Überschreiben der Formularsprache macht Sinn</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demoanwendung für Formulardruck mit der Lösung Interactive Forms</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mailadresse</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Kunden selbst bestimmen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Land/Sprache übersteuern</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Land</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Buchungen von der Datenbank</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>PDF als Fax senden</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Faxland</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Faxnummer</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Interaktive Fkt. ermöglichen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Formular</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Kunden aus 4 Ländern</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>PDF auf PC speichern</ENTRY>
+       <LENGTH>28</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Graphikdatei auf PC</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Sprache</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>PDF als Mail senden</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>Neue Spool-ID</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Druckdialog unterdrücken</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>Kein PDF (bessere Performance)</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Anzahl Buchungen bestimmen</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Anzahl willkürlicher Buchungen</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Downloadpfad (NICHT Dateiname)</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Druckvorschau</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Drucker</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. der Adobe doc. serv.</ENTRY>
+       <LENGTH>38</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Absenderland (für Kundenadr.)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart-Forms-Textbaustein</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscripttext</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spoolprozessierung</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Graphik-URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Kundennummer</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>ADV</KEY>
+       <ENTRY>Advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>CHO</KEY>
+       <ENTRY>Choose graphic file</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DOW</KEY>
+       <ENTRY>Select download directory</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>EBA</KEY>
+       <ENTRY>Download not possible in background</ENTRY>
+       <LENGTH>35</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NOA</KEY>
+       <ENTRY>No advanced functions</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S10</KEY>
+       <ENTRY>if you have created the form in several languages</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S11</KEY>
+       <ENTRY>The sending country determines only one thing:</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S12</KEY>
+       <ENTRY>If the mail is treated as domestic or international</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE1</KEY>
+       <ENTRY>Data source</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE2</KEY>
+       <ENTRY>Language/Country</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE3</KEY>
+       <ENTRY>Processing settings</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE4</KEY>
+       <ENTRY>Sundries</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE5</KEY>
+       <ENTRY>Locale for form (language, date format, decimal format, ...)</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE6</KEY>
+       <ENTRY>Override recipient&apos;s country/language</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE7</KEY>
+       <ENTRY>Image from intranet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE8</KEY>
+       <ENTRY>Image from Internet</ENTRY>
+       <LENGTH>40</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SE9</KEY>
+       <ENTRY>Overriding the form language for test purposes makes sense</ENTRY>
+       <LENGTH>70</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Demo Application for Form Printing With Interactive Forms Solution</ENTRY>
+       <LENGTH>66</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ADDR</KEY>
+       <ENTRY>Mail address</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_ANY</KEY>
+       <ENTRY>Determine customers yourself</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNFIX</KEY>
+       <ENTRY>Override country/language</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_CNTRY</KEY>
+       <ENTRY>Country</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_DB</KEY>
+       <ENTRY>Bookings from database</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAX</KEY>
+       <ENTRY>Send PDF as fax</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXCT</KEY>
+       <ENTRY>Fax country</ENTRY>
+       <LENGTH>19</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FAXNO</KEY>
+       <ENTRY>Fax number</ENTRY>
+       <LENGTH>18</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FILL</KEY>
+       <ENTRY>Allow interactive features</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FORM</KEY>
+       <ENTRY>Form</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_FOUR</KEY>
+       <ENTRY>Customers of 4 countries</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_GUI</KEY>
+       <ENTRY>Download PDF on PC</ENTRY>
+       <LENGTH>26</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_IMAGE</KEY>
+       <ENTRY>Image file on PC</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_LANG</KEY>
+       <ENTRY>Language</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_MAIL</KEY>
+       <ENTRY>Send PDF as mail</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NEWID</KEY>
+       <ENTRY>New spool ID</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NODLG</KEY>
+       <ENTRY>Suppress print dialog</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NOPDF</KEY>
+       <ENTRY>No PDF (speed up performance)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NO_DB</KEY>
+       <ENTRY>Determine number of bookings</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_NUMB</KEY>
+       <ENTRY>Number of random bookings</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PATH</KEY>
+       <ENTRY>Download path (NOT file name)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PREV</KEY>
+       <ENTRY>Print preview</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_PRNT</KEY>
+       <ENTRY>Printer</ENTRY>
+       <LENGTH>15</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_RFC</KEY>
+       <ENTRY>RFC Dest. of Adobe doc. serv.</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SEND</KEY>
+       <ENTRY>Sending country (for address)</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SFTXT</KEY>
+       <ENTRY>Smart Forms text module</ENTRY>
+       <LENGTH>31</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SO10</KEY>
+       <ENTRY>SAPscript text</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_SPOOL</KEY>
+       <ENTRY>Spool processing</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PA_URL</KEY>
+       <ENTRY>Image URL</ENTRY>
+       <LENGTH>37</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>SO_CUSID</KEY>
+       <ENTRY>Customer number</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC480_DEMO</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00056</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC480_DEMO</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zentrales Testprogramm für beinahe alle PDF-basierten Formulare des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Kurses BC480</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Nur für Schulungszwecke!&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Eine http-Verbindung zu einer J2EE Engine, auf der die Adobe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Document Services installiert sind, muss mit der Transaktion SM59</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gepflegt sein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Formular:&lt;/&gt; ein aktives PDF-basiertes Formular mit einer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>passenden Schnittstele. Zur Pflege der Formulare dient die Transaktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SFP.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Kundennummer:&lt;/&gt; Die Nummern entsprechen den Nummern in Tabelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SCUSTOM. (Diese Tabelle ist die Kundentabelle des Fludatenmodells.)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Zusatzfunktionen/Datenquelle:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Kunden selbst bestimmen:&lt;/&gt; Bei Auswahl dieser Option kann der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Benutzer manuelle die Kundennummern bestimmen. Wenn diese Option nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ausgewählt ist, wird das Programm automatisch in der Tabelle SCUSTOM</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vier beliebige Kunden aus vier verschiedenen Ländern wählen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Die zweite Einstellung ist hilfreich, um Sprachabhängigkeiten zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>demonstrieren, wie die Adressformatierung oder das Datumsformat</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Buchungen von der Datenbank:&lt;/&gt; Wenn diese Option gewählt wird,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden die Buchungen für alle Kunden tatsächlich aus der Tabelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SBOOK gelesen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Anzahl Buchungen bestimmen:&lt;/&gt; Bei Auswahl dieser Option werden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die tatsächlichen Einträge in der TAbelle SBOOK ignoriert und eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>willkürliche Anzahl von Buchungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(die der Benutzer festlegt) werden für jeden Kunden gelesen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Diese Option ist sinnvoll, um Seitenumbrüche innerhalb der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Buchungstabelle zu testen, die in der Rechnung verwendet wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Man muss also nicht umständlich nach einem Kunden suchen, der z. B.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>21 Buchungen hat und nach einem weiterenm, der 22 hat, sondern kann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>direkt 21 oder 22 als die Anzahl der Buchungen bestimmen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Graphik-URL:&lt;/&gt; Diese Option macht Sinn bei Formularen mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Graphikfeldern.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Zusatzfunktionen/Sprache/Land: &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Absenderland (für Kundenadr.):&lt;/&gt; Das hier eingetragene Land</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bestimmt das Absenderland und damit, ob der Brief als Inlands- oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Auslandspost versendet wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Wohnt ein Kunde zum Beispiel in Großbritannien (wie Kunde Nummer 5)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und der Benutzer trägt DE als Absenderland ein, wird die Adresse mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dem Zusatz &quot;United Kingdom&quot; versehen. Wird hingegen GB eingetragen,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fehlt dieser Zusatz in der Adresse, da der Brief als Inlandpost</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>betrachtet wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Falls der Benutzer hier keinen Unterschied im erzeugten PDF-Dokument</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>feststellt, ist höchstwahrscheinlich die Übung, in der die Adresse</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erzeugt wird (Kapitel Schnittstelle) nicht richtig durchgeführt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>worden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Schauplatz für Formular:&lt;/&gt; Ein Schauplatz (auch Gebietsschema</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>genannt) ist die Kombination aus einer Sprache und einem Land.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Die hier eingetragene &lt;ZH&gt;Sprache&lt;/&gt; legt die Formularsprache fest.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Veränderungen am Gebietsschema wirken sich nur dann auf das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>resultierende Dokument aus, wenn das Formular auch übersetzt worden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ist - was in keiner Standardübung des Kurses passiert.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Das &lt;ZH&gt;Land&lt;/&gt; das hier eingetragen wird, legt Währung, Datumsformat</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>etc. fest. Ein Datum wie 15.08.1969 sollte zum Beispiel Aug 15,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>1969 in den USA lauten, doch 15-Aug-1969 in Großbritannien.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für jeden Kunden, den Sie auf dem Selektionsbild eintragen, wird ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>PDF-Dokument erzeugt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>SAPBC480_DEMO</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00053</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>SAPBC480_DEMO</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PURPOSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Central demo program for virtually all standard PDF-based forms created</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and used in class BC480.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;For training purposes only!&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;INTEGRATION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PREREQUISITES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>An http connection to a J2EE engine with Adobe Document Services</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deployed on it must have been created in transaction SM59.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FEATURES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;SELECTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Form: &lt;/&gt;an active PDF-based form with a suitable interface. Use</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transaction SFP to maintain forms.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Customer number:&lt;/&gt; the numbers entered here correspond to the IDs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in table SCUSTOM. (This table is the customer table used in the flight</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data model.)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Advanced functions/Data source:&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Determine customers yourself:&lt;/&gt; If this option is checked, the user</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>can manually enter the customer numbers. If this option is unchecked,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the program will automatically look up table SCUSTOM and find four</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>random customers that come from four different countries.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>This second setting is helpful to demo language dependencies, like</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>address formatting or date formatting.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Bookings from database:&lt;/&gt; If this option is checked, the bookings</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for every customer will be read from table SBOOK.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Determine number of bookings:&lt;/&gt; If this option is checked, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entries in table SBOOK will be ignored and a random number of bookings</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(which the user must specify) for every customer will be read.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>This option is helpful to test page breaks within the bookings table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>created on the invoice: instead of manually looking for a customer with,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>say, 21 bookings and one with 22 bookings, the user can enter 21 or 22</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>directly.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Image URL:&lt;/&gt; This option makes sense for forms that have an image</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Advanced functions/Language/Country: &lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Sending country (for address):&lt;/&gt; The country entered here</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determines the country from which the letter is sent. Hence, it</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determines whether the letter is foreign or domestic mail.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>For example, if a customer lives in the UK (like customer number 5) and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you enter DE for the sending country, the address will be formatted with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the addition of &quot;United Kingdom&quot;.  However, if you enter GB, this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>addition will not appear in the address as the mail is treated as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>domestic.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If the user happens to see no difference in the resulting PDF, most</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>properly the exercise where the address is created (unit &quot;Interface&quot;)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>was not solved properly.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>&lt;LS&gt;Locale for form: &lt;/&gt;A locale is the combination of a language and a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>country.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>The &lt;ZH&gt;language &lt;/&gt;entered here determines the form&apos;s language.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;ZH&gt;Changes here will work only if the form has actually been translated</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>- which is not a standard exercise in the class.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>The &lt;ZH&gt;country &lt;/&gt;entered here determines currency symbols, date</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>formats, etc. For example, a date 15/08/1969 should resolve to Aug 15,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>1969 in the US, but to 15-Aug-1969 in the UK.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;STANDARD_VARIANTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U2</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You will get one PDF document for every customer entered on the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selection-screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;ACTIVITIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

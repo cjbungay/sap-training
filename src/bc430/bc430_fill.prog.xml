@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>BC430_FILL</NAME>
+    <SUBC>1</SUBC>
+    <APPL>S</APPL>
+    <RLOAD>D</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+     <LENGTH>76</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Create sample data for BC430</ENTRY>
+     <LENGTH>65</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>AA_PERS</KEY>
+     <ENTRY>Number of employees for AA</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>BA_PERS</KEY>
+     <ENTRY>Number of employees for BA</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>LH_PERS</KEY>
+     <ENTRY>Number of employees for LH</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+     <LENGTH>74</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+     <LENGTH>79</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+     <LENGTH>67</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Do not create too much sample data.</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+     <LENGTH>71</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>4</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>5</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>6</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>B</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Wählen Sie die Zahl der zu erzeugenden Mitarbeiter der Fluggesellschaften.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Dieser Report generiert die Beispieldaten für den Kurs BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Der Report muß laufen, bevor die Teilnehmer die Übungen bearbeiten.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Bitte erzeugen Sie nicht zu viele Beispieldaten.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Dies würde die Performance des Prüfreports BC430_CHECK beeinträchtigen.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Infos bzgl. Länderspezifischer Modifikationen finden Sie in der Report-Doku.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Erzeugung der Beispieldaten für den BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Anzahl Mitarbeiter für AA</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Anzahl Mitarbeiter für BA</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Anzahl Mitarbeiter für LH</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>G</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>R</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>W</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>d</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Choose the number of employees to be created for the carrier.</ENTRY>
+       <LENGTH>74</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>This report generates the sample data for course BC430 (ABAP Dictionary).</ENTRY>
+       <LENGTH>79</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>The report must be run before the participants do the exercises.</ENTRY>
+       <LENGTH>67</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Do not create too much sample data.</ENTRY>
+       <LENGTH>48</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>This would hamper the preformance of check report BC430_CHECK.</ENTRY>
+       <LENGTH>71</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Information about country-specific modifications is in the report docu.</ENTRY>
+       <LENGTH>76</LENGTH>
+      </item>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Create sample data for BC430</ENTRY>
+       <LENGTH>65</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>AA_PERS</KEY>
+       <ENTRY>Number of employees for AA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>BA_PERS</KEY>
+       <ENTRY>Number of employees for BA</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>LH_PERS</KEY>
+       <ENTRY>Number of employees for LH</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>BC430_FILL</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0016</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00038</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC430_FILL</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00016</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Teilnehmer des BC430 (ABAP Dictionary) legen während der Übungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Tabellen an. Für jede dieser Tabellen existiert eine Vorlage im System.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Diese Vorlagen werden über diesen Report mit Beispieldaten gefüllt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Daten in den Vorlagen werden vom Report BC430_CHECK benutzt, um die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Tabellen der Teilnehmer im Verlauf des Kurses ebenfalls mit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Beispieldaten zu füllen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report muß daher laufen, bevor die Teilnehmer mit der ersten Übung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>beginnen!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die folgenden Tabellen müssen im System vorhanden sein:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SDEPMENT (Vorlage für ZDEPMENTxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SDEPMENTT (Vorlage für ZDEPMENTTxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SEMPLOYES (Vorlage für ZEMPLOYxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SFLCREW (Vorlage für ZFLCREWxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Alle Tabellen werden mit Daten gefüllt. Die sprachabhängigen Teile sind</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in Deutsch und Englisch vorhanden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Möglichkeit zur Modifikation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Der Report generiert Personaldaten für die Fluggesellschaften Lufthansa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(LH), British Airways (BA) und American Airlines (AA) in den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vorlagentabellen. Texte werden in Deutsch und Englisch generiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>VORSICHT: Die Tabelle SFLCREW wird nur dann mit Daten gefüllt sein,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wenn für die entsprechende Fluggesellschaft auch Flüge in der Tabelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SFLIGHT eingetragen sind!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es ist möglich hier auch Daten für eine andere Fluggesellschaft zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erzeugen. Dies kann evtl. sinnvoll sein, wenn der Kurs in einem Land</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gehalten wird, in dem die Teilnehmer mit den europäischen Texten und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Namen nichts anfangen können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Gehen Sie hierzu wie folgt vor:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Kopieren Sie den Report auf einen anderen Namen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Ändern Sie die Kopie. Die Modifikation ist schon vorgedacht. Sie müssen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hierzu die mit *&gt;&gt; markierten Zeilen bearbeiten. Löschen Sie hierzu aus</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Zeile die Zeichen *&gt;&gt;. Sie müssen dann noch die FORMS</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>FILL_SDEPMENT_&lt;Carrier&gt;, FILL_LAST_NAMES_&lt;Language&gt; und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>FILL_FIRST_NAMES_&lt;Language&gt; bearbeiten. Orientieren Sie sich dabei an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>FILL_SDEPMENT_AA, FILL_FIRST_NAMES_E und FILL_LAST_NAMES_E.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Aktivieren Sie den modifizierten Report und führen Sie ihn aus.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Prüfen Sie danach mit der Transaktion SE16, ob der erzeugte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Datenbestand in den oben erwähnten Tabellen ihren Anforderungen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entspricht.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>RE</ID>
+      <OBJECT>BC430_FILL</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0016</VERSION>
+      <TXTLINES>00033</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC430_FILL</TDNAME>
+      <TDID>RE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00016</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DESCRIPTION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system contains a sample solution for the tables created by the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>participants in course BC430 (ABAP DICTIONARY). This report assigns</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sample data to the sample solution.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report &lt;ZH&gt;must&lt;/&gt; be started prior to the course.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The exercise data in the sample solution can be copied to the tables</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>created by the participants (with Report BC430_CHECK). The participants</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>must call this report after certain exercises (see Exercises).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The tables listed below must exist in the system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>These tables are delivered (empty) with Release 4.0C.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;OUTPUT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The following tables are filled with exercise data:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SDEPMENT (template for ZDEPMENTxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SDEPMENTT (template for ZDEPMENTTxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SEMPLOYES (template for ZEMPLOYxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>SCREW (template for ZCREWxx)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>All tables must be filled with data. The language-specific parts must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>be available in both German and English.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Modification options</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The report generates personnel data for Lufthansa (LH), British Airways</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(BA) and American Airlines (AA) in the template tables. The table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SFLCREW is only filled with data, if the corresponding airline also has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>flights entered in the table SFLIGHT.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Data can also be created for other airline carriers (for example if the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>course is held in a country where the participants do not understand</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the European texts and names).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Proceed as follows:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Copy the report to another name.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Change the copy. The modification has already been planned. You must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>edit the lines marked with *&gt;&gt;. Delete the *&gt;&gt; characters from the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>line. Then edit the FORMS FILL_SDEPMENT_&lt;Carrier&gt;, FILL_LAST_NAMES_</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;Language&gt; and FILL_FIRST_NAMES_&lt;Language&gt;. Use FILL_SDEPMENT_AA,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>FILL_FIRST_NAMES_E and FILL_LAST_NAMES_E as a guide. line.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Activate and execute your modified report. Then check in SE16 to see</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>whether the dataset in the above tables fulfils your requirements.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

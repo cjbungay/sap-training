@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>TAW10_TYPD_WAIT_LIST</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>CL_TAW10_CUSTOMER</ROWTYPE>
+    <ROWKIND>R</ROWKIND>
+    <DATATYPE>REF</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>D</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <DDTEXT>Waiting List with References to Individual Customer Objects</DDTEXT>
+    <REFTYPE>C</REFTYPE>
+   </DD40V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
